@@ -1,0 +1,1 @@
+The Klaytn Gaming & Metaverse Package is a collection of tools and services developed in the Klaytn ecosystem to empower game developers and accelerate the development of amazing web3 games on Klaytn. The resources will help you to get the right information to build your games.

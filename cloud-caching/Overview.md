@@ -22,7 +22,7 @@ On the blockchain, users make the call to the network via RPC (Remote Procedure 
 
 Here is an example of an architecture of a web3 caching layer:
 
-![Web3 caching architecture](https://app.gitbook.com/o/yW2pZk9dsEG42mS394aX/s/NYeqXyDmcl2fVVxglGsR/~/changes/Zc86R1c5mpMg7H4SfO3J/cloud-caching/overview)
+![Web3 caching architecture](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNYeqXyDmcl2fVVxglGsR%2Fuploads%2FcLfk8pMBoqF7TBZNP3vD%2Fimage.png?alt=media&token=e24dbfcb-3a1f-43ed-a034-3ed0120ab5c4)
 
 **Caching best practices**
 

@@ -1,10 +1,10 @@
-# Introduction
+# Introduction <a id="Metaverse Introduction"></a>
 
 As the metaverse is still a growing space, individuals and enterprises are taking steps forward to ensure they are not left behind in a few years. With the blockchain being an important element in building a virtual economy in the metaverse, Klaytn is gearing up its infrastructure to become the blockchain of choice for the metaverse, gamefi, and the creator economy. 
 
 Klaytn will allow users to own assets in the metaverse, including their own data and digital identity. As the blockchain of choice for metaverse applications, it will enable a robust virtual economy and act as the trust layer to facilitate exchanges and connect different worlds. 
 
-# Unique perks of building on Klaytn
+# Unique perks of building on Klaytn <a id="Unique perks of building on Klaytn"></a>
 
 * **High Performance:** Main chain should handle at least 4,000 TPS (transaction per seconds). 
 * **Instant Transaction Finality:** Klaytn guarantees immediate transaction finality with one-second block generation time and low transaction latency which enables interactive Metaverse use cases.
@@ -12,7 +12,7 @@ Klaytn will allow users to own assets in the metaverse, including their own data
 * **Metaverse Package:** As part of our priority to help builders of metaverse enter the blockchain world as smoothly as possible, the metaverse package comprises of comprehensive tool sets and supporting ecosystem to make building for the metaverse easier than ever.
 
 
-# Who can make use of Klaytn Metaverse Package?
+# Who can make use of Klaytn Metaverse Package? <a id="Who can make use of Klaytn Metaverse Package"></a>
 
 Klaytn lowers the barrier to entering the metaverse by providing enterprises and individual developers with numerous tools and SDKs to build their metaverse applications.
 

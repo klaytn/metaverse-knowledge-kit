@@ -1,2 +1,0 @@
-# dNFT Standard
-

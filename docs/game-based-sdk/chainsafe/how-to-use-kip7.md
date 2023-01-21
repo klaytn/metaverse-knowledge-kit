@@ -276,7 +276,7 @@ Your UI should look like this:
 ![](./../../../static/images/chainsafe/25_kip7_buttonUI.png)
 
 
-Link each button the the corresponding function in the contract. E.g here, we linked the button **Name** to the function Name() in the script, which calls the function name() in the contract.
+Link each button to the corresponding function in the contract. E.g here, we linked the button **Name** to the function Name() in the script, which calls the function name() in the contract.
 
 ![](./../../../static/images/chainsafe/26_linkButton_toScripts.png)
 

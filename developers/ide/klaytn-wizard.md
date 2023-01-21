@@ -1,2 +1,0 @@
-# Klaytn Wizard
-

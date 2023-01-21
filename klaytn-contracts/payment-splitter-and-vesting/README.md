@@ -1,2 +1,0 @@
-# Payment Splitter and Vesting
-

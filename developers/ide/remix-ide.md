@@ -1,2 +1,0 @@
-# Remix IDE
-

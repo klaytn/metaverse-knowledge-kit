@@ -8,7 +8,7 @@ The concept of "metaverse" started as an imaginative world explored in fictional
 
 Curious about this buzzword Metaverse? Let’s dive in!
 
-# Defining the Metaverse <a id="Defining Metaverse"></a>
+## Defining the Metaverse <a id="Defining Metaverse"></a>
 
 The metaverse is still in its infancy which makes it an ambiguous concept. This developing concept may have several definitions in the virtual world. However, the general idea is that it is a simulation of any real world environment in the virtual space. The metaverse tends to allow users work, meet, play games, and socialize together in these 3D [virtual worlds](https://en.wikipedia.org/wiki/Virtual_world). 
 
@@ -16,7 +16,7 @@ The metaverse is driven by various technologies ranging from the use of [Virtual
 
 Over the years, virtual video game worlds have brought a look-alike metaverse feel because it enables 3D virtual reality.These game worlds are not the metaverse, but they are somewhat similar.  For the metaverse to get into its full potential, we will need to incorporate AI for adaptability, [UI/UX](https://en.wikipedia.org/wiki/User_interface_design) design for usability, [Cloud technology](https://en.wikipedia.org/wiki/Cloud_computing) for scalability, AR/VR for better experience, [IOT](https://en.wikipedia.org/wiki/Internet_of_things) for connectivity and Blockchain for decentralisation and transparency. 
 
-# Importance of Blockchain in the Metaverse <a id="Importance of Blockchain in the Metaverse"></a>
+## Importance of Blockchain in the Metaverse <a id="Importance of Blockchain in the Metaverse"></a>
 
 Beyond the 3D virtual reality provided by metaverse, there are other components that help incorporate our physical worlds in the digital space. 
 
@@ -45,7 +45,7 @@ Futhermore, just like in real life, where we can vote and partake in decison-mak
 
 Lastly, in a future where various platforms offer different metaverse experiences, blockchain serves a clear purpose. It enables user portability across platforms and allows users to transfer their assets and digital possessions with them across various platforms.
 
-# Usecases of Metaverse <a id="Usecases of Metaverse"></a>
+## Usecases of Metaverse <a id="Usecases of Metaverse"></a>
 
 * **Virtual Offices**: During the pandemic, we were ushered into a new work-from home concept. As a result, there came an increase in Zoom meetings which gave a non-immersive experience to its users. With metaverse, users have access to immersive experience and a 3D virtual reality which increases user productivity and interactivity.
 * **Real Estates**: Just like how we buy and sell properties in real life, this phenomenon is powered by NFTs in the metaverse. Individuals and top enterprises can invest and buy real-estates in the metaverse. Over the years, we have witnessed a boom in the real estate industry where companies like Decentraland, The Sandbox are pioneers of a metaverse where virtual plots are represented with NFTs.
@@ -53,7 +53,7 @@ Virtual Event and Social Interaction: During the pandemic, real world events too
 * **Virtual Shopping**: With the advent of 3D virtual worlds, users can enter into shops and explore the products virtually 	without having to necessarily	travel to the venue. For example, Gucci hosted a virtual exhibition that led to the sale of a virtual product including $12.99 sneakers and $4000 handbag which later sold for $25,000
 * **Education**: Students will experience an interactive learning environment and as a result they are not limited to geographical barriers.
 
-# Metaverse-Like Projects <a id="Metaverse-Like Projects"></a>
+## Metaverse-Like Projects <a id="Metaverse-Like Projects"></a>
 
 The metaverse is still in its infancy, and the elements of what may become the metaverse are still coming together. These are ideal examples of next-generation metaverse initiatives that you may want to check out.
 

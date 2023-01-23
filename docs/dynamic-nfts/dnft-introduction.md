@@ -13,7 +13,7 @@ Consider a blockchain-game in which the in-game avatar NFTs store the avatar's s
 
 Thus, ***dynamic NFTs*** (dNFTs) are non-fungible tokens with embedded smart contract logic that enables it to automatically change its metadata based on off-chain and on-chain behaviors. These changes are triggered by a smart contract based on external conditions such as weather results, real-time sports scores, the price of currency, etc. In the case of dNFTs, the smart contract serves as the powerhouse that provides instructions to the underlying NFT regarding when and how its metadata should change.
 
-# How does dNFT work? <a id="How does dNFT work"></a>
+## How does dNFT work? <a id="How does dNFT work"></a>
 In contrast to static NFTs, the "dynamic" element in NFTs can change the metadata based on external conditions. Dynamic NFT primarily uses the multi-token standard which is in KIP37 in Klaytn. In a Dynamic NFT, smart contracts provide instructions on how the dNFT’s metadata should be changed given a triggering event based on external data through an oracle or an on-chain event.
  
 Most dynamic NFTs, however, must implement some form of metadata change in order for non-technical users to "see" the changes. Typically, these changes are triggered by encoded smart-contract logic that takes into account both on-chain and off-chain data. 
@@ -32,7 +32,7 @@ The simple steps below demonstrate how a dNFT works.
 
 Above all, dynamic NFT smart contracts rely on both on-chain and off-chain data to accurately reflect changes.
 
-# Application of oracles in dNFT <a id ="Application of oracles in dNFT"></a>
+## Application of oracles in dNFT <a id ="Application of oracles in dNFT"></a>
 
 As previously stated, dynamic NFT metadata changes can be triggered in a variety of ways based on external conditions. These conditions can exist on and off the chain. Blockchains, on the other hand, are naturally incapable of accessing off-chain data. This is where oracles come in, to connect the smart contract to real world data such as weather forecasts, sports results, price feeds, etc.
 

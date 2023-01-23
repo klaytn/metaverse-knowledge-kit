@@ -102,6 +102,14 @@ const config = {
                 label: 'Metaverse',
                 to: '/docs/intro',
               },
+              {
+                label: 'FAQs',
+                href: 'https://docs.klaytn.foundation/misc/faq',
+              },
+              {
+                label: 'Developer Hub',
+                href: 'http://developer.klaytn.foundation/',
+              },
             ],
           },
           {
@@ -116,8 +124,21 @@ const config = {
                 href: 'https://discord.io/KlaytnOfficial',
               },
               {
+                label: 'Telegram',
+                href: 'https://t.me/Klaytn_EN',
+              },
+            ],
+          },
+          {
+            title: 'Social',
+            items: [
+              {
                 label: 'Twitter',
                 href: 'https://twitter.com/klaytn_official',
+              },
+              {
+                label: 'Blog',
+                href: 'https://www.klaytn.foundation/blog/',
               },
             ],
           },

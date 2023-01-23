@@ -110,6 +110,26 @@ const sidebars = {
             'game-based-sdk/chainsafe/how-to-use-kip37'],
         }],
     },
+    {
+      type: 'category',
+      label: 'Decentralized Storage',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        'decentralized-storage/overview',
+        'decentralized-storage/usecase',
+        {
+          type: 'category',
+          label: 'IPFS',
+          collapsed: true,
+          items: [
+            'decentralized-storage/ipfs',
+            'decentralized-storage/tutorial',]
+        }
+        ],
+    }
   ],
 };
 

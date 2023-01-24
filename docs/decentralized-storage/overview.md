@@ -18,7 +18,7 @@ As businesses grow, they experience an increase in data, both from internal and 
 
 1. **Lack of Ownership and Control**: In a centralized storage system, data is stored on the central server of the host. The hosts have the ability to monitor, censor, or even disclose any data to third parties, making the data not solely yours.
   
-2. **Data Breaches and Security Risks**: All major players have experienced data [breaches](https://techcrunch.com/2018/09/28/everything-you-need-to-know-about-facebooks-data-breach-affecting-50m-users/)  in the past few years. Also, in the event of a power failure, the entire network may get paralyzed, leading to the loss of chunks of unsaved data.
+2. **Data Breaches and Security Risks**: All major players have experienced data [breaches](https://techcrunch.com/2018/09/28/everything-you-need-to-know-about-facebooks-data-breach-affecting-50m-users/)  in the past few years. Additionally, centralized storage systems may also be at risk from natural disasters, power outages, and other physical hazards.
   
 3. **Storage Costs**: This means storage providers charge exorbitant prices for bandwidth transmission as well as data security costs because centralized storage is easier to attack.
 Low transmission speed: Usually centralized cloud servers are located in a remote area that is far away from the users, thus making their data transmission speed quite slow.

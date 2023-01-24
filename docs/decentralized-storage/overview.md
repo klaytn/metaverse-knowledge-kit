@@ -9,7 +9,7 @@ Data storage is inevitable for every company or individual, big or small. Data s
 
 As businesses grow, they experience an increase in data, both from internal and external sources, which leads to complexity in storing, processing, analyzing, and retrieving this data. As a result, businesses have traditionally relied on centralized storage to store customer information and other sensitive data on the internet. These data storage solutions are not solely the best fit, as they are vulnerable to cyberattacks and other security risks, hence the need to store data in a secure and reliable way.
 
- In a scalable decentralized web, one of the crucial underlying layers is its storage system. The blockchain, which powers the decentralized web, can be seen as decentralized storage. In this case, it is not one to store large files but solely for storing transaction data, smart contracts, and codes. Storing large files on-chain might be very expensive and also increase access latency.
+ In a scalable decentralized web, one of the crucial underlying layers is its storage system. The blockchain, which powers the decentralized web, can be seen as decentralized storage. In this case, it is only for storing transaction data, smart contracts, and codes, not large files. Storing large files on-chain might be very expensive and also increase access latency.
 
  As such, the widespread use of blockchain technology brought about the concept of "decentralized cloud storage" as an alternative to centralized cloud storage. Before diving into decentralized storage, let's take a look at some of the problems associated with centralized storage solutions.
 

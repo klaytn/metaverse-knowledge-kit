@@ -15,7 +15,6 @@ IPFS uses content addressing through hashing to identify content. This stands as
 
 # Why is IPFS important for Metaverse? <a id="Why is IPFS important for Metaverse?"></a>
 
-On the blockchain, we need decentralized storage options like Arweave or IPFS to store these assets where data can be publicly and securely accessible through its content identifier (CID) value.
 
 # What is pinning? <a id="What is pinning"></a>
 

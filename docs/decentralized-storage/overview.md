@@ -21,7 +21,6 @@ As businesses grow, they experience an increase in data, both from internal and 
 2. **Data Breaches and Security Risks**: All major players have experienced data [breaches](https://techcrunch.com/2018/09/28/everything-you-need-to-know-about-facebooks-data-breach-affecting-50m-users/)  in the past few years. Additionally, centralized storage systems may also be at risk from natural disasters, power outages, and other physical hazards.
   
 3. **Storage Costs**: This means storage providers charge exorbitant prices for bandwidth transmission as well as data security costs because centralized storage is easier to attack.
-Low transmission speed: Usually centralized cloud servers are located in a remote area that is far away from the users, thus making their data transmission speed quite slow.
 
 ## What is Decentralized Storage? <a id="What is Decentralized Storage?"></a>
 

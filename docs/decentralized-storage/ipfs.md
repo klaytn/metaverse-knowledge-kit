@@ -13,7 +13,6 @@ With IPFS peer-to-peer network, content is made available through nodes anywhere
 
 IPFS uses content addressing through hashing to identify content. This stands as a viable alternative to the [location addressing](https://www.computerlanguage.com/results.php?definition=location-based+addressing#:~:text=Identifying%20data%20by%20its%20physical,ppsx.) prone to censorship and single point of failure.
 
-# Why is IPFS important for Metaverse? <a id="Why is IPFS important for Metaverse?"></a>
 
 
 # What is pinning? <a id="What is pinning"></a>

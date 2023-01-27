@@ -10,7 +10,7 @@ const config = {
   tagline: 'Lets Build The Metaverse Together',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
@@ -25,6 +25,7 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
+    path: 'i18n',
   },
   plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
   presets: [

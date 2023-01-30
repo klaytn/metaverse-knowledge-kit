@@ -3,7 +3,7 @@ title: Decentralized Storage
 sidebar_label: IPFS Tutorial
 ---
 
-# Tutorial <a id="IPFS Tutorial"></a>
+# 💻 Tutorial <a id="IPFS Tutorial"></a>
 
 In this tutorial, you will learn with a step-by-step guide how to install, spawn a node, add, retrieve, read files from IPFS using caver js. Furthermore, other possible means of integrating IPFS in your project will be highlighted.
 
@@ -105,8 +105,13 @@ getFileFromIpfs()
 ![](./../../static/images/Ipfs/visualizeIpfs.png)
 
 
-# Other Methods <a id ="Other Methods"></a>
+## Other Methods <a id ="Other Methods"></a>
 
 * [Run node and use API (Javascript)](https://docs.ipfs.tech/basics/js/js-ipfs/#install-js-ipfs): You will learn how to install and spawn a node using the available libraries, and add, retrieve, read, and remove files in javascript.
 * [Desktop App](https://docs.ipfs.tech/basics/desktop-app/#install-ipfs-desktop): With IPFS Desktop, users can add, remove, and download a file using IPFS.
 * [Infura](https://docs.infura.io/infura/networks/ipfs/how-to/authenticate-requests): You can integrate your IPFS project with Infura by following through the guide in the link.
+
+
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::

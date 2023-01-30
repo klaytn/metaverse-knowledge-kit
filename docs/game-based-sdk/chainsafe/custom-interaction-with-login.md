@@ -3,7 +3,7 @@ title: Gaming SDK
 sidebar_label: Custom Interaction with Login
 ---
 
-# Custom Interaction with Login <a id="Custom Interaction with Login"></a>
+# ➿ Custom Interaction with Login <a id="Custom Interaction with Login"></a>
 
 In this section you will see how to build a Unity project with a login button to connect a web3 wallet and two other buttons to write and read the contract.
 
@@ -187,7 +187,6 @@ Confirm your transaction on Metamask and voilà ! Your transaction is sent to th
 
 
 
-
-
-
-
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::

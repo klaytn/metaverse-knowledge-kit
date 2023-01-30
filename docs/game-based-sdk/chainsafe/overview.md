@@ -1,9 +1,9 @@
 ---
-title: Gaming SDK
+title: 	👾 ChainSafe SDK
 sidebar_label: Overview
 ---
 
-# Overview <a id="Chainsafe Overview"></a>
+## Overview <a id="Chainsafe Overview"></a>
 
 The ChainSafe Unity SDK provides a toolkit for Game Developers to interact with blockchains. It will give you the proper tools to connect to the network, send and sign transactions, interact with smart contracts, fetch balances (coins, NFTs, tokens) and more. 
 
@@ -13,18 +13,23 @@ For additional methods please refer to the [ChainSafe Documentation](https://doc
 
 ## Content Highlight  
 
-* Installation
+* [Installation](installation.md)
  
-* Before you start
+* [Before you start](before-you-start.md)
 
-* Create a new Unity project
+* [Create a new Unity project](create-a-new-unity-project.md)
 
-* Custom Call
+* [Custom Call](custom-call.md)
 
-* Custom Interaction with Login
+* [Custom Interaction with Login](custom-interaction-with-login.md)
 
-* How to use the KIP7 token
+* [How to use the KIP7 token](how-to-use-kip7.md)
 
-* How to use the KIP17 token
+* [How to use the KIP17 token](how-to-use-kip17.md)
 
-* How to use the KIP37 token
+* [How to use the KIP37 token](how-to-use-kip37.md)
+
+
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::

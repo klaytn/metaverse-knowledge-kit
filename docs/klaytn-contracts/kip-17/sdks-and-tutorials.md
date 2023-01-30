@@ -3,16 +3,16 @@ title: KIP17
 sidebar_label: Tutorial
 ---
 
-# SDKs and Tutorials <a id="KIP17 Tutorial"></a>
+# 💻 KIP17 Tutorial <a id="KIP17 Tutorial"></a>
 In order to interact with deployed contracts using caver-js, you will need to follow these steps.
 
-# 1. Prerequisite <a id="KIP17 Tutorial Prerequsite"></a>
+## 1. Prerequisite <a id="KIP17 Tutorial Prerequsite"></a>
 
 * [Remix IDE](https://docs.klaytn.foundation/content/dapp/tutorials/connecting-remix#connecting-klaytn-remix-using-kaikas) and [Kaikas](https://kaikas.zendesk.com/hc/en-us/articles/6657796272793-How-do-I-install-PC-Kaikas-)
 * Enough test KLAY from [faucet](https://baobab.wallet.klaytn.foundation/faucet)
 * [Node Js and NPM](https://kinsta.com/blog/how-to-install-node-js/)
 
-# 2. Deploying KIP 17 Smart contract <a id="Deploying KIP 17 Smart contract"></a>
+## 2. Deploying KIP 17 Smart contract <a id="Deploying KIP 17 Smart contract"></a>
 The code below defines a KIP17 token called. The contract uses the `KIP17` and `KIP17Enumerable` contracts from the [Klaytn contracts library](https://github.com/klaytn/klaytn-contracts), as well as the `Counters` and `Ownable` contract for managing token ID counters and access control
 
 The contract has a constructor that initializes the KIP17 contract with the name "HappyMonkey" and the symbol "HM". It also increments the token ID counter to start at 1 (the default value is 0).
@@ -21,7 +21,7 @@ The contract defines two public functions, withdraw and safeMint, as well as sev
 
 The contract also overrides the _baseURI and supportsInterface functions from the KIP17 and KIP17Enumerable contracts, as well as the _beforeTokenTransfer function from the [KIP17](https://github.com/klaytn/klaytn-contracts/tree/master/contracts/KIP/token/KIP17) contract. These functions are used for various internal and utility purposes, such as setting the base URI for token metadata and checking if the contract supports a specific interface.
 
-```javascript
+```javascript title="KIP17Token.sol"
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
@@ -86,7 +86,7 @@ Refer to this [guide](https://docs.klaytn.foundation/content/dapp/tutorials/conn
 
 After you have successfully deployed your token contract, you should be able to copy the contract’s ABI and address. 
 
-# 3. Interacting with KIP17 smart contract functions <a id="Interacting with KIP17 smart contract functions"></a>
+## 3. Interacting with KIP17 smart contract functions <a id="Interacting with KIP17 smart contract functions"></a>
 
 To successfully interact with an already deployed contract, you'll need to install caver-js like we already did in previous KIP7 tutorial, you can visit this step if you have not installed caver js or skip it if otherwise.
 
@@ -175,3 +175,6 @@ To run this code, open your terminal and paste this command
 > node ./scripts/kip17Caver.js
 
 
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::

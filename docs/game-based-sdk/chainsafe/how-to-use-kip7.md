@@ -3,7 +3,7 @@ title: Gaming SDK
 sidebar_label: How to use the KIP7 token
 ---
 
-# How to use the KIP7 token <a id="How to use the KIP7 token"></a>
+# 💻 How to use the KIP7 token <a id="How to use the KIP7 token"></a>
 
 In this section you will see how to build a Unity project using the KIP7 (ERC-20) token standard on Klaytn.
 
@@ -305,9 +305,6 @@ Here are the details of the transaction on [Klaytnscope](https://baobab.scope.kl
 To test the `Mint` and `SafeTransfer` function, click on the corresponding button and confirm your transaction on Klaytnscope.
 
 
-
-
-
-
-
-
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::

@@ -1,9 +1,9 @@
 ---
-title: Gaming SDK
+title: 🎮 Gaming SDK
 sidebar_label: Overview
 ---
 
-# Overview <a id="Gaming SDK Overview"></a>
+## Overview <a id="Gaming SDK Overview"></a>
 
 With recent waves and attention to NFTs, a wealth of gaming developers have been exposed to the value it brings to the gaming industry. Originally, developers build games using game engines. However when it comes to building a game that integrates with web3, there lacks a bridge between gaming engines like Unity/Unreal and the blockchain layer like Klaytn. 
 
@@ -16,7 +16,7 @@ These SDKs make it easy for game developers to integrate the following capabilit
 * Launch and distribute in-game currency as tokens
 * Optimize games for Web3 on mobile
 
-# Usecase <a id="Gaming SDK Usecase"></a>
+## Usecase <a id="Gaming SDK Usecase"></a>
 The non-existence of a bridge connecting gaming engines to the blockchain is the core purpose of web3 gaming SDKs. With these SDKs, developers have access to the right tools for the job and can seamlessly integrate into any crypto ecosystem for their gaming application.
 
 An example is [Arsenal](https://arsenal.fabwelt.com/), a 3D first-person battleground shooter with NFT. It integrated with a gaming SDK to achieve the following:
@@ -28,5 +28,7 @@ An example is [Arsenal](https://arsenal.fabwelt.com/), a 3D first-person battleg
 To create a blockchain-enabled metaverse gaming application, gaming SDKs are an important tool for tapping into the value that blockchain offers. [ChainSafe](https://docs.gaming.chainsafe.io/) is an example of gaming SDKs integrated with Klaytn.
 
 
-
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::
 

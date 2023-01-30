@@ -3,7 +3,7 @@ title: Gaming SDK
 sidebar_label: Custom Call
 ---
 
-# Custom Call <a id="Custom Call"></a>
+# ⚡ Custom Call <a id="Custom Call"></a>
 
 In this section you will see how to get the balance of a given address on Klaytn mainnet, using a RPC provider.
 
@@ -62,3 +62,7 @@ The console shows the balance of the given contract on Klaytn mainnet.
 
 ![](./../../../static/images/chainsafe/11_edit-networkjs.png)
 
+
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::

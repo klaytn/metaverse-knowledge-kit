@@ -1,5 +1,5 @@
 ---
-title: Decentralized Storage
+title: 💾 Decentralized Storage
 sidebar_label: Overview
 ---
 
@@ -33,5 +33,11 @@ Unlike centralized storage, the following are the benefits of leveraging decentr
 * **Minimal file loss**:  With potentially millions of nodes participating to store data, extra copies of your data can be stored on different nodes across various regions to avoid file loss in the event of unforeseen circumstances.
 * **Low storage cost**: The decentralized storage network comprises millions of nodes willing to host data. As such, this provides a large amount of storage bandwidth, thus enabling a reduction in the cost of storage.
 * **High Security and Privacy**: Data stored on decentralized storage is encrypted, making it secure. Furthermore, data is being split into chunks, encrypted and stored so that no one person can access your data or even know what you are storing.
+
+
+
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::
 
 

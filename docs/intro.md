@@ -1,9 +1,9 @@
 ---
-title: Intro Page
+title: 🔮 Intro Page
 slug: /
 ---
 
-# Klaytn Metaverse Docs
+# 🔮 Klaytn Metaverse Docs
 
 The Klaytn Gaming & Metaverse Package is a collection of tools and services developed in the Klaytn ecosystem to empower developers and accelerate the development of amazing web3 projects on Klaytn. The resources will help you to get the right information to build your game and metaverse projects. This documentation is divided into 3 categories:
 
@@ -14,3 +14,6 @@ The Klaytn Gaming & Metaverse Package is a collection of tools and services deve
 **API Support**: is a unified standardized API which covers all of the Informational Content and Package support tooling functionality, as well as standard IPFS data fetching.
 
 
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::

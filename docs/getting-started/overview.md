@@ -1,8 +1,9 @@
 ---
+title: 💡 Getting Started
 sidebar_label: Overview
 ---
 
-# Overview
+## Overview
 
 The concept of "metaverse" started as an imaginative world explored in fictional books. Notable books like  "Snow Crash” by Neal Stephenson's and “Ready Player One“ by Ernest Cline speculated what the metaverse might look like. However, different innovations and technological advancements over the years have driven us closer to the concepts of the metaverse outside of fictional books. As a result, it has drawn growing interest as a potential digital space for both social and economic interaction.
 
@@ -20,15 +21,13 @@ Over the years, virtual video game worlds have brought a look-alike metaverse fe
 
 Beyond the 3D virtual reality provided by metaverse, there are other components that help incorporate our physical worlds in the digital space. 
 
-For example,
+For example, ability to:
 
-Can you prove your identity in the virtual world?
+* Prove your identity just like in real world;
+* Perform financial transactions;
+* Own assets in the virtual world.
 
-Can you do financial transactions in the virtual world?
-
-Can you own assets in the virtual world ? 
-
-Yes, This is where Blockchain becomes essential. Anyone can implement economies, digital identities, decentralized governance in Metaverse using Blockchain in a transparent and immutable way. Blockchain can be utilized for: 
+Building a decentralized metaverse economy requires all of these elements and more, and here is where blockchain technology is crucial. Anyone can implement economies, digital identities, decentralized governance in Metaverse using Blockchain in a transparent and immutable way. Blockchain can be utilized for: 
 
 * Transfer of value through wallets
 * Digital Possession using NFT’s
@@ -60,4 +59,8 @@ The metaverse is still in its infancy, and the elements of what may become the m
 * [Axie Infinity](https://axieinfinity.com/)
 * [Decentraland](https://decentraland.org/)
 * [The Sandbox](https://www.sandbox.game/en/)
+
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::
 

@@ -21,3 +21,68 @@
   align-items: center;
   justify-content: center;
 }
+
+.heroBg {
+  background-image: url('/static/img/background.jpg');
+  background-position-y: -355px;
+}
+
+.heroElements {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+  right: 0px;
+  bottom: 0px;
+}
+
+.elementCloudLeft {
+  width: 30%;
+  opacity: 0.7;
+  position: absolute;
+  left: 0%;
+  top: 60%;
+}
+.elementLogo {
+  width: 10%;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+.elementMinecraft {
+  width: 3%;
+  position: absolute;
+  left: 27%;
+  top: 40%;
+}
+.elementPerson {
+  width: 11%;
+  position: absolute;
+  left: 75%;
+  top: 10%;
+}
+.elementRocket {
+  width: 5%;
+  position: absolute;
+  left: 87%;
+  top: 19%;
+}
+.elementCloudRight {
+  width: 30%;
+  opacity: 0.7;
+  position: absolute;
+  left: 70%;
+  top: 55%;
+}
+.elementCoin {
+  width: 2%;
+  position: absolute;
+  left: 70%;
+  top: 60%;
+}
+.elementSpeedDelivery {
+  width: 3%;
+  position: absolute;
+  left: 65%;
+  top: 10%;
+}

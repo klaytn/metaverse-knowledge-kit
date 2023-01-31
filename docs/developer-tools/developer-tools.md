@@ -13,7 +13,7 @@ A wallet is a digital software which stores private and public keys as well as m
 
 * **Manage Ownership**: It serves as means to store the assets you own
 * **Control over assets**: Users can control, manage, buy, sell, or even trade digital assets
-* Execute any transaction in the metaverse: With wallets, users can initiate any metaverse transaction.
+* **Execute transactions**: With wallets, users can initiate any transactions in Metaverse by integrating with the dapps.
 
 ### Mobile Wallets <a id="Mobile Wallets"></a>
 * [Klip](https://klipwallet.com/) - [Documentation](https://docs.klipwallet.com/)
@@ -60,7 +60,9 @@ Klaytn supports the following explorers:
 
 * [Klaytnscope](https://scope.klaytn.com/)
 * [KlaytnFinder](https://www.klaytnfinder.io/)
-* Blockscout
+
+### Open-Source Explorer
+* [Blockscout](https://github.com/blockscout/blockscout)
 
 ## SDKs and API Libraries <a id="SDKs and API Libraries"></a>
 For your metaverse application to interact with the Klaytn blockchain (i.e., read on-chain data or send transactions on-chain), it must connect to a Klaytn node.  To connect with a Klaytn node, Klaytn provides several convenient libraries that make interacting with a node much easier.
@@ -82,7 +84,10 @@ To deploy, test, and write smart contracts locally, Klaytn supports the followin
 * [Truffle](https://github.com/trufflesuite/truffle)
 
 ## Decentralized Exchanges <a href="Decentralized Exchanges"></a>
-Decentralized exchanges can be used to trade assets within the Metaverse
+
+Klaytn ecosystem has built a full stack open source DEX infrastructure for public use.  DEX allows users to swap tokens, stake and provide liquidity, mint tokens, participate in decentralized governance, and monitor the exchange’s activities through dashboards, with all these functionalities being open-source and decentralized. It also has the flexibility to customize new features and visualizations based on their users’ specific needs.
+
+Deployment is automated using Dockers and Kubernetes in the open source DEX to easily spin up DEX. Below are the different components of DEX: 
 
  * [Open Source Dex](https://dex.baobab.klaytn.net/)
     * [Dex Frontend](https://github.com/klaytn/klaytn-dex-frontend)
@@ -90,15 +95,17 @@ Decentralized exchanges can be used to trade assets within the Metaverse
     * [Dex Contracts](https://github.com/klaytn/klaytn-dex-contracts)
     * [Dex Subgraph](https://github.com/klaytn/klaytn-dex-subgraphs)
 
+DEX testnet is available for testing in Baobab without installing anything. Feel free to play around [here](https://dex.baobab.klaytn.net/swap)
+
 ## Other Tools <a id="Other Tools"></a>
 
 * [Klaytn Online Toolkit](https://toolkit.klaytn.foundation/): This provides code samples and pages to help you utilize the Klaytn SDK(caver-js). With the Online Toolkit, you can derive the code to deploy your Klaytn contracts using caver-js. This contract includes [KIP7](https://toolkit.klaytn.foundation/kct/KIP7Deploy), [KIP17](https://toolkit.klaytn.foundation/kct/KIP17Deploy), [KIP37](https://toolkit.klaytn.foundation/kct/KIP37Deploy) and other [KCT](https://toolkit.klaytn.foundation/kct/KCTDetection). The online toolkit also gives users the functionality of interacting with deployed contracts given its ABI, contract address.
   
-* Klay-Spray: Want to quickly deploy a layer 1 network? [Klayspray](https://github.com/klaytn/klayspray) helps you easily deploy a private layer1 network.
+* [Klay-Spray](https://github.com/klaytn/klayspray): Want to quickly deploy a layer 1 network? Klayspray helps you easily deploy a private layer1 network.
   
 * [Sidechain](https://docs.klaytn.foundation/content/installation-guide/deployment/service-chain): This enables developers who wants to build a local private network with high TPS, minimal transaction fees or data privacy.
    
-* Klaytn Wizard: This is an interactive generator to bootstrap your smart contract and learn about [Klaytn Contracts](https://github.com/klaytn/klaytn-contracts). This is based on [OpenZeppelin Wizard](https://wizard.openzeppelin.com/).
+* [Klaytn Wizard](https://wizard.klaytn.foundation/): This is an interactive generator to bootstrap your smart contract and learn about [Klaytn Contracts](https://github.com/klaytn/klaytn-contracts). This is based on [OpenZeppelin Wizard](https://wizard.openzeppelin.com/).
 
 
 :::info

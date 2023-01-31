@@ -1,0 +1,46 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.Social": {
+    "message": "Social",
+    "description": "The title of the footer links column with title=Social in the footer"
+  },
+  "link.item.label.Metaverse": {
+    "message": "Metaverse",
+    "description": "The label of footer link with label=Metaverse linking to /docs/intro"
+  },
+  "link.item.label.FAQs": {
+    "message": "FAQs",
+    "description": "The label of footer link with label=FAQs linking to https://docs.klaytn.foundation/misc/faq"
+  },
+  "link.item.label.Developer Hub": {
+    "message": "Developer Hub",
+    "description": "The label of footer link with label=Developer Hub linking to http://developer.klaytn.foundation/"
+  },
+  "link.item.label.Forum": {
+    "message": "Forum",
+    "description": "The label of footer link with label=Forum linking to https://forum.klaytn.foundation/"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.io/KlaytnOfficial"
+  },
+  "link.item.label.Telegram": {
+    "message": "Telegram",
+    "description": "The label of footer link with label=Telegram linking to https://t.me/Klaytn_EN"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/klaytn_official"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to https://www.klaytn.foundation/blog/"
+  }
+}

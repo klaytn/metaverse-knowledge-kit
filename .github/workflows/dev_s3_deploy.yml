@@ -1,4 +1,4 @@
-name: klaytn-safe-react dev deploy workflow
+name: klaytn-metaverse-package-docs dev deploy workflow
 on:
   push:
     branches:

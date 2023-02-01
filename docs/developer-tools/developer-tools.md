@@ -86,7 +86,7 @@ To deploy, test, and write smart contracts locally, Klaytn supports the followin
 * [Hardhat](https://hardhat.org/)
 * [Truffle](https://github.com/trufflesuite/truffle)
 
-## Decentralized Exchanges <a href="Decentralized Exchanges"></a>
+## Decentralized Exchanges <a id="Decentralized Exchanges"></a>
 
 Klaytn ecosystem has built a full stack open source DEX infrastructure for public use.  DEX allows users to swap tokens, stake and provide liquidity, mint tokens, participate in decentralized governance, and monitor the exchange’s activities through dashboards, with all these functionalities being open-source and decentralized. It also has the flexibility to customize new features and visualizations based on their users’ specific needs.
 

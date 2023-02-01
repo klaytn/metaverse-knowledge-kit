@@ -10,7 +10,7 @@ const config = {
   tagline: 'Lets Build The Metaverse Together',
   url: process.env.URL,
   baseUrl: '/',
-  onBrokenLinks: 'log',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 

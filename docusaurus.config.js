@@ -8,9 +8,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Klaytn Metaverse',
   tagline: 'Lets Build The Metaverse Together',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://metaverse-package.klaytn.foundation',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
@@ -24,9 +24,15 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'ko'],
+    path: 'i18n',
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+    }
   },
-  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+  // plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
   presets: [
     [
       'classic',

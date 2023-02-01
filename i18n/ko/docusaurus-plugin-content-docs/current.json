@@ -1,0 +1,58 @@
+{
+  "version.label": {
+    "message": "다음",
+    "description": "The label for version current"
+  },
+  "sidebar.mySidebar.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category Getting Started in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Getting Started.link.generated-index.title": {
+    "message": "Getting Started",
+    "description": "The generated-index page title for category Getting Started in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Getting Started.link.generated-index.description": {
+    "message": "메타버스에서 여정을 시작하세요!",
+    "description": "The generated-index page description for category Getting Started in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Klaytn Contracts": {
+    "message": "Klaytn Contracts",
+    "description": "The label for category Klaytn Contracts in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Fungible Token": {
+    "message": "Fungible Token",
+    "description": "The label for category Fungible Token in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Non Fungible Token(NFT)": {
+    "message": "Non Fungible Token(NFT)",
+    "description": "The label for category Non Fungible Token(NFT) in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Multi Token": {
+    "message": "Multi Token",
+    "description": "The label for category Multi Token in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.DAO Contracts": {
+    "message": "DAO Contracts",
+    "description": "The label for category DAO Contracts in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Dynamic NFTs": {
+    "message": "Dynamic NFTs",
+    "description": "The label for category Dynamic NFTs in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Gaming SDKs": {
+    "message": "Gaming SDKs",
+    "description": "The label for category Gaming SDKs in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.ChainSafe SDK": {
+    "message": "ChainSafe SDK",
+    "description": "The label for category ChainSafe SDK in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Decentralized Storage": {
+    "message": "Decentralized Storage",
+    "description": "The label for category Decentralized Storage in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.IPFS": {
+    "message": "IPFS",
+    "description": "The label for category IPFS in sidebar mySidebar"
+  }
+}

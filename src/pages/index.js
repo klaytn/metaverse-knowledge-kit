@@ -4,8 +4,12 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import Translate, {translate} from '@docusaurus/Translate';
 
 import styles from './index.module.css';
+
+const title = <Translate>Klaytn Metaverse</Translate>
+const tagline = <Translate>Lets Build The Metaverse Together</Translate>
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -23,13 +27,13 @@ function HomepageHeader() {
 
       </div>
       <div className={clsx('container', styles.heroContainer)}>
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <h1 className="hero__title">{title}</h1>
+        <p className="hero__subtitle">{tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Getting Started - 5min ⏱️
+            <Translate>Getting Started - 5min ⏱️</Translate>
           </Link>
         </div>
       </div>
@@ -41,7 +45,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Klaytn Metaverse Docs ${siteConfig.title}`}
+      title={`Klaytn Metaverse Docs ${title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
@@ -49,4 +53,4 @@ export default function Home() {
       </main>
     </Layout>
   );
-}
+} 

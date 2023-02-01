@@ -264,5 +264,11 @@
   "theme.tags.tagsPageTitle": {
     "message": "태그",
     "description": "The title of the tag list page"
+  },
+  "Klaytn Metaverse": {
+    "message": "클레이튼 메타버스"
+  },
+  "Lets Build The Metaverse Together": {
+    "message": "함께 메타버스를 구축하자"
   }
 }

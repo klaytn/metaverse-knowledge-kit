@@ -37,7 +37,7 @@ To get the price of the KLAY/USD pair on Baobab network, we will need both the P
 
 Make sure you have the [Klaytn Plugin](https://klaytn.foundation/using-klaytn-plugin-on-remix/) installed.
 
-Click the link below to open the code in [Remix](https://remix.ethereum.org/#url=https://github.com/tantely-klaytn/witnet-oracle/blob/main/PriceFeed.sol):
+Click this [link](https://remix.ethereum.org/#url=https://github.com/tantely-klaytn/witnet-oracle/blob/main/PriceFeed.sol) to open the code in [Remix](https://remix.ethereum.org/#url=https://github.com/tantely-klaytn/witnet-oracle/blob/main/PriceFeed.sol):
 
 or use the code below
 

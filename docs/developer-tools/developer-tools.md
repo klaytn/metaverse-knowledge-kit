@@ -62,6 +62,8 @@ Klaytn supports the following explorers:
 * [KlaytnFinder](https://www.klaytnfinder.io/)
 
 ### Open-Source Explorer
+There are open-source explorers in the Klaytn ecosystem, which serve as an alternative to several closed-system explorers.An open source blockchain explorer can be integrated more easily with other tools and platforms, creating a more seamless experience for users. This type of explorer is community-driven and available for anyone to use, explore, and improve. This means, it is likely to evolve and improve more quickly than a proprietary solution.
+
 * [Blockscout](https://github.com/blockscout/blockscout)
 
 ## SDKs and API Libraries <a id="SDKs and API Libraries"></a>

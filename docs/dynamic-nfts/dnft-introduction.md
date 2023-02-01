@@ -1,9 +1,9 @@
 ---
-title: dNFT
+title: 🎨 Dynamic NFTs
 sidebar_label: dNFT Introduction
 ---
 
-# Introduction <a id="Dynmaic NFTs Introduction"></a>
+## Introduction <a id="Dynmaic NFTs Introduction"></a>
 
 The widespread adoption and use of NFTs over the years have brought about major change in the digital economy, thereby making it one of the most prominent applications of blockchain technology. NFTs as it stands can be used to represent unique digital assets ranging from digital art to in-game assets to real estate, etc.
 
@@ -39,3 +39,6 @@ As previously stated, dynamic NFT metadata changes can be triggered in a variety
 As the dNFT ecosystem evolves and NFTs become more closely integrated with the real world, decentralized oracles act as a bridge between the two worlds, enabling the development of automated, decentralized, and interacting dNFT processes.
 
 
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::

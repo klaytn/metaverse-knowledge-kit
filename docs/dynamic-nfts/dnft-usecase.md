@@ -3,7 +3,7 @@ title: dNFT
 sidebar_label: dNFT Usecases
 ---
 
-# Usecases <a id="dNFT Usecases"> </a>
+# 🎯 Usecases <a id="dNFT Usecases"> </a>
 
 The following are some dNFT use-cases in the metaverse:
 
@@ -16,3 +16,8 @@ For example, a dNFT sport collectible enables each player's stats to get updated
 **Loyalty Programs:** Dynamic NFTs can be used in metaverse loyalty programs. A user, for example, could earn an NFT for every $1000 spent in a metaverse store. 
 
 **Tokenization of real world assets:** Another use case where NFT metadata changes are useful is in the tokenization of real-world assets. For example, in the metaverse, a dNFT can be used to represent land that can change due to its development, market value, and more.
+
+
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::

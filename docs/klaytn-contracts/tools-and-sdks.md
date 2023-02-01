@@ -3,7 +3,7 @@ title: klaytn contracts
 sidebar_label: Tooks and SDK
 ---
 
-# Tools and SDKs <a id="tools-and-sdks"></a>
+# 💼 Tools and SDKs <a id="tools-and-sdks"></a>
 
 There are a variety of open source tools to help developers utilize Klaytn smart contract library. This guide provides a list of such tools to help your smart contract builds.
 
@@ -16,3 +16,7 @@ Klaytn Contracts Wizard: This is an interactive generator to bootstrap your smar
 Other related materials
 * [How to deploy a smart contract on Klaytn](https://medium.com/klaytn/how-to-deploy-a-smart-contract-on-klaytn-945e3306760f)
 
+
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::

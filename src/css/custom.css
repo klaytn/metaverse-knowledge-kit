@@ -40,3 +40,30 @@
   --aa-muted-color-rgb: 227, 109, 66 !important;
   /* ... */
 }
+
+
+* {
+   font-family: "system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji";
+   
+}
+
+p {
+  font-size: 18px;
+}
+
+h2 {
+  font-family: "Lato";
+}
+
+ul li:last-child {
+  padding-bottom: 1rem;
+}
+
+.theme-doc-sidebar-item-category-level-2 ul li:last-child {
+  padding-bottom: 0;
+}
+
+code {
+  font-family: inter !important;
+  font-size: 15px !important;
+}

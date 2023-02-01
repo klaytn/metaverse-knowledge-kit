@@ -3,16 +3,16 @@ title: KIP37
 sidebar_label: KIP37 Tutorial
 ---
 
-# SDKs and Tutorials <a id="KIP37 Tutorial"></a>
+# 💻 KIP37 Tutorial <a id="KIP37 Tutorial"></a>
 In order to interact with deployed contracts using caver-js, you will need to follow these steps.
 
-# 1. Prerequisite <a id="KIP37 Tutorial Prerequsite"></a>
+## 1. Prerequisite <a id="KIP37 Tutorial Prerequsite"></a>
 
 * [Remix IDE](https://docs.klaytn.foundation/content/dapp/tutorials/connecting-remix#connecting-klaytn-remix-using-kaikas) and [Kaikas](https://kaikas.zendesk.com/hc/en-us/articles/6657796272793-How-do-I-install-PC-Kaikas-)
 * Enough test KLAY from [faucet](https://baobab.wallet.klaytn.foundation/faucet)
 * [Node Js and NPM](https://kinsta.com/blog/how-to-install-node-js/)
 
-# 2. Deploying KIP 37 Smart contract <a id="Deploying KIP 37 Smart contract"></a>
+## 2. Deploying KIP 37 Smart contract <a id="Deploying KIP 37 Smart contract"></a>
 This code below defines a KIP37 token. The contract uses the `KIP37` contract from the [Klaytn contracts library](https://github.com/klaytn/klaytn-contracts), as well as the `Counters` contract for managing token ID counters.
 
 The contract has a constructor that initializes the KIP37 contract with the name "MultiTokenNFT". It also initializes a mapping to store the metadata URIs for each token, as well as a token ID counter to keep track of the tokens that have been minted.
@@ -23,7 +23,7 @@ The contract also defines a uri function, which overrides the uri function of th
 
 The contract also defines an internal _setTokenUri function, which is used to store the metadata URI for a given token ID in the mapping. This function is called by the `mintToken` function to set the metadata URI for each newly minted token.
 
-``` javascript
+``` javascript title="KIP37Token.sol"
 
 // SPDX-License-Identifier: MIT
 
@@ -66,7 +66,7 @@ Refer to this [guide](https://docs.klaytn.foundation/content/dapp/tutorials/conn
 
 After you have successfully deployed your token contract, you should be able to copy the contract’s ABI and address. 
 
-# 3. Interacting with KIP37 smart contract functions <a id="Interacting with KIP37 smart contract functions"></a>
+## 3. Interacting with KIP37 smart contract functions <a id="Interacting with KIP37 smart contract functions"></a>
 
 To successfully interact with an already deployed contract, you'll need to install caver-js like we already did in previous KIP7 tutorial, you can visit this step if you have not installed caver js or skip it if otherwise.
 
@@ -128,3 +128,8 @@ getTokenBalance(keyring.address, 2);
 ```
 To run this code, open your terminal and paste this command
 > node ./scripts/kip37Caver.js
+
+
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::

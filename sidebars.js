@@ -20,11 +20,11 @@ const sidebars = {
     'intro',
     {
       type: 'category',
-      label: 'Getting Started',
+      label: '💡 Getting Started',
       collapsed: false,
       link: {
         type: 'generated-index',
-        title: 'Getting Started',
+        title: '💡 Getting Started',
         description: 'Kick Start your journey in Metaverse!',
         keywords: ['started'],
       },
@@ -34,7 +34,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Klaytn Contracts',
+      label: '✍️ Klaytn Contracts',
       collapsed: false,
       link: {
         type: 'generated-index',
@@ -46,8 +46,9 @@ const sidebars = {
           label: 'Fungible Token',
           collapsed: true,
           items: [
-            'klaytn-contracts/kip-7/sdks-and-tutorials',
-            'klaytn-contracts/kip-7/introduction'],
+            'klaytn-contracts/kip-7/introduction',
+            'klaytn-contracts/kip-7/sdks-and-tutorials'
+            ],
         },
         {
           type: 'category',
@@ -75,7 +76,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Dynamic NFTs',
+      label: '🎨 Dynamic NFTs',
       collapsed: false,
       link: {
         type: 'generated-index',
@@ -87,7 +88,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Gaming SDKs',
+      label: '🎮 Gaming SDKs',
       collapsed: false,
       link: {
         type: 'generated-index',
@@ -112,7 +113,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Decentralized Storage',
+      label: '💾 Decentralized Storage',
       collapsed: false,
       link: {
         type: 'generated-index',
@@ -128,6 +129,38 @@ const sidebars = {
             'decentralized-storage/ipfs',
             'decentralized-storage/tutorial',]
         }
+        ],
+    },
+    {
+      type: 'category',
+      label: '🎲 Decentralized Oracle',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        'decentralized-oracle/overview',
+        'decentralized-oracle/usecase',
+        {
+          type: 'category',
+          label: 'Oracle Providers',
+          collapsed: true,
+          items: [
+            'decentralized-oracle/oracle-providers/overview',
+            'decentralized-oracle/oracle-providers/witnet-tutorial',
+            'decentralized-oracle/oracle-providers/chainlink-tutorial']
+        }
+        ],
+    },
+    {
+      type: 'category',
+      label: '🔧 Developer Tools',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        'developer-tools/developer-tools',  
         ],
     }
   ],

@@ -3,7 +3,7 @@ title: Gaming SDK
 sidebar_label: How to use the KIP17 token
 ---
 
-# How to use the KIP17 token <a id="How to use the KIP17 token"></a>
+# 💻 How to use the KIP17 token <a id="How to use the KIP17 token"></a>
 
 In this section you will see how to build a Unity project using the KIP17 (ERC-721) token standard on Klaytn.
 
@@ -228,3 +228,6 @@ Here are the details of the transaction on [Klaytnscope](https://baobab.scope.kl
 ![](../../../static/images/chainsafe/32_kip17_tx.png)
 
 
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::

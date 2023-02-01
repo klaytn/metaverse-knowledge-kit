@@ -3,7 +3,7 @@ title: dNFT
 sidebar_label: dNFT Tutorial
 ---
 
-# Tutorial <a id="dNFT Tutorial"></a>
+# 💻 Tutorial <a id="dNFT Tutorial"></a>
 
 The introduction of dynamic NFTs will result in excellent gameplay in the gaming and metaverse, making it simple to update NFT metadata based on external actions. As previously stated, this change can be based on either on-chain or off-chain actions. The [Zerion DNA](https://zerion.io/dna/) is a practical example of NFT that changes based on data pulled from on-chain actions in Zerion's web wallet. The [LaMelo Ball NFTs](https://lameloball.io/#/) are an example of a dNFT based on off-chain action. The Lamelo Ball NFT is a collection of eight different NFTs, of which each records a unique set of LaMelo's player statistics, ranging from assists to rebounds to points scored.
 
@@ -28,7 +28,7 @@ Make sure your MetaMask wallet is connected to [Baobab](https://docs.klaytn.foun
 ## Set up <a id="set-up"></a>
 Create a `KdNFT.sol` file on Remix. Copy over the smart contract code below in the newly created file and save it.
 
-```javascript
+```javascript title="KdNFT.sol"
 // SPDX-License-Identifier: GPL-3.0
 
 pragma solidity ^0.8.0;
@@ -274,5 +274,6 @@ You would want to check [OpenSea](https://testnets.opensea.io/) to visually see 
 ![](./../../static/images/dnft/openseaDNFT.png)
 
 
-
-
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::

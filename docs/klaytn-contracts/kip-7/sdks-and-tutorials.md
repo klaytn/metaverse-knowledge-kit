@@ -3,13 +3,13 @@ title: KIP7
 sidebar_label: Tutorial
 ---
 
-# KIP7 Tutorial
+# 💻 KIP7 Tutorial
 
 KIP7 contracts is an implementation of fungible tokens on Klaytn. These contracts can either be deployed and interacted with using Remix IDE or in your local development environment. After the deployment of contracts, you ll need to interact or call its functions. Klaytn provides developers with a javascript library: [caver-js](https://docs.klaytn.foundation/content/dapp/sdk/caver-js), to interact with Klaytn node and also with smart contracts on Klaytn.
 
 Caver-js requires contract ABI and contract address to interact with smart contract and for the purpose of this tutorial we would make use of Remix IDE to quickly and easily generate ABI and contract address. At the end of this tutorial, you'll be able to interact with an already deployed KIP7 contract using caver-js.
 
-# Prerequisite <a id="KIP7 Tutorial Prerequsite"></a>
+## 1. Prerequisite <a id="KIP7 Tutorial Prerequsite"></a>
 
 * [Remix IDE](https://docs.klaytn.foundation/content/dapp/tutorials/connecting-remix#connecting-klaytn-remix-using-kaikas) and [Kaikas](https://kaikas.zendesk.com/hc/en-us/articles/6657796272793-How-do-I-install-PC-Kaikas-)
 * Enough test KLAY from [faucet](https://baobab.wallet.klaytn.foundation/faucet)
@@ -17,11 +17,11 @@ Caver-js requires contract ABI and contract address to interact with smart contr
 
 In this tutorial, you will learn how to deploy a KIP7 smart contract and interact with the deployed contract. Smart contracts must already be deployed on the blockchain i.e you must have the smart contract address and ABI. In a little while, we would go through deploying the contract using Remix IDE.
 
-# Deploying KIP 7 Smart contract <a id="Deploying KIP 7 Smart contract"></a>
+## 2. Deploying KIP 7 Smart contract <a id="Deploying KIP 7 Smart contract"></a>
 
 The contract below defines a basic KIP7 token with the name "MyToken", the symbol "MTK", and 18 decimal places. The contract uses the KIP7 contract from the [Klaytn contracts library](https://github.com/klaytn/klaytn-contracts). The initial supply of the token is set in the contract's constructor, where we are minting 1 million tokens and sending them to the contract's creator. The mintToken function allows you to mint a certain amount of token to an address.
 
-```javascript
+```javascript title="KIP7Token.sol"
 
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.7.0 <0.9.0;
@@ -49,7 +49,7 @@ After you have successfully deployed your token contract, you should be able to 
 
 ![](../../../static/images/kip7-contract-address.png)
 
-# Installing Caver-js <a id="Installing Caver-js"></a>
+## 3. Installing Caver-js <a id="Installing Caver-js"></a>
 In order to make use of caver-js, you need to create a new folder in your local directory. After this folder has been created, you ll need to install caver -js. 
 
 open a terminal window and run the command below to install caver-js
@@ -58,7 +58,7 @@ open a terminal window and run the command below to install caver-js
 
 > npm install caver-js
 
-# Interacting with KIP7 smart contract functions <a id="Interacting with KIP7 smart contract functions"></a>
+## 4. Interacting with KIP7 smart contract functions <a id="Interacting with KIP7 smart contract functions"></a>
 In order to interact with deployed contracts using caver-js, you will need to follow these steps.
 
 **a. Set up ABI folder**
@@ -143,5 +143,9 @@ getTokenBalance(keyring.address);
 To run this code, open your terminal and paste this command
 > node ./scripts/kip7Caver.js.
 
+
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::
 
 

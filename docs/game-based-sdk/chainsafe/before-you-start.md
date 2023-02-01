@@ -3,7 +3,7 @@ title: Gaming SDK
 sidebar_label: Before you start
 ---
 
-# Before You Start <a id="Before you start with ChainSafe SDK"></a>
+# 🔧 Before You Start <a id="Before you start with ChainSafe SDK"></a>
 
 To get started, here are some details you should consider while reading the documentation.
 
@@ -66,3 +66,7 @@ The steps for importing this package are as follows:
 Window -> Package Manager -> My Assets -> [JSON.NET](http://json.net/) For Unity -> Import
 
 ![](./../../../static/images/chainsafe/5_install_jsonnet.png)
+
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::

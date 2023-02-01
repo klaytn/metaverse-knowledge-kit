@@ -3,7 +3,7 @@ title: Gaming SDK
 sidebar_label: Create a New Unity Project
 ---
 
-# Create a New Unity Project <a id="Create a New Unity Project"></a>
+# 🔰 Create a New Unity Project <a id="Create a New Unity Project"></a>
 
 The SDK / Unity plugin supports all Unity project types. In this example, you will see how to create an empty 3D project.
 
@@ -24,3 +24,6 @@ Depending on the version of Unity you are using, you might see the error in the 
 
 
 
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::

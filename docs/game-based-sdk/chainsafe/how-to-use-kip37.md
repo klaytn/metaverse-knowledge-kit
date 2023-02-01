@@ -3,7 +3,7 @@ title: Gaming SDK
 sidebar_label: How to use the KIP37 token
 ---
 
-# How to use the KIP37 token <a id="How to use the KIP37 token"></a>
+# 💻 How to use the KIP37 token <a id="How to use the KIP37 token"></a>
 
 In this section you will see how to build a Unity project using the KIP37 (ERC-1155) token standard on Klaytn.
 
@@ -164,3 +164,8 @@ Click on the **mint** button.
 Confirm your transaction.
 Here are the details of the transaction on [Klaytnscope](https://baobab.scope.klaytn.com/tx/0x9965be98dc1f2591da3514138840bf034a415822fc71fb2f6b91c1d21ea2f63f?tabId=eventLog).
 
+
+
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::

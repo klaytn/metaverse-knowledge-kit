@@ -1,6 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
+require('dotenv').config();
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -8,16 +8,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Klaytn Metaverse',
   tagline: 'Lets Build The Metaverse Together',
-  url: 'https://metaverse-package.klaytn.foundation',
+  url: process.env.URL,
   baseUrl: '/',
-  onBrokenLinks: 'log',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'toniya-klaytn', // Usually your GitHub org/user name.
-  projectName: 'metaverse-test', // Usually your repo name.
+  organizationName: process.env.ORG, // Usually your GitHub org/user name.
+  projectName: process.env.PROJECT, // Usually your repo name.
+  customFields: {
+    teamEmail: process.env.EMAIL,
+  },
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -32,7 +35,9 @@ const config = {
       },
     }
   },
-  // plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+  plugins: [[ require.resolve('docusaurus-lunr-search'), {
+    languages: ['en', 'ko'] // language codes
+  }]],
   presets: [
     [
       'classic',
@@ -59,12 +64,6 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       image: 'img/klaytn.png',
-      // algolia: {
-      //   appId: 'YOUR_APP_ID',
-      //   apiKey: 'YOUR_SEARCH_API_KEY',
-      //   indexName: 'YOUR_INDEX_NAME',
-      //   contextualSearch: true,
-      // },
       navbar: {
         title: 'Metaverse Docs',
         logo: {
@@ -86,7 +85,6 @@ const config = {
             type: 'search',
             position: 'right',
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/klaytn/klaytn',
             label: 'GitHub',

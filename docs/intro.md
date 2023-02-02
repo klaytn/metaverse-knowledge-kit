@@ -1,6 +1,5 @@
 ---
 title: 🔮 Intro Page
-slug: /
 ---
 
 # 🔮 Klaytn Metaverse Docs

@@ -32,6 +32,11 @@ jobs:
           yarn install
 
       - name: Build static files
+        env:
+          URL: ${{ secrets.URL_DEV }}
+          ORG: ${{ secrets.ORG }}
+          EMAIL: ${{ secrets.EMAIL }}
+          PROJECT: ${{ secrets.PROJECT }}
         run: yarn build
 
       - name: Sync to S3 bucket and validation cloudfront 

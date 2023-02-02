@@ -46,12 +46,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/klaytn/klaytn',
+            'https://github.com/klaytn/klaytn-metaverse-package-docs',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/klaytn/klaytn',
+            'https://github.com/klaytn/klaytn-metaverse-package-docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

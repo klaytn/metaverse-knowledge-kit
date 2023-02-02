@@ -28,7 +28,7 @@ Make sure your MetaMask wallet is connected to [Baobab](https://docs.klaytn.foun
 ## Set up <a id="set-up"></a>
 Create a `KdNFT.sol` file on Remix. Copy over the smart contract code below in the newly created file and save it.
 
-```javascript title="KdNFT.sol"
+```js title="KdNFT.sol"
 // SPDX-License-Identifier: GPL-3.0
 
 pragma solidity ^0.8.0;

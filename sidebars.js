@@ -162,6 +162,17 @@ const sidebars = {
       items: [
         'developer-tools/developer-tools',  
         ],
+    },
+    {
+      type: 'category',
+      label: '🚀 RPC Endpoint',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        'rpc-endpoint/overview',  
+        ],
     }
   ],
 };

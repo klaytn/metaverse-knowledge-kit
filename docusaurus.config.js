@@ -86,7 +86,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/klaytn/klaytn',
+            href: 'https://github.com/klaytn/klaytn-metaverse-package-docs',
             label: 'GitHub',
             position: 'right',
           },

@@ -172,8 +172,10 @@ transferTokens();
 ```
 
 To run this code, open your terminal and paste this command
-> node ./scripts/kip17Caver.js
 
+```javascript
+node ./scripts/kip17Caver.js
+```
 
 :::info
 If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation

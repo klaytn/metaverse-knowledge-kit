@@ -1,6 +1,6 @@
 ---
 title: KIP37
-sidebar_label: KIP37 Tutorial
+sidebar_label: Tutorial
 ---
 
 # 💻 KIP37 Tutorial <a id="KIP37 Tutorial"></a>
@@ -127,8 +127,10 @@ getTokenBalance(keyring.address, 2);
 
 ```
 To run this code, open your terminal and paste this command
-> node ./scripts/kip37Caver.js
 
+```javascrript
+node ./scripts/kip37Caver.js
+```
 
 :::info
 If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation

@@ -11,7 +11,7 @@ There are a variety of open source tools to help developers utilize Klaytn smart
 
 [Klaytn Online Toolkit](https://toolkit.klaytn.foundation/): This provides code samples and pages to help you utilize the Klaytn SDK(caver-js). With the Online Toolkit, you can derive the code to deploy your Klaytn contracts using caver-js. This contract includes [KIP7](https://toolkit.klaytn.foundation/kct/KIP7Deploy), [KIP17](https://toolkit.klaytn.foundation/kct/KIP17Deploy),  [KIP37](https://toolkit.klaytn.foundation/kct/KIP37Deploy) and other [Klaytn Cmpatible Tokens(KCT)](https://toolkit.klaytn.foundation/kct/KCTDetection). The online toolkit also gives users the functionality of interacting with deployed contracts given its ABI, contract address.
 
-Klaytn Contracts Wizard: This is an interactive generator to bootstrap your smart contract and learn about Klaytn Contracts. This is based on [OpenZeppelin Wizard](https://wizard.openzeppelin.com/).
+[Klaytn Contracts Wizard](https://wizard.klaytn.foundation/): This is an interactive generator to bootstrap your smart contract and learn about Klaytn Contracts. This is based on [OpenZeppelin Wizard](https://wizard.openzeppelin.com/).
 
 Other related materials
 * [How to deploy a smart contract on Klaytn](https://medium.com/klaytn/how-to-deploy-a-smart-contract-on-klaytn-945e3306760f)

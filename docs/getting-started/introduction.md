@@ -11,6 +11,8 @@ Klaytn will allow users to own assets in the metaverse, including their own data
 
 ## Unique perks of building on Klaytn <a id="Unique perks of building on Klaytn"></a>
 
+Klaytn positioning as the trust layer for the metaverse, seeks to offer the required services for the development and implementation of decentralized applications for usage in online gaming and virtual worlds. In order to help companies and developers create their metaverses and gaming usecases, Klaytn offers the following unique inherent features:
+
 * **High Performance:** Main chain should handle at least 4,000 TPS (transaction per seconds). 
 * **Instant Transaction Finality:** Klaytn guarantees immediate transaction finality with one-second block generation time and low transaction latency which enables interactive Metaverse use cases.
 * **Low Transaction fee:** Beyond speed, Klaytn is also able to keep gas fees low, to a fraction of Ethereum gas fees.
@@ -21,7 +23,9 @@ Klaytn will allow users to own assets in the metaverse, including their own data
 
 Klaytn lowers the barrier to entering the metaverse by providing enterprises and individual developers with numerous tools and SDKs to build their metaverse applications.
 
-As an enterprise if you want to host an E-Commerce platform on Metaverse you can make use of the below tools without having to build from scratch. 
+
+As an enterprise, if you want to host an e-commerce platform on Metaverse, you can make use of the tools below without having to build from scratch.
+
 
 | What you ll need      | SDKs and Tools Klaytn Provides |
 | ----------- | ----------- |

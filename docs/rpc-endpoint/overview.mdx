@@ -1,0 +1,222 @@
+---
+title: 🚀 RPC Endpoint
+sidebar_label: Overview
+---
+
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+import CodeBlock from '@theme/CodeBlock';
+
+Individual or corporate developers can access both free public endpoints and premium services through the Klaytn network of RPC providers.
+However, we urge projects and developers to collaborate with specialized RPC providers who offer highly available, reliable RPCs and are better equipped to meet their needs when building their enterprise metaverse application.
+
+Below is a list of Public RPC Node providers in our ecosystem
+
+## Public Endpoint Nodes <a id="Public Endpoint Nodes"> </a>
+
+Public EN allows you to solely focus on building and testing your blockchain product without the distraction of maintaining infrastructure to connect and interact with the Klaytn network.
+
+### HTTPS  
+
+
+<Tabs>
+<TabItem value="atn" label="AllThatNode">
+
+```js
+Mainnet
+
+https://klaytn-mainnet-rpc.allthatnode.com:8551
+
+Testnet
+
+https://klaytn-baobab-rpc.allthatnode.com:8551
+```
+
+</TabItem>
+<TabItem value="kas" label="KAS">
+
+```js
+Mainnet
+
+https://public-node-api.klaytnapi.com/v1/cypress
+
+Testnet
+
+https://public-node-api.klaytnapi.com/v1/baobab
+```
+
+</TabItem>
+<TabItem value="kf" label="Klaytn Foundation">
+
+```js
+Mainnet 
+
+https://public-node-api.klaytnapi.com/v1/baobab
+
+Testnet
+
+https://api.baobab.klaytn.net:8651
+```
+
+</TabItem>
+<TabItem value="fantrie" label="Fantrie">
+
+```js
+Mainnet 
+
+https://klaytn01.fautor.app/
+https://klaytn02.fautor.app/
+https://klaytn03.fautor.app/
+https://klaytn04.fautor.app/
+https://klaytn05.fautor.app/
+
+Testnet
+
+https://baobab01.fautor.app/
+https://baobab02.fautor.app/
+
+```
+
+</TabItem>
+</Tabs>
+
+### Websocket
+
+
+<Tabs>
+<TabItem value="kas" label="KAS">
+
+```js
+Mainnet
+
+wss://public-node-api.klaytnapi.com/v1/cypress/ws
+
+Testnet
+
+https://public-node-api.klaytnapi.com/v1/baobab
+```
+
+</TabItem>
+<TabItem value="kf" label="Klaytn Foundation">
+
+```js
+Mainnet 
+
+wss://public-en-cypress.klaytn.net/ws
+
+Testnet
+
+wss://api.baobab.klaytn.net:8652
+```
+
+</TabItem>
+<TabItem value="fantrie" label="Fantrie">
+
+```js
+Mainnet 
+
+wss://klaytn01.fautor.app/ws/
+wss://klaytn02.fautor.app/ws/
+wss://klaytn03.fautor.app/ws/
+wss://klaytn04.fautor.app/ws/
+wss://klaytn05.fautor.app/ws/
+
+Testnet
+
+wss://baobab01.fautor.app/ws/
+wss://baobab02.fautor.app/ws/
+
+```
+
+</TabItem>
+</Tabs>
+
+
+## Community Partners <a id="Community Partners"> </a>
+
+
+| S/N      | Provider | Network     |  Endpoint     |      Request Limit     | Mode          |   
+|      ---: |    ----:|         ---:|          ---: |                   ---: |         ---:  |
+| 1        |  [ANKR](https://www.ankr.com/docs/build-blockchain/overview)        |   Mainnet          |  ```https://rpc.ankr.com/klaytn  ```           |   500 requests per second on the free plan, and 1,500 on the premium. It is upgradable on request.                     |      Free and [Subscription Plan](https://www.ankr.com/rpc/pricing/)          |
+|          |          |    Testnet         |     ``` https://rpc.ankr.com/klaytn_testnet```          |                        |               |               |
+|    2      |     [POKT](https://docs.pokt.network/)      |    Mainnet                |   ```https://klaytn-rpc.gateway.pokt.network/ ```           |   250,000 Requests Per Day Free Tier (up to two applications, with unlimited endpoints)               |            Free and Pay-As-You-Go Plan           |               
+|     3      |   [BlockPi](https://docs.blockpi.io/)        |      Mainnet          |   ```https://klaytn.blockpi.network/v1/rpc/public ```       |    20 requests per second on free services, and unlimited for paid packages.           |    Free and Paid Plan           |
+|       |           |  Testnet         |   ```https://klaytn-baobab.blockpi.network/v1/rpc/public```        |               |           |
+|    4       |      [Klaytn API Service(KAS)](https://www.klaytnapi.com/en/resource/docs/readme)             |   Mainnet            |               |  10,000 requests per day (100 requests per second) for the free plan             |     Free and [Paid Plan](https://www.klaytnapi.com/en/landing/pricings)          |
+|           |       |  Testnet         |           |               |           |
+|    5       |     [Tatum](https://apidoc.tatum.io/tag/Klaytn?_gl=1*1dhfv8u*_ga*MzY5NDMyNzg5LjE2NDQ1NTk1MzA.*_ga_BH6F6RKJW6*MTY2MjAxNDQ0OS4xNy4xLjE2NjIwMTQ2MTQuMjQuMC4w)      |     Mainnet          |               |  5 requests per second for the free plan, and 200 requests per second for the paid plans (Start, Basic)             |  Free and [Subscription Plan](https://tatum.io/pricing)            |
+|           |               |    Testnet           |           |               |               |
+|     6      |   [AllThatNode](https://docs.allthatnode.com/protocols/klaytn/klaytn-samples)            |    Mainnet           |               |       20,000 request per day    |    Free and [Paid Plan](https://www.allthatnode.com/pricing.dsrv)       |
+|           |               |     Testnet          |               |           |           |
+
+
+## Archive Nodes
+
+Klaytn, as a public blockchain, a diverse set of nodes ensure that the network is secure. These nodes, store and analyze blockchain information, validate the blockchain's state. Each node on the same network can interact with another node to accomplish a variety of tasks.
+
+One type of node serving a unique purpose is the archival node, which is responsible for storing the complete historical data of the blockchain. The most current blockchain state is stored by other types, including the full node and the light node.
+
+An archival node is a node with the ability to preserve all of the blockchain's historical data, all the way back to the genesis block. This involves keeping track of transactions, block headers, and receipts.
+
+### Why should you care about Archival node
+
+Compared to full nodes and light nodes, archive nodes have unique characteristics that allow for new and fascinating use cases for developers.  Highlighted below are some of the reasons why you should care about archival nodes.
+
+Your metaverse smart contract may need to be tested in some edge circumstances based on an older version of the blockchain, which could occasionally be more recent than the first 128 blocks when utilizing a full node. This is where archive nodes come into play. With archive nodes, you can query older blockchain data quickly without running into errors.
+
+In order to develop a reputation system in your metaverse application, for instance, you may need to keep track of users' actions over an extended period of time. This is one real-world illustration of the necessity of archive nodes.
+
+
+
+
+<Tabs>
+<TabItem value="fantrie" label="Fantrie">
+
+```js
+Mainnet
+
+https://cypress.fautor.app/archive
+
+Testnet
+
+https://baobab.fautor.app/archive
+```
+
+</TabItem>
+</Tabs>
+
+
+
+## How to run your own Node
+In general public RPC endpoints will have rate limits due to security reasons or the subscription plan might be expensive depending on the service providers. In such case you can opt to run your own node to interact with Klaytn network. 
+
+If you are an enterprise application and expect huge traffic and worried about stability concerns it would be advisable to run your dedicated rpc nodes. 
+
+
+
+### Setting up your own node
+
+Anyone who wants to send transactions or query the state of Klaytn network using [Klaytn APIs](https://github.com/klaytn/klaytn-docs/blob/master/docs/installation-guide/dapp/json-rpc/README.md) needs to do so via an Endpoint Node. Endpoint Nodes are the interface to the Klaytn Network.
+
+The Endpoint Node install binary comes with the following interfaces and utilities.
+**JSON-RPC APIs**: JSON-RPC server runs inside the node, and it exposes [APIs](https://github.com/klaytn/klaytn-docs/blob/master/docs/installation-guide/dapp/json-rpc/README.md) for Blockchain Application development. It has several node management APIs as well.
+**Command-line Interface**: Provides account management and node configuration functions. An interactive JavaScript console is also provided, that is attached to the node. JavaScript console implements most of the [caver-js APIs](https://github.com/klaytn/klaytn-docs/blob/master/docs/installation-guide/dapp/sdk/caver-js/README.md)
+
+Setting up your own node means you'll be downloading a copy of the Klaytn blockchain through a client. Thus, you'll need high-end  computers for the job.  You can go for a deep dive into setting up your own Klaytn node with the following documentation. 
+
+
+* [Node Deployment Guide](https://docs.klaytn.foundation/content/installation-guide/deployment)
+* [Run a local Klaytn network](https://klaytn.foundation/how-to-run-a-local-klaytn-network/)
+* [Launch an Endpoint Node](https://docs.klaytn.foundation/content/getting-started/quick-start/launch-an-en)
+
+
+### Important Note
+
+Rather than syncing from scratch, you can use the snapshots available for mainnet and testnet. You can contact the team via [discord](https://discord.io/KlaytnOfficial) to get the AMI image for the archive node if you are using aws. 
+
+
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::

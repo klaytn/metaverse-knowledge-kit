@@ -11,7 +11,8 @@ This guide will walk you through setting up your environment, installing ChainSa
 
 For additional methods please refer to the [ChainSafe Documentation](https://docs.gaming.chainsafe.io/).
 
-## Table of Contents  
+
+## Table of Content  
 
 * [Installation](installation.md)
  

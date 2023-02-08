@@ -19,7 +19,7 @@ In this tutorial, we're going to use the Remix IDE, but the same can be done usi
 
 2. Install [IPFS Desktop](https://github.com/ipfs/ipfs-desktop#ipfs-desktop) &  [IPFS Companion](https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch?hl=en)
    
-IPFS desktop and IPFS Companion harnesses the power [IPFS](https://ipfs.io/) and your locally running IPFS node directly inside your favorite browser
+IPFS desktop and IPFS Companion harnesses the power of [IPFS](https://ipfs.io/) and your locally running IPFS node directly inside your favorite browser
 
 3. Faucets and Testnet Tokens
    

@@ -154,13 +154,24 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '🔧 Developer Tools',
+      label: '🔧 Developer Tools and SDKs',
       collapsed: false,
       link: {
         type: 'generated-index',
       },
       items: [
-        'developer-tools/developer-tools',  
+        'developer-tools-sdks/developer-tools',  
+        {
+          type: 'category',
+          label: 'Developer SDK',
+          collapsed: true,
+          items: [
+            'developer-tools-sdks/developer-sdk/overview',
+            'developer-tools-sdks/developer-sdk/bridge-starter-kit',
+            'developer-tools-sdks/developer-sdk/oracle-starter-kit',
+            'developer-tools-sdks/developer-sdk/dex-starter-kit',
+          ]
+        }
         ],
     },
     {

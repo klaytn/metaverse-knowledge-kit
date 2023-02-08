@@ -54,9 +54,11 @@ In order to make use of caver-js, you need to create a new folder in your local 
 
 open a terminal window and run the command below to install caver-js
 
-> npm init -y
+```javascript
+npm init -y
 
-> npm install caver-js
+npm install caver-js
+```
 
 ## 4. Interacting with KIP7 smart contract functions <a id="Interacting with KIP7 smart contract functions"></a>
 In order to interact with deployed contracts using caver-js, you will need to follow these steps.
@@ -141,8 +143,10 @@ getTokenBalance(keyring.address);
 ```
 
 To run this code, open your terminal and paste this command
-> node ./scripts/kip7Caver.js.
 
+```javacript
+node ./scripts/kip7Caver.js.
+```
 
 :::info
 If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation

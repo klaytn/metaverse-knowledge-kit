@@ -18,7 +18,7 @@ const FeatureList = [
     Svg: require('@site/static/img/information.svg').default,
     description: (
       <>
-        Provides context of NFT standards, best practices, links to existing libraries tooling,
+        Provides context of standards, usecases, best practices, links to existing libraries tooling,
         as well as documentation and tutorials on how to use those resources.
       </>
     ),

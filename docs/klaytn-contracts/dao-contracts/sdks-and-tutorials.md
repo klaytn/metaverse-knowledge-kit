@@ -1,5 +1,5 @@
 ---
-title: dao contracts
-sidebar_label: Turotial
+title: Tutorial
+sidebar_label: Tutorial
 ---
 

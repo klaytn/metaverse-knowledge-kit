@@ -1,5 +1,5 @@
 ---
-title: DAO contracts
-sidebar_label: DAO Contracts Introduction
+title: ✨ DAO Contracts
+sidebar_label: Introduction
 ---
 

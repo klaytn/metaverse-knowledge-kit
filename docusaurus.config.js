@@ -8,6 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Klaytn Metaverse',
   tagline: 'Lets Build The Metaverse Together',
+  //@ts-ignore
   url: process.env.URL,
   baseUrl: '/',
   onBrokenLinks: 'throw',

@@ -1,6 +1,6 @@
 ---
 title: 🔧 Developer Tools
-sidebar_label: Developer Tools and SDKs
+sidebar_label: Developer Tools
 ---
 
 ## Overview <a id="Developer Tools"></a>

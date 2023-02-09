@@ -3,112 +3,260 @@ title: Dex Starter Kit
 sidebar_label: Dex Starter Kit
 ---
 
-## Overview <a id="Developer Tools"></a>
+# Klaytn dex starter kit
+- [Klaytn dex starter kit](#klaytn-dex-starter-kit)
+  - [About](#about)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+    - [How to import the core](#how-to-import-the-core)
+      - [Liquidity](#liquidity)
+      - [Swap](#swap)
+      - [Farming](#farming)
+      - [Staking](#staking)
+      - [Multisig](#multisig)
+      - [Config](#config)
+    - [How to import the use-cases](#how-to-import-the-use-cases)
+      - [Liquidity](#liquidity-1)
+        - [1. addLiquidity](#1-addliquidity)
+        - [2. addLiquidityWithKlay](#2-addliquiditywithklay)
+        - [3. removeLiquidity](#3-removeliquidity)
+        - [4. removeLiquidityWithKlay](#4-removeliquiditywithklay)
+      - [Swap](#swap-1)
+        - [1. swapExactTokensForTokens](#1-swapexacttokensfortokens)
+        - [2. swapTokensForExactTokens](#2-swaptokensforexacttokens)
+        - [3. swapExactKlayForTokens](#3-swapexactklayfortokens)
+        - [4. swapTokensForExactKlay](#4-swaptokensforexactklay)
+        - [5. swapExactTokensForKlay](#5-swapexacttokensforklay)
+        - [6. swapKlayForExactTokens](#6-swapklayforexacttokens)
+      - [Farming](#farming-1)
+        - [1. addPool](#1-addpool)
+        - [2. minterRole](#2-minterrole)
+        - [3. setPool](#3-setpool)
+        - [4. updateRewardPerBlock](#4-updaterewardperblock)
+        - [5. updateMultiplier](#5-updatemultiplier)
+        - [6. deposit](#6-deposit)
+        - [7. withdraw](#7-withdraw)
+        - [8. emergencyWithdraw](#8-emergencywithdraw)
+      - [Multisig](#multisig-1)
+        - [1. submitTransaction](#1-submittransaction)
+        - [2. confirmAndExecuteTransaction](#2-confirmandexecutetransaction)
+        - [3. executeTransaction](#3-executetransaction)
+        - [4. revokeConfirmation](#4-revokeconfirmation)
+      - [Staking](#staking-1)
+      - [1. deployPool](#1-deploypool)
+        - [2. updatePoolLimit](#2-updatepoollimit)
+        - [3. stopReward](#3-stopreward)
+        - [4. updateReward](#4-updatereward)
+        - [5. updateStartAndEndBlocks](#5-updatestartandendblocks)
+        - [6. recoverToken](#6-recovertoken)
+        - [7. emergencyRewardWithdraw](#7-emergencyrewardwithdraw)
+        - [8. deposit](#8-deposit)
+        - [9. withdraw](#9-withdraw)
+        - [10. emergencyWithdraw](#10-emergencywithdraw)
+## About
+A decentralized exchange (or DEX) is a peer-to-peer marketplace where transactions occur directly between crypto traders.
+Klaytn has an opensource Dex infrastructure containing features like fungible token swapping, staking and liquidity provision, token-based governance, and token minting.
 
-There are many SDKs and developer tools supported on Klaytn that will be useful in building your metaverse applications. For individuals looking to build metaverse smart contracts for hackathon projects, or for enterprises trying to lead ways in the digital world to stir up new opportunities around branding, global reach, and revenue generation. The following list of tools is a core list of tools to choose from.
+This module of Klaytn-SDK includes the integration of [@klaytn/dex-contracts](https://github.com/klaytn/klaytn-dex-contracts).
 
+## Setup
+  `npm install @klaytn-developer-sdk/dexs --save`
 
-## Wallets <a id="Wallets"> </a>
-A wallet is a digital software which stores private and public keys as well as monitors and keeps track of digital assets. They are mostly useful for sending assets and interacting with smart contracts and dApps. To interact in the metaverse, a wallet is required for metaverse exploration. Wallets are used in the metaverse to
+## Prerequisites
 
-* **Manage Ownership**: It serves as means to store the assets you own
-* **Control over assets**: Users can control, manage, buy, sell, or even trade digital assets
-* **Execute transactions**: With wallets, users can initiate any transactions in Metaverse by integrating with the dapps.
+In order to execute the given use-cases or the core modules of this package, make sure you
+fulfill the following prerequisites
+1. You must have enough supply of KLAY & other utility tokens being explained below
+2. Following DEX contracts should be already deployed on Klaytn Mainnet OR Testnet
+   - DexFactory
+   - DexRouter
+   - MultiSigWallet
+   - PlatformToken
+   - Farming
+   - StakingFactory
+   - Some `KIP7` utility tokens e.g. atleast 3,4 Token contracts
+3. if you don't have already deployed the contracts, please deploy them using [this](https://github.com/klaytn/klaytn-dex-contracts/blob/dev/README.md) documentation
+4. if you need more details about flow of each above-mentioned DEX contracts please refer to `@klaytn/dex-contracts` repository [here](https://github.com/klaytn/klaytn-dex-contracts/blob/dev/docs/dex-specification.md)
+5. if you just want to get already deployed DEX & util contracts, please check it out [here](https://github.com/klaytn/klaytn-dex-frontend/blob/dev/dex-config.example.json).
 
-### Mobile Wallets <a id="Mobile Wallets"></a>
-* [Klip](https://klipwallet.com/) - [Documentation](https://docs.klipwallet.com/)
-* [D'CENT](https://dcentwallet.com/)
-* [nBlocks](https://nblocks.io/)
-* [Klaytn Wallet](https://wallet.klaytn.com/)
-* [Huobi Wallet](https://www.huobiwallet.com/en/)
-* [Token Pocket](https://www.tokenpocket.pro/)
-* [Biport](https://biport.io/)
-* [Alphawallet](https://alphawallet.com/)
-* [BitKeep](https://bitkeep.com/)
-* [Trustkeys](https://trustkeys.network/)
-* [Nest](https://nes.tech/)
-* [Math Wallet](https://mathwallet.org/ko-kr/)
+## Usage
 
+### How to import the core
+You can simply import the desired `core` modules into your script & run it, for more details on how to import each `core` module please refer to the relevant
+**core**'s section below
 
-### Browser Extension Wallets <a id="Browser Extension Wallets"></a>
+> **_NOTE:_** Make sure you've read the `Prerequisites` section to ensure that you've all the required information for each **core**'s module. To understand what information particular **core**'s module requires.
 
-* [Kaikas](https://chrome.google.com/webstore/detail/kaikas/jblndlipeogpafnldhgmapagcccfchpi) - [Documentation](https://docs.kaikas.io/)
-* [Metamask](https://docs.klaytn.foundation/content/dapp/tutorials/connecting-metamask)
-* [Dekey](https://chrome.google.com/webstore/detail/dekey/cekclnkpicopjiagjphfoahcinhmgbjp)
-* [COIN98](https://chrome.google.com/webstore/detail/coin98-wallet/aeachknmefphepccionboohckonoeemg)
-* [web3auth](https://web3auth.io/) - [Documentation](https://web3auth.io/docs/connect-blockchain/klaytn)
-* [web3Modal](https://github.com/WalletConnect/web3modal/tree/V1/example)
+#### Liquidity
+```js
+import { addLiquidity } from '@klaytn-developer-sdk/dexs/core'
+```
+#### Swap
+```js
+import { Swap } from '@klaytn-developer-sdk/dexs/core'
+```
+#### Farming
+```js
+import { Farming } from '@klaytn-developer-sdk/dexs/core'
+```
+#### Staking
+```js
+import { Staking } from '@klaytn-developer-sdk/dexs/core'
+```
+#### Multisig
+```js
+import { Multisig } from '@klaytn-developer-sdk/dexs/core'
+```
+#### Config
+```js
+import { Config } from '@klaytn-developer-sdk/dexs/core'
+```
 
+### How to import the use-cases
+You can simply import the desired use-case into your script & run it, for more details on how to import the use-case please refer to the relevant use-case's section below
 
-### Hardware Wallets <a id="Hardware Wallets"></a>
-* [D'CENT](https://dcentwallet.com/)
+> **_NOTE:_** Make sure you've read the `Prerequisites` section to ensure that you've all the required information for each use-case. To understand what information particular use-case requires, please refer to its code-level documentation.
 
-### Multisig Wallet <a id="MultiSig Wallet"></a>
-* [Klaytn Safe](https://safe.klaytn.foundation/)
+#### Liquidity
+##### 1. addLiquidity
+```js
+import { addLiquidity } from '@klaytn-developer-sdk/dexs'
+```
+##### 2. addLiquidityWithKlay
+```js
+import { addLiquidityWithKlay } from '@klaytn-developer-sdk/dexs'
+```
+##### 3. removeLiquidity
+```js
+import { removeLiquidity } from '@klaytn-developer-sdk/dexs'
+```
+##### 4. removeLiquidityWithKlay
+```js
+import { removeLiquidityWithKlay } from '@klaytn-developer-sdk/dexs'
+```
 
-### Open Source Wallet <a id="Open Source Wallets"></a>
+#### Swap
+##### 1. swapExactTokensForTokens
+```js
+import { swapExactTokensForTokens } from '@klaytn-developer-sdk/dexs'
+```
+##### 2. swapTokensForExactTokens
+```js
+import { swapTokensForExactTokens } from '@klaytn-developer-sdk/dexs'
+```
+##### 3. swapExactKlayForTokens
+```js
+import { swapExactKlayForTokens } from '@klaytn-developer-sdk/dexs'
+```
+##### 4. swapTokensForExactKlay
+```js
+import { swapTokensForExactKlay } from '@klaytn-developer-sdk/dexs'
+```
+##### 5. swapExactTokensForKlay
+```js
+import { swapExactTokensForKlay } from '@klaytn-developer-sdk/dexs'
+```
+##### 6. swapKlayForExactTokens
+```js
+import { swapKlayForExactTokens } from '@klaytn-developer-sdk/dexs'
+```
 
-Klaytn ecosystem has open source wallets where developers can integrate with their dApp and also add additional features according to their needs.
+#### Farming
+##### 1. addPool
+```js
+import { addPool } from '@klaytn-developer-sdk/dexs'
+```
+##### 2. minterRole
+```js
+import { minterRole } from '@klaytn-developer-sdk/dexs'
+```
+##### 3. setPool
+```js
+import { setPool } from '@klaytn-developer-sdk/dexs'
+```
+##### 4. updateRewardPerBlock
+```js
+import { updateRewardPerBlock } from '@klaytn-developer-sdk/dexs'
+```
+##### 5. updateMultiplier
+```js
+import { updateMultiplier } from '@klaytn-developer-sdk/dexs'
+```
+##### 6. deposit
+```js
+import { deposit } from '@klaytn-developer-sdk/dexs'
+```
+##### 7. withdraw
+```js
+import { withdraw } from '@klaytn-developer-sdk/dexs'
+```
+##### 8. emergencyWithdraw
+```js
+import { emergencyWithdraw } from '@klaytn-developer-sdk/dexs'
+```
 
-* [Oko Wallet](https://github.com/madfish-solutions/oko-wallet) - is a non-custodial EVM multi-chain wallet available browser extension, iOS and Android applications available for Klaytn network.
+#### Multisig
+##### 1. submitTransaction
+```js
+import { submitTransaction } from '@klaytn-developer-sdk/dexs'
+```
+##### 2. confirmAndExecuteTransaction
+```js
+import { confirmAndExecuteTransaction } from '@klaytn-developer-sdk/dexs'
+```
+##### 3. executeTransaction
+```js
+import { executeTransaction } from '@klaytn-developer-sdk/dexs'
+```
+##### 4. revokeConfirmation
+```js
+import { revokeConfirmation } from '@klaytn-developer-sdk/dexs'
+```
 
-## Explorer <a id="Explorer"></a>
+#### Staking
+#### 1. deployPool
+```js
+import { deployPool } from '@klaytn-developer-sdk/dexs'
+```
+##### 2. updatePoolLimit
+```js
+import { updatePoolLimit } from '@klaytn-developer-sdk/dexs'
+```
+##### 3. stopReward
+```js
+import { stopReward } from '@klaytn-developer-sdk/dexs'
+```
+##### 4. updateReward
+```js
+import { updateReward } from '@klaytn-developer-sdk/dexs'
+```
+##### 5. updateStartAndEndBlocks
+```js
+import { updateStartAndEndBlocks } from '@klaytn-developer-sdk/dexs'
+```
+##### 6. recoverToken
+```js
+import { recoverToken } from '@klaytn-developer-sdk/dexs'
+```
+##### 7. emergencyRewardWithdraw
+```js
+import { emergencyRewardWithdraw } from '@klaytn-developer-sdk/dexs'
+```
+##### 8. deposit
+```js
+import { deposit } from '@klaytn-developer-sdk/dexs'
+```
+##### 9. withdraw
+```js
+import { withdraw } from '@klaytn-developer-sdk/dexs'
+```
+##### 10. emergencyWithdraw
+```js
+import { emergencyWithdraw } from '@klaytn-developer-sdk/dexs'
+```
 
-Explorers are web applications that scan Klaytn and make it easier for users to search for blocks, transactions, addresses, and contracts.
-
-Klaytn supports the following explorers:
-
-* [Klaytnscope](https://scope.klaytn.com/)
-* [KlaytnFinder](https://www.klaytnfinder.io/)
-
-### Open-Source Explorer
-
-There are open-source explorers in the Klaytn ecosystem, which serve as an alternative to several closed-system explorers.An open source blockchain explorer can be integrated more easily with other tools and platforms, creating a more seamless experience for users. This type of explorer is community-driven and available for anyone to use, explore, and improve. This means, it is likely to evolve and improve more quickly than a proprietary solution.
-
-* [Blockscout](https://github.com/blockscout/blockscout)
-
-## SDKs and API Libraries <a id="SDKs and API Libraries"></a>
-For your metaverse application to interact with the Klaytn blockchain (i.e., read on-chain data or send transactions on-chain), it must connect to a Klaytn node.  To connect with a Klaytn node, Klaytn provides several convenient libraries that make interacting with a node much easier.
-
-* [Caver-js](https://github.com/klaytn/caver-js)
-* [Web3 js](https://web3js.readthedocs.io/en/v1.8.1/)
-* [Tatum-js](https://github.com/tatumio/tatum-js)
-* [web3.unity](https://github.com/ChainSafe/web3.unity)
-
-## Integrated Development Environment <a id="Integrated Development Environment"></a>
-
-* [Remix IDE](https://remix.ethereum.org/): is a browser-based IDE and powerful opensource tool that lets you test, deploy and execute smart contracts.
-* [Visual Studio](https://code.visualstudio.com/download): Is one of the leading IDE used by developers
-
-## Local Web3 Development <a id="Local Web3 Development"> </a>
-To deploy, test, and write smart contracts locally, Klaytn supports the following smart contract development environments:
-
-* [Hardhat](https://hardhat.org/)
-* [Truffle](https://github.com/trufflesuite/truffle)
-
-## Decentralized Exchanges <a id="Decentralized Exchanges"></a>
-
-Klaytn ecosystem has built a full stack open source DEX infrastructure for public use.  DEX allows users to swap tokens, stake and provide liquidity, mint tokens, participate in decentralized governance, and monitor the exchange’s activities through dashboards, with all these functionalities being open-source and decentralized. It also has the flexibility to customize new features and visualizations based on their users’ specific needs.
-
-Deployment is automated using Dockers and Kubernetes in the open source DEX to easily spin up DEX. Below are the different components of DEX: 
-
- * [Open Source Dex](https://dex.baobab.klaytn.net/)
-    * [Dex Frontend](https://github.com/klaytn/klaytn-dex-frontend)
-    * [Dex Dashboard](https://github.com/klaytn/klaytn-dex-dashboard)
-    * [Dex Contracts](https://github.com/klaytn/klaytn-dex-contracts)
-    * [Dex Subgraph](https://github.com/klaytn/klaytn-dex-subgraphs)
-
-DEX testnet is available for testing in Baobab without installing anything. Feel free to play around [here](https://dex.baobab.klaytn.net/swap)
-
-## Other Tools <a id="Other Tools"></a>
-
-* [Klaytn Online Toolkit](https://toolkit.klaytn.foundation/): This provides code samples and pages to help you utilize the Klaytn SDK(caver-js). With the Online Toolkit, you can derive the code to deploy your Klaytn contracts using caver-js. This contract includes [KIP7](https://toolkit.klaytn.foundation/kct/KIP7Deploy), [KIP17](https://toolkit.klaytn.foundation/kct/KIP17Deploy), [KIP37](https://toolkit.klaytn.foundation/kct/KIP37Deploy) and other [KCT](https://toolkit.klaytn.foundation/kct/KCTDetection). The online toolkit also gives users the functionality of interacting with deployed contracts given its ABI, contract address.
-  
-* [Klay-Spray](https://github.com/klaytn/klayspray): Want to quickly deploy a layer 1 network? Klayspray helps you easily deploy a private layer1 network.
-  
-* [Sidechain](https://docs.klaytn.foundation/content/installation-guide/deployment/service-chain): This enables developers who wants to build a local private network with high TPS, minimal transaction fees or data privacy.
-   
-* [Klaytn Wizard](https://wizard.klaytn.foundation/): This is an interactive generator to bootstrap your smart contract and learn about [Klaytn Contracts](https://github.com/klaytn/klaytn-contracts). This is based on [OpenZeppelin Wizard](https://wizard.openzeppelin.com/).
+> **_NOTE:_** Make sure you've read the `Prerequisite` section to ensure that you've all the required information for each use-case.
 
 
 :::info

@@ -6,7 +6,7 @@ sidebar_label: Dex Starter Kit
 # Klaytn dex starter kit
 - [Klaytn dex starter kit](#klaytn-dex-starter-kit)
   - [About](#about)
-  - [Setup](#setup)
+  - [Installation](#installation)
   - [Prerequisites](#prerequisites)
   - [Usage](#usage)
     - [How to import the core](#how-to-import-the-core)
@@ -60,7 +60,7 @@ Klaytn has an opensource Dex infrastructure containing features like fungible to
 
 This module of Klaytn-SDK includes the integration of [@klaytn/dex-contracts](https://github.com/klaytn/klaytn-dex-contracts).
 
-## Setup
+## Installation
   `npm install @klaytn-developer-sdk/dexs --save`
 
 ## Prerequisites

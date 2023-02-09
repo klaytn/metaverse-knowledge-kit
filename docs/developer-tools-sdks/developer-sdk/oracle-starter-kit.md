@@ -5,7 +5,8 @@ sidebar_label: Oracle Starter Kit
 
 # Oracle Starter Kit
 - [Oracle Starter Kit](#oracle-starter-kit)
-  - [Install](#install)
+  - [About](#about)
+  - [Installation](#installation)
   - [Quick Usage](#quick-usage)
   - [Setup Hardhat configurations Baobab Klaytn network and variables](#setup-hardhat-configurations-baobab-klaytn-network-and-variables)
     - [1. Hardhat configurations](#1-hardhat-configurations)
@@ -76,10 +77,12 @@ sidebar_label: Oracle Starter Kit
 
 <br/>
 
+## About
+
 Oracles take data from the outside world and put it into the blockchain for other smart contracts to consume.
 This is a hardhat project containing contracts and scripts for `Chainlink` and `Witnet` integrations.
 
-## Install
+## Installation
 
 ```typescript
 npm install -g @klaytn-developer-sdk/kds-cli --force

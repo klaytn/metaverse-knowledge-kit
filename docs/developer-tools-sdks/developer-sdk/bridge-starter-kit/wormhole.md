@@ -16,7 +16,7 @@ sidebar_label: Wormhole
     - [Parameters](#parameters-1)
     - [Returns](#returns-1)
     - [Example](#example-1)
-  - [Reference Docs:](#reference-docs)
+  - [Reference Docs](#reference-docs)
 
 ## About
 Wormhole is a communication bridge between Klaytn and other top decentralized finance (DeFi) networks. Existing projects, platforms, and communities are able to move tokenized assets seamlessly across blockchains and benefit from Klaytn's high speed and low cost.
@@ -158,7 +158,7 @@ const result = await BridgeSDK.transferBasic(config, source, destination, AMOUNT
 console.log(result.hash);
 ```
 
-## Reference Docs:
+## Reference Docs
 
 - [https://www.npmjs.com/package/@certusone/wormhole-sdk](https://www.npmjs.com/package/@certusone/wormhole-sdk) 
 - [https://book.wormhole.com/technical/typescript/attestingToken.html](https://book.wormhole.com/technical/typescript/attestingToken.html)

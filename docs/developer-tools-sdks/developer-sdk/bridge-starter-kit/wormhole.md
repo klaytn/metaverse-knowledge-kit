@@ -1,24 +1,9 @@
 ---
-title: Wormhole
+title: 🌉 Wormhole
 sidebar_label: Wormhole
 ---
 
-# Klaytn wormhole starter kit
-- [Klaytn wormhole starter kit](#klaytn-wormhole-starter-kit)
-  - [About](#about)
-  - [Installation](#installation)
-  - [Quick Start](#quick-start)
-  - [1. Token Attestation](#1-token-attestation)
-    - [Parameters](#parameters)
-    - [Returns](#returns)
-    - [Example](#example)
-  - [2.Transfer Tokens](#2transfer-tokens)
-    - [Parameters](#parameters-1)
-    - [Returns](#returns-1)
-    - [Example](#example-1)
-  - [Reference Docs](#reference-docs)
-
-## About
+# 🌉 Wormhole
 Wormhole is a communication bridge between Klaytn and other top decentralized finance (DeFi) networks. Existing projects, platforms, and communities are able to move tokenized assets seamlessly across blockchains and benefit from Klaytn's high speed and low cost.
 
 ## Installation

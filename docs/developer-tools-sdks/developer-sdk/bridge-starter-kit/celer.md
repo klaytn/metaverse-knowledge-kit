@@ -1,40 +1,9 @@
 ---
-title: Celer
+title: 🌉 Celer
 sidebar_label: Celer
 ---
 
-# Klaytn celer starter kit
-- [Klaytn celer starter kit](#klaytn-celer-starter-kit)
-  - [About](#about)
-  - [Installation](#installation)
-  - [Quick Start](#quick-start)
-    - [1. PoolBased Transfer](#1-poolbased-transfer)
-      - [Parameters](#parameters)
-      - [Result](#result)
-      - [Example](#example)
-    - [1.1. PoolBased Refund Transfer](#11-poolbased-refund-transfer)
-      - [Parameters](#parameters-1)
-      - [Result](#result-1)
-      - [Example](#example-1)
-    - [2. mintCanonicalToken](#2-mintcanonicaltoken)
-      - [Parameters](#parameters-2)
-      - [Result](#result-2)
-      - [Example](#example-2)
-    - [2.1. Refund mintCanonicalToken](#21-refund-mintcanonicaltoken)
-      - [Parameters](#parameters-3)
-      - [Result](#result-3)
-      - [Example](#example-3)
-  - [3. burnCanonicalToken](#3-burncanonicaltoken)
-      - [Parameters](#parameters-4)
-      - [Result](#result-4)
-      - [Example](#example-4)
-    - [3.1. Refund mintCanonicalToken](#31-refund-mintcanonicaltoken)
-      - [Parameters](#parameters-5)
-      - [Result](#result-5)
-      - [Example](#example-5)
-  - [Reference Docs](#reference-docs)
-
-## About
+# 🌉 Celer
 Celer Bridge (cBridge) is a cryptocurrency cross-chain bridge that helps in moving your assets from one chain to the other with lower costs. Please refer to [Celer Bridge Documentation](https://cbridge-docs.celer.network) for more info.
 <br/>
 This module contains scripts to help you interact / integrate cBridge into your applications robustly without explicitly digging into cBridge technical documentation.

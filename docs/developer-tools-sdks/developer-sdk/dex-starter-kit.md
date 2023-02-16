@@ -1,60 +1,9 @@
 ---
-title: Dex Starter Kit
+title: 💱 Dex Starter Kit
 sidebar_label: Dex Starter Kit
 ---
 
-# Klaytn dex starter kit
-- [Klaytn dex starter kit](#klaytn-dex-starter-kit)
-  - [About](#about)
-  - [Installation](#installation)
-  - [Prerequisites](#prerequisites)
-  - [Usage](#usage)
-    - [How to import the core](#how-to-import-the-core)
-      - [Liquidity](#liquidity)
-      - [Swap](#swap)
-      - [Farming](#farming)
-      - [Staking](#staking)
-      - [Multisig](#multisig)
-      - [Config](#config)
-    - [How to import the use-cases](#how-to-import-the-use-cases)
-      - [Liquidity](#liquidity-1)
-        - [1. addLiquidity](#1-addliquidity)
-        - [2. addLiquidityWithKlay](#2-addliquiditywithklay)
-        - [3. removeLiquidity](#3-removeliquidity)
-        - [4. removeLiquidityWithKlay](#4-removeliquiditywithklay)
-      - [Swap](#swap-1)
-        - [1. swapExactTokensForTokens](#1-swapexacttokensfortokens)
-        - [2. swapTokensForExactTokens](#2-swaptokensforexacttokens)
-        - [3. swapExactKlayForTokens](#3-swapexactklayfortokens)
-        - [4. swapTokensForExactKlay](#4-swaptokensforexactklay)
-        - [5. swapExactTokensForKlay](#5-swapexacttokensforklay)
-        - [6. swapKlayForExactTokens](#6-swapklayforexacttokens)
-      - [Farming](#farming-1)
-        - [1. addPool](#1-addpool)
-        - [2. minterRole](#2-minterrole)
-        - [3. setPool](#3-setpool)
-        - [4. updateRewardPerBlock](#4-updaterewardperblock)
-        - [5. updateMultiplier](#5-updatemultiplier)
-        - [6. deposit](#6-deposit)
-        - [7. withdraw](#7-withdraw)
-        - [8. emergencyWithdraw](#8-emergencywithdraw)
-      - [Multisig](#multisig-1)
-        - [1. submitTransaction](#1-submittransaction)
-        - [2. confirmAndExecuteTransaction](#2-confirmandexecutetransaction)
-        - [3. executeTransaction](#3-executetransaction)
-        - [4. revokeConfirmation](#4-revokeconfirmation)
-      - [Staking](#staking-1)
-      - [1. deployPool](#1-deploypool)
-        - [2. updatePoolLimit](#2-updatepoollimit)
-        - [3. stopReward](#3-stopreward)
-        - [4. updateReward](#4-updatereward)
-        - [5. updateStartAndEndBlocks](#5-updatestartandendblocks)
-        - [6. recoverToken](#6-recovertoken)
-        - [7. emergencyRewardWithdraw](#7-emergencyrewardwithdraw)
-        - [8. deposit](#8-deposit)
-        - [9. withdraw](#9-withdraw)
-        - [10. emergencyWithdraw](#10-emergencywithdraw)
-## About
+# 💱 Dex starter kit
 A decentralized exchange (or DEX) is a peer-to-peer marketplace where transactions occur directly between crypto traders.
 Klaytn has an opensource Dex infrastructure containing features like fungible token swapping, staking and liquidity provision, token-based governance, and token minting.
 

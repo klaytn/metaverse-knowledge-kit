@@ -1,29 +1,43 @@
 ---
-title: Klaytn Developer SDK
+title: 	🎪 Klaytn Developer SDK
 sidebar_label: Overview
 ---
 
 ## Overview <a id="overview"></a>
-The klaytn developer sdk is a set of tools provided by Klaytn to help the developers build decentralized applications (dApps) on the Klaytn platform.
+The Klaytn Developer SDK(KDS) is a monorepo for all the ecosystem tools in Klaytn. Its a collection of npm packages which wrap functionality of various tools into an easy to use SDK (per tool) to build on Klaytn. 
 
-The klaytn developer sdk includes libraries, sample code, documentation and tools for debugging, testing. Developers can use the SDK to access the Klaytn platform's APIs, allowing them to build dApps that integrate with the platform's services and data.
+It includes some starter kits with default combinations of tools and configurations. It also has a Command Line Interface(CLI) that allow developers to manage services from thier local terminal. Developers can use the SDK by easily importing a npm package to access third party tools like Oracles, Bridges etc.  
 
 The SDK provides a number of features and benefits, including:
 
-* Easy-to-use APIS: The SDK includes a range of APIs that are designed to be simple and intuitive for developers, making it quick and efficient.
-* Sample code: The SDK includes the ready-made snippets that developers can use or customize for their own dApps. This can help to speed up the development process and reduce the learning curve for new developers.
-* Community support: Klaytn provides extensive support for the Klaytn developer SDK, including a range of resource, forums and online communities where developers can ask questions, share knowledge and collaborate with one another.
+* **Faster development** KDS provides pre-built code and libraries that can speed up the development process. It allows developers to focus on business implementation rather reinventing the wheel
+* **Easier integration** KDS is designed to work with all EVM compatible chains, which makes integrating with Layer1's more effecient. This can help developers time and effort during integration. 
+* **Consistency** KDS provide a standardized set of tools and interfaces, which can help ensure that applications are consistent and compatible with the platform or service being used.
+* **Sample code** KDS includes the ready-made snippets that developers can use or customize for their own dApps. This can help to speed up the development process and reduce the learning curve for new developers.
+* **Better documentation and Community support**: : KDS provides a elaborate documentation and support resources that can help developers run quickly, troubleshoot issues, and stay up to date with changes and updates to the platform or service.
 
 ## Use Cases <a id="usecases"></a>
+The following are some of the use-cases of Klaytn Developer SDK (KDS) in Metaverse: 
 
-**Oracle Services:** Oracles take data from the outside world and put it into the blockchain for other smart contracts to consume. Leading Oracle services like `Chainlink`, `Witnet` for external communciations from the smart contract supports Klaytn. These can be used for Random Number Generation, External API (GET/POST) calls, Counter.
+* **Interoperability** If you are building a decentralized app (dapp) in Metaverse and you dont want to restrict the users only to Klaytn network. Then you can use Bridge-starter kit in the KDS to bridge assets to other networks. This provide more flexibilits to users and brings user retention.
 
-**Bridge Services:** .
-A blockchain bridge serves as the ideal solution for interoperability among different types of blockchain networks. It opens up the scope for applications based on one blockchain network to use the resources of another blockchain network like Coin/Token, Data transfers. Bridge services like `Wormhole`, `Celer` etc are integrated with Klaytn blockchain.
+* **Increased functionality** Similarly, if you are developing a gaming app in Metaverse that requires real-world data, you can use the Oracle-starter-kit in the KDS to integrate off-chain data into your dapp. This provides increased functionality to your dapp. 
 
-**Opensource Dex:** 
-A decentralized exchange (or DEX) is a peer-to-peer marketplace where transactions occur directly between crypto traders.
-Klaytn has an opensource Dex infrastructure containing features like fungible token swapping, staking and liquidity provision, token-based governance, and token minting.
+* **Access to diversity** If you are building a marketplace or a wallet in the Metaverse, the Dex-starter-kit in the Klaytn-developer-sdk can be used to exchange assets. This provides users with greater flexibility to access a diverse range of assets. This sdk can be integrated to communicate with existing decentralized exchanges.
+
+* **Unified** With the Klaytn-developer-sdk npm package, there is no need to download multiple packages or perform multiple configurations for different use-cases. All of these use-cases can be implemented in one place.
+## Packages <a id="Packages"></a>
+Klaytn is committed to make all the ecosytem tools available as part of this SDK. However, the modules listed below are currently available with the current [release](https://github.com/klaytn/klaytn-developer-sdk/releases)
+
+**Bridge Starter Kit:**
+Bridge services like [Wormhole](./bridge-starter-kit/wormhole.md) and [Celer](./bridge-starter-kit/celer.md) are integrated with Klaytn blockchain. KDS has options to integrate with both the protocols for asset transfers. 
+
+**Dex Starter Kit:** 
+Dex Starter Kit provides libraries to integrate with dex-contracts and implement features like swapping, staking, farming, minting and excuting multisig transactions.
+
+**Oracle Starter Kit:** 
+[Oracle Starter Kit](./oracle-starter-kit.md) provides libraries for random number generation, external API (GET/POST) calls and price feed. It is not limited to one oracle provider, rather it provides the felxiblity to access Chainlink and Witnet Oracle services. 
+
 
 :::info
 If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation

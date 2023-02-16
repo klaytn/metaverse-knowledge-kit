@@ -154,13 +154,12 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '🔧 Developer Tools and SDKs',
+      label: '⚓ Developer Tools and SDKs',
       collapsed: false,
       link: {
         type: 'generated-index',
       },
-      items: [
-        'developer-tools-sdks/developer-tools',  
+      items: [ 
         {
           type: 'category',
           label: 'Developer SDK',
@@ -174,7 +173,7 @@ const sidebars = {
             {
               type: 'category',
               label: 'Bridge Starter Kit',
-              collapsed: false,
+              collapsed: true,
               link: {
                 type: 'generated-index',
               },
@@ -185,7 +184,8 @@ const sidebars = {
             },
             'developer-tools-sdks/developer-sdk/dex-starter-kit',   
           ],
-        }
+        },
+        'developer-tools-sdks/developer-tools', 
       ],
     },
     {

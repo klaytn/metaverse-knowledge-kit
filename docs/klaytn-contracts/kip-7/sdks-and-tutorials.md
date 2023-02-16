@@ -5,7 +5,7 @@ sidebar_label: Tutorial
 
 # 💻 KIP7 Tutorial
 
-KIP7 contracts is an implementation of fungible tokens on Klaytn. These contracts can either be deployed and interacted with using Remix IDE or in your local development environment. After the deployment of contracts, you ll need to interact or call its functions. Klaytn provides developers with a javascript library: [caver-js](https://docs.klaytn.foundation/content/dapp/sdk/caver-js), to interact with Klaytn node and also with smart contracts on Klaytn.
+KIP7 contracts can either be deployed and interacted with using Remix IDE or in your local development environment. After the deployment of contracts, you ll need to interact or call its functions. Klaytn provides developers with a javascript library: [caver-js](https://docs.klaytn.foundation/content/dapp/sdk/caver-js), to interact with Klaytn node and also with smart contracts on Klaytn.
 
 Caver-js requires contract ABI and contract address to interact with smart contract and for the purpose of this tutorial we would make use of Remix IDE to quickly and easily generate ABI and contract address. At the end of this tutorial, you'll be able to interact with an already deployed KIP7 contract using caver-js.
 
@@ -73,11 +73,15 @@ Create a folder named scripts in your project directory. Inside this new folder,
 
 **c. Execute Scripts**
 
-Paste the code below in your newly created `kip7Caver.js` file. This code illustrates the use of caver.js to interact with the KIP7 token previously created.
+Paste the code below in your newly created `kip7Caver.js` file. Code below illustrates the use of caver.js to interact with the KIP7 token previously created. This code 
 
-First, we import caver.js and the contract ABI, which defines the functions and parameters of the KIP7 contract. Then, we initialize caver.js and the KIP7 contract by providing the contract address.
+1. Imports caver.js and the contract ABI, which defines the functions and parameters of the KIP7 contract.
+2. Initialize caver.js and the KIP7 contract by providing the contract address.
+3. Set the contract address, create and add keyring to enable users sign on using their own Klaytn account. 
+4. Call a `balanceOf` function to get a specified address token balance. 
+5. Mint 100000 tokens to a  specified account given the sender of this transaction is the creator of the contract. 
+6. Transfer 500  tokens from the current account to another account using the `transfer` function of the contract.
 
-Next we set the contract address, create and add keyring to enable users sign on using their own Klaytn account. Then, we call a balanceOf function to get a specified address token balance. Then, we minted 100000 tokens to a  specified account given the sender of this transaction is the creator of the contract. Finally, we transfer 500  tokens from the current account to another account using the `transfer` function of the contract.
 
 ```javascript
 // Interact with KIP7 contract with caver-js

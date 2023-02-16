@@ -113,7 +113,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '💾 Decentralized Storage',
+      label: '🌌 Decentralized Storage',
       collapsed: false,
       link: {
         type: 'generated-index',

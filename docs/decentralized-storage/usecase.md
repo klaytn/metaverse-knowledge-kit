@@ -12,8 +12,7 @@ In a metaverse, decentralized storage can be used in a variety of ways:
 1. **Asset storage**: Decentralized storage can be used to store the 3D models, textures, and other assets that make up the virtual world. This allows for faster and more efficient access to these assets, as well as a more robust and resilient virtual world.
 
 2. **User-generated content**: Decentralized storage can be used to store user-generated content such as avatars, custom objects, and other items created by users. This allows for more freedom and creativity in the virtual world, as well as a more open and decentralized community.
-3. **Data backup**: Decentralized storage can be used to backup data in case of server failures or other issues, ensuring continuity of the metaverse.
-4. **Decentralized marketplace**: Decentralized storage can be used to create a decentralized marketplace for virtual goods and services, allowing for more open and transparent trade in the virtual world.
+3. **Decentralized marketplace**: Decentralized storage can be used to create a decentralized marketplace for virtual goods and services, allowing for more open and transparent trade in the virtual world.
 5. **Access and identity management**: Decentralized storage can be used to manage access and identities in the metaverse, enabling more secure and private access to the virtual world.
 
 Overall, decentralized storage can enable a more open, decentralized, and resilient metaverse, while also providing faster access to content and lower costs of infrastructure.

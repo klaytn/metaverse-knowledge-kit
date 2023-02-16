@@ -15,11 +15,11 @@ Click on **Web3Unity** package → **Prefabs** → **EVM** → **Custom Call**
 
 Drag the **CustomCall** prefab into the scene.
 
-![](./../../../static/images/chainsafe/9_custom_callprefab.png)
+![](/images/chainsafe/9_custom_callprefab.png)
 
 Double-click on the **CustomCallExample** script to open it on VSCode.
 
-![](../../../static/images/chainsafe/10_custom_callExample.png)
+![](/images/chainsafe/10_custom_callExample.png)
 
 Use the script below or modify it:
 
@@ -60,7 +60,7 @@ Open the console to see the result.
 
 The console shows the balance of the given contract on Klaytn mainnet.
 
-![](./../../../static/images/chainsafe/11_edit-networkjs.png)
+![](/images/chainsafe/11_edit-networkjs.png)
 
 
 :::info

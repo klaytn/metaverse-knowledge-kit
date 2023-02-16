@@ -25,7 +25,7 @@ Witnet price feeds are timely updated with fresh data as aggregated from multipl
 
 Go to [Multi-chain addresses](https://docs.witnet.io/smart-contracts/witnet-data-feeds/addresses) and select [Klaytn Price Feeds](https://docs.witnet.io/smart-contracts/witnet-data-feeds/addresses/klaytn-price-feeds).
 
-![](../../../static/images/witnet/price-feed.png)
+![](/images/witnet/price-feed.png)
 
 
 To get the price of the KLAY/USD pair on Baobab network, we will need both the Price Router address and the ID(which represents the pair).
@@ -76,14 +76,14 @@ If you look at the parameter in the constructor and in the `getKLayUsdPrice` fun
 
 Select the Klaytn icon in the sidebar to use the Klaytn plugin. Choose baobab environment and add your account by providing your [MetaMask private key](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-export-an-account-s-private-key#:~:text=On%20the%20account%20page%2C%20click,click%20%E2%80%9CConfirm%E2%80%9D%20to%20proceed.). Make sure you have enough test KLAY from [Faucet](https://baobab.wallet.klaytn.foundation/faucet).
 
-![](../../../static/images/witnet/deploy-pricefeed.png)
+![](/images/witnet/deploy-pricefeed.png)
 
 Now you have your contract deployed. 
 
 ### Step 4 - Get the KLAY/USD price <a id="Step 4 - Get the KLAY/USD price"></a>
 Once your contract is deployed, you will be able to see the PriceFeed contract under the "Deployed Contracts" section. Click on it, and the available functions will show up. Here, we have the *getKlayUsdPrice* function.
 
-![](../../../static/images/witnet/getKlayUsd.png)
+![](/images/witnet/getKlayUsd.png)
 
 Click on it to fetch the current price of KLAY per USD. At the time of writing, it is `192307`, which means 1 KLAY equals to **$0.192307**.
 

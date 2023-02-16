@@ -235,11 +235,11 @@ To set up the NFT data on your browser IPFS node:
   
 * Import your metadata files to the FILES section in your IPFS Desktop
 
-![](./../../static/images/dnft/importIPFS.png)
+![](/images/dnft/importIPFS.png)
 
 * To get the URI link for each uploaded metadata, click on the three dots and copy the string from “Share Link”
 
-![](./../../static/images/dnft/dotIPFS.png)
+![](/images/dnft/dotIPFS.png)
 
 ## Compile and Deploy Contract <a id="Compile and Deploy dNFT"></a>
 
@@ -251,11 +251,11 @@ To complete this task, you need to go through the following steps viz:
   
 * Switch your environment to “Injected web3” and deploy with the contract argument - updateInterval: 30(seconds) or 10(seconds).
 
-![](./../../static/images/dnft/kdynft.png)
+![](/images/dnft/kdynft.png)
 
 * Copy and paste the wallet address you'd love to mint a token for in the `safeMint` field.
 
-![](./../../static/images/dnft/dnftSafeMint.png)
+![](/images/dnft/dnftSafeMint.png)
 
 ## Interacting with deployed contract <a id="Interacting with deployed contract"></a>
 
@@ -263,15 +263,15 @@ Now that a dNFT has been minted to your wallet address, you need to trigger the 
 
 * **checkUpkeep**: You need to manually need to check upkeep. If it returns true, that means the interval  set has passed, and an upkeep action is due. If it returns false, that means the time set has not passed the interval set. 
 
-![](./../../static/images/dnft/checkUpkeep.png)
+![](/images/dnft/checkUpkeep.png)
 
 * **performUpkeep**: If the `checkUpkeep` returns true, you need to call the performUpkeep function to run the embedded logic on-chain. This checks if there is a deviation in the price set at deployment and the latestPrice gotten from the getKlayUsdtPrice(). In the case of reduction, the smart contract sets the token URI to the bearish image, and if otherwise to the bullish image.
 
-![](./../../static/images/dnft/performUpkeep.png)
+![](/images/dnft/performUpkeep.png)
 
 You would want to check [OpenSea](https://testnets.opensea.io/) to visually see how this NFT evolve based on price action.
 
-![](./../../static/images/dnft/openseaDNFT.png)
+![](/images/dnft/openseaDNFT.png)
 
 
 :::info

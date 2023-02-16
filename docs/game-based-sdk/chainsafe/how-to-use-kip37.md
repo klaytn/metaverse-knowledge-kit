@@ -16,17 +16,17 @@ Make sure to install all dependencies to fix all bugs.
 
 Under **Assets** → **Web3Unity** → **Scenes**, double-click on **WebLogin**. This is the prefab used to connect a wallet in a WebGL project.
 
-![](./../../../static/images/chainsafe/12_webLogin.png)
+![](/images/chainsafe/12_webLogin.png)
 
 Go to **File** → **Build Settings** → **WebGL** → **Switch Platform**
 
-![](./../../../static/images/chainsafe/13_webGL_switch.png)
+![](/images/chainsafe/13_webGL_switch.png)
 
 From the same window, click on **Add Open Scenes** (top right) to add the Login scene as the first scene to appear when we run the project.
 
 From the same window, click on **Player Settings** → **Player** → **Resolution and Presentation**, under **WebGL Template**, select the one with the same as our Unity version (WebGL 2020 for our case).
 
-![](../../../static/images/chainsafe/14_webGL_template.png)
+![](/images/chainsafe/14_webGL_template.png)
 
 Go back to the Unity project. Under **Assets**, select **Scenes** and double-click on **SampleScene** to use it as our second scene (FYI the first one is the login scene).
 
@@ -34,7 +34,7 @@ Go to **File** → **Build Settings** → **Add Open Scenes**. The SampleScene w
 
 > Make sure the WebLogin scene is at the top because the order matters.
 
-![](../../../static/images/chainsafe/15_add_openScenes.png)
+![](/images/chainsafe/15_add_openScenes.png)
 
 ## Create your Contract <a id="Create your Contract"></a>
 
@@ -154,7 +154,7 @@ Click on ▶️ to run the program and test the Balance button.
 
 You should get a result from the Owner and the Id of the token that we put in the script.
 
-![](../../../static/images/chainsafe/33_kip37_testFunc.png)
+![](/images/chainsafe/33_kip37_testFunc.png)
 
 ## Build and Run the project to test the mint method <a id="Build and Run the project to test the mint method"></a>
 

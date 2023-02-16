@@ -93,7 +93,7 @@ getFileFromIpfs()
     > node scripts/caverIpfs.js
 
 
-![](./../../static/images/Ipfs/caverCID.png)
+![](/images/Ipfs/caverCID.png)
 
 * Visualize on web: Once uploaded on IPFS, you can visualize it on your browser by adding the CID generated to this url
 
@@ -102,7 +102,7 @@ getFileFromIpfs()
     > Example: https://ipfs.io/ipfs/Qmf1rtki74jvYmGeqaaV51hzeiaa6DyWc98fzDiuPatzyy
 
 
-![](./../../static/images/Ipfs/visualizeIpfs.png)
+![](/images/Ipfs/visualizeIpfs.png)
 
 
 ## Other Methods <a id ="Other Methods"></a>

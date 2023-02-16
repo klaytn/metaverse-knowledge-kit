@@ -45,9 +45,9 @@ Refer to this [guide](https://docs.klaytn.foundation/content/dapp/tutorials/conn
 
 After you have successfully deployed your token contract, you should be able to copy the contract’s ABI and address as shown in the below pic as reference. 
 
-![](../../../static/images/kip7-contract-abi.png)
+![](/images/kip7-contract-abi.png)
 
-![](../../../static/images/kip7-contract-address.png)
+![](/images/kip7-contract-address.png)
 
 ## 3. Installing Caver-js <a id="Installing Caver-js"></a>
 In order to make use of caver-js, you need to create a new folder in your local directory. After this folder has been created, you ll need to install caver -js. 

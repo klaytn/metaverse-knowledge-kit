@@ -123,7 +123,7 @@ npx hardhat read-price-feed --contract <deployedContractAddress> --network baoba
 ```
   npx hardhat read-price-feed --contract 0x6883956A235f8b823d547575812B08F4a720D76A --network baobab
 
-  // By default it returns LINK/KLAY price feed value. 1 LINK = 32.9 KLAY
+  // By default it returns LINK/KLAY price feed value. At the time of writing this document, 1 LINK = 32.9 KLAY
   /*
     Price is: 32915338976573950000
   */
@@ -145,7 +145,7 @@ npx hardhat change-price-feed --contract <deployedContractAddress> --pricefeedad
 
 #### Example
 ```typescript
-  // Change pricefeedaddress to WEMIX/USD 0x76Aa17dCda9E8529149E76e9ffaE4aD1C4AD701B price feed contract. 1 WEMIX = 0.8 USD
+  // Change pricefeedaddress to WEMIX/USD 0x76Aa17dCda9E8529149E76e9ffaE4aD1C4AD701B price feed contract. 1 WEMIX = 0.8 USD at the time of writing this document.
   npx hardhat change-price-feed --contract 0x6883956A235f8b823d547575812B08F4a720D76A --pricefeedaddress 0x76Aa17dCda9E8529149E76e9ffaE4aD1C4AD701B --network baobab
   /*
     Transaction Hash: 0x0741df94b257a29f73ff4b94d2f0d5cd91dae20f2bc9946dd00a954905d85936

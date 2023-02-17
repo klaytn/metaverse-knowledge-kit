@@ -30,8 +30,6 @@ fulfill the following prerequisites
 5. if you just want to get already deployed DEX & util contracts, please check it out [here](https://github.com/klaytn/klaytn-dex-frontend/blob/dev/dex-config.example.json).
 
 ## Usage
-
-### How to import the core
 You can simply import the desired `core` modules into your script & run it, for more details on how to import each `core` module please refer to the relevant
 **core**'s section below
 
@@ -61,8 +59,6 @@ import { Multisig } from '@klaytn/kds-dexs/core'
 ```js
 import { Config } from '@klaytn/kds-dexs/core'
 ```
-> **_NOTE:_** Make sure you've read the `Prerequisite` section to ensure that you've all the required information for each use-case.
-
 
 :::info
 If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation

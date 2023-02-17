@@ -4,7 +4,7 @@ sidebar_label: Celer
 ---
 
 # 🌉 Celer
-Celer Bridge (cBridge) is a cryptocurrency cross-chain bridge that helps in moving your assets from one chain to the other with lower costs. Please refer to [Celer Bridge Documentation](https://cbridge-docs.celer.network) for more info.
+Celer Bridge (cBridge) is a cryptocurrency cross-chain bridge that facilitates the transfer of assets from one chain to another at a reduced cost. Please refer to [Celer Bridge Documentation](https://cbridge-docs.celer.network) for more info.
 <br/>
 This module contains scripts to help you interact / integrate cBridge into your applications robustly without explicitly digging into cBridge technical documentation.
 

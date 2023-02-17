@@ -15,11 +15,11 @@ sidebar_label: Installation
 ## Install ChainSafe SDK <a id="Install ChainSafe SDK"></a>
 * Go to the ChainSafe Gaming SDK from their GitHub repository called `web3.unity` at [ChainSafe](https://github.com/chainsafe)
 
-![](../../../static/images/chainsafe/1_chainSafe_web3Unity_repo.png)
+![](/images/chainsafe/1_chainSafe_web3Unity_repo.png)
 
 * Select the latest release and click on web3.unitypackage to download the package.
 
-![](../../../static/images/chainsafe/2_web3Unity_dd.png)
+![](/images/chainsafe/2_web3Unity_dd.png)
 
 ## Install Unity Hub <a id="Install Unity Hub"></a>
 
@@ -33,9 +33,9 @@ sidebar_label: Installation
 * Select **Unity Personal**
 * Select **I don't use Unity in a professional capacity**
 
-![](../../../static/images/chainsafe/4_activateLicenseII.png)
+![](/images/chainsafe/4_activateLicenseII.png)
 
-![](./../../../static/images/chainsafe/3_activateLicense.png)
+![](/images/chainsafe/3_activateLicense.png)
 
 
 :::info

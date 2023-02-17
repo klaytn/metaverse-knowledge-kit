@@ -17,17 +17,17 @@ Make sure to install all dependencies to fix all bugs.
 
 Under **Assets** → **Web3Unity** → **Scenes**, double-click on **WebLogin**. This is the prefab used to connect a wallet in a WebGL project.
 
-![](./../../../static/images/chainsafe/12_webLogin.png)
+![](/images/chainsafe/12_webLogin.png)
 
 Go to **File** → **Build Settings** → **WebGL** → **Switch Platform**
 
-![](./../../../static/images/chainsafe/13_webGL_switch.png)
+![](/images/chainsafe/13_webGL_switch.png)
 
 From the same window, click on **Add Open Scenes** (top right) to add the Login scene as the first scene to appear when we run the project.
 
 From the same window, click on **Player Settings** → **Player** → **Resolution and Presentation**, under **WebGL Template**, select the one with the same as our Unity version (WebGL 2020 for our case).
 
-![](../../../static/images/chainsafe/14_webGL_template.png)
+![](/images/chainsafe/14_webGL_template.png)
 
 Go back to the Unity project. Under **Assets**, select **Scenes** and double-click on **SampleScene** to use it as our second scene (FYI the first one is the login scene).
 
@@ -35,7 +35,7 @@ Go to **File** → **Build Settings** → **Add Open Scenes**. The SampleScene w
 
 > Make sure the WebLogin scene is at the top because the order matters.
 
-![](../../../static/images/chainsafe/15_add_openScenes.png)
+![](/images/chainsafe/15_add_openScenes.png)
 
 ## Create your Contract <a id="Create your Contract"></a>
 
@@ -67,11 +67,11 @@ contract Storage {
 
 Under **Project** window, right-click on **Scenes**, click on **Create** → **C# Script**
 
-![](../../../static/images/chainsafe/16_create_c_scripts.png)
+![](/images/chainsafe/16_create_c_scripts.png)
 
 Rename it (here we’ll use the name `“CallABI”`)
 
-![](../../../static/images/chainsafe/17_rename_script_callAbi.png)
+![](/images/chainsafe/17_rename_script_callAbi.png)
 
 Double-click on the script to open it. Complete the `script` with the information below:
 
@@ -143,7 +143,7 @@ public class CustomCallABIExample : MonoBehaviour
 
 Right-click on the scene, click on **UI** → **Button** and rename it to *AddValue* and *RetrieveValue*
 
-![](../../../static/images/chainsafe/18_create_buttons.png)
+![](/images/chainsafe/18_create_buttons.png)
 
 To interact with the buttons:
 
@@ -153,28 +153,28 @@ To interact with the buttons:
    
 3. Add an *On Click()* function by clicking on the ➕ button
 
-![](../../../static/images/chainsafe/19_onClick_addScript.png)
+![](/images/chainsafe/19_onClick_addScript.png)
 
 4. Drag the **AddValue** button from Hierarchy window into the *On Click()* function
    
 5. Click on **No Function** → **CallABI** → **AddValue()**
 
-![](../../../static/images/chainsafe/20_addValue_buttonCall.png)
+![](/images/chainsafe/20_addValue_buttonCall.png)
 
 For the **RetrieveValue** button, redo the steps from step 1 to step 5 above, but instead of selecting **AddValue**, select **RetrieveValue**.
 
 Edit the network *chainID* under **Assets** → **WebGLTemplates** → **Web3GL-2020x** → **network.js**. Set the `window.web3ChainId` to *1001*.
 
-![](../../../static/images/chainsafe/21_setBaobab_chainId.png)
+![](/images/chainsafe/21_setBaobab_chainId.png)
 
 
 To test the *Retrieve Value* function, click on play ▶️ and click on *Retrieve Value*
 
-![](../../../static/images/chainsafe/22_play_retrieveBtn.png)
+![](/images/chainsafe/22_play_retrieveBtn.png)
 
 To test the *Add Value* function , click **File** → **Build and Run**. You will have a new window in the browser that will show you the login interface.
 
-![](../../../static/images/chainsafe/23_buildRun_ci.png)
+![](/images/chainsafe/23_buildRun_ci.png)
 
 
 Click on **Login** to connect to Metamask.
@@ -183,7 +183,7 @@ Click on **Add Value** to add the value of 10 to the contract.
 
 Confirm your transaction on Metamask and voilà ! Your transaction is sent to the network.
 
-![](../../../static/images/chainsafe/24_addValue_metamask.png)
+![](/images/chainsafe/24_addValue_metamask.png)
 
 
 

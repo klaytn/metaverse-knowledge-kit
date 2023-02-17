@@ -1,9 +1,7 @@
 ---
-title: 💡 Getting Started
+title: 💡 Why Klaytn ?
 sidebar_label: Introduction
 ---
-
-## Introduction
 
 As the metaverse is still a growing space, individuals and enterprises are taking steps forward to ensure they are not left behind in a few years. With the blockchain being an important element in building a virtual economy in the metaverse, Klaytn is gearing up its infrastructure to become the blockchain of choice for the metaverse, gamefi, and the creator economy. 
 
@@ -13,10 +11,10 @@ Klaytn will allow users to own assets in the metaverse, including their own data
 
 Klaytn positioning as the trust layer for the metaverse, seeks to offer the required services for the development and implementation of decentralized applications for usage in online gaming and virtual worlds. In order to help companies and developers create their metaverses and gaming usecases, Klaytn offers the following unique inherent features:
 
-* **High Performance:** Main chain should handle at least 4,000 TPS (transaction per seconds). 
-* **Instant Transaction Finality:** Klaytn guarantees immediate transaction finality with one-second block generation time and low transaction latency which enables interactive Metaverse use cases.
-* **Low Transaction fee:** Beyond speed, Klaytn is also able to keep gas fees low, to a fraction of Ethereum gas fees.
-* **Metaverse Package:** As part of our priority to help builders of metaverse enter the blockchain world as smoothly as possible, the metaverse package comprises of comprehensive tool sets and supporting ecosystem to make building for the metaverse easier than ever.
+* 🏎️ **High Performance:** Main chain should handle at least 4,000 TPS (transaction per seconds). 
+* 🚀 **Instant Transaction Finality:** Klaytn guarantees immediate transaction finality with one-second block generation time and low transaction latency which enables interactive Metaverse use cases.
+* 🌱💰**Low Transaction fee:** Beyond speed, Klaytn is also able to keep gas fees low, to a fraction of Ethereum gas fees.
+* 🔮 **Metaverse Package:** As part of our priority to help builders of metaverse enter the blockchain world as smoothly as possible, the metaverse package comprises of comprehensive tool sets and supporting ecosystem to make building for the metaverse easier than ever.
 
 
 ## Who can make use of Klaytn Metaverse Package? <a id="Who can make use of Klaytn Metaverse Package"></a>

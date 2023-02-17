@@ -4,7 +4,7 @@ sidebar_label: Introduction
 ---
 ## Introduction <a id="KIP37 Introduction"></a>
 
-[KIP37](https://kips.klaytn.foundation/KIPs/kip-37) is a standard for representing digital assets on Klaytn blockchain that allows the creation of multiple tokens in the same single contract. This single contract includes a combination of fungible tokens and non-fungible tokens. It enables you to create every type of asset, from currency and virtual land to digital art and gaming items.  
+[KIP37](https://kips.klaytn.foundation/KIPs/kip-37) is a standard for representing digital assets on Klaytn blockchain that allows the creation of multiple token standard in the same contract. This contract includes a combination of fungible tokens and non-fungible tokens. It enables you to create every type of asset, from currency and virtual land to digital art and gaming items.  
 
 KIP37 as a token standard is heavily derived from [ERC1155](https://eips.ethereum.org/EIPS/eip-721), the go-to standard for NFTs within blockchain games. Using this standard as opposed to deploying seperate KIP7 and KIP17 contracts has benefits. It allows developers to consolidate the logic in one contract and one single address. It also allows batch transfers to operate in the confines of the same contract — and all of this can be accomplished at a reduced gas cost. Therefore, to issue multiple tokens on top of Klaytn, the KIP37 standard specification must be implemented.
 

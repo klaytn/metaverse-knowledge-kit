@@ -1,5 +1,5 @@
 ---
-title: 💾 Decentralized Storage
+title: 🌌 Decentralized Storage
 sidebar_label: Overview
 ---
 

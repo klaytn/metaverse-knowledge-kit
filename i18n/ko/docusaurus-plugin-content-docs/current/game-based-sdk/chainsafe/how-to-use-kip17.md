@@ -16,17 +16,17 @@ Make sure to install all dependencies to fix all bugs.
 
 Under **Assets** → **Web3Unity** → **Scenes**, double-click on **WebLogin**. This is the prefab used to connect a wallet in a WebGL project.
 
-![](./../../../static/images/chainsafe/12_webLogin.png)
+![](/images/chainsafe/12_webLogin.png)
 
 Go to **File** → **Build Settings** → **WebGL** → **Switch Platform**
 
-![](./../../../static/images/chainsafe/13_webGL_switch.png)
+![](/images/chainsafe/13_webGL_switch.png)
 
 From the same window, click on **Add Open Scenes** (top right) to add the Login scene as the first scene to appear when we run the project.
 
 From the same window, click on **Player Settings** → **Player** → **Resolution and Presentation**, under **WebGL Template**, select the one with the same as our Unity version (WebGL 2020 for our case).
 
-![](../../../static/images/chainsafe/14_webGL_template.png)
+![](/images/chainsafe/14_webGL_template.png)
 
 Go back to the Unity project. Under **Assets**, select **Scenes** and double-click on **SampleScene** to use it as our second scene (FYI the first one is the login scene).
 
@@ -34,7 +34,7 @@ Go to **File** → **Build Settings** → **Add Open Scenes**. The SampleScene w
 
 > Make sure the WebLogin scene is at the top because the order matters.
 
-![](../../../static/images/chainsafe/15_add_openScenes.png)
+![](/images/chainsafe/15_add_openScenes.png)
 
 # Create your contract <a id="Create your contract"></a>
 
@@ -221,11 +221,11 @@ Click on **Login** to connect Metamask.
 
 Click on **Mint** and confirm your transaction.
 
-![](../../../static/images/chainsafe/31_kip17_mintFunc.png)
+![](/images/chainsafe/31_kip17_mintFunc.png)
 
 Here are the details of the transaction on [Klaytnscope](https://baobab.scope.klaytn.com/tx/0xa7adfe56dd7892679adb385e42ee22f969d8672668c3cc5d4c1baf8ee63cb98c?tabId=eventLog).
 
-![](../../../static/images/chainsafe/32_kip17_tx.png)
+![](/images/chainsafe/32_kip17_tx.png)
 
 
 :::info

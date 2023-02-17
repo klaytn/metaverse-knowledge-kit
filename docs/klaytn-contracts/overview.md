@@ -21,7 +21,7 @@ Smart contracts are absolutely needed in the metaverse to increase the security 
 
 ## Smart Contracts on Klaytn <a id="Smart contracts on Klaytn"></a>
 
-To write smart contracts, Klaytn currently supports [Solidity](https://github.com/ethereum/solidity) as the primary programming language. Solidity is adopted in Klaytn because it is a de facto standard contract programming language for Ethereum and has a large user base and an active community. The Klaytn team made the decision to offer users a familiar toolset: ***klaytn-contract***, so that developers and Ethereum dApp developers could quickly test new smart contracts or migrate their existing smart contracts to Klaytn.
+To write smart contracts, Klaytn currently supports [Solidity](https://github.com/ethereum/solidity) as the primary programming language. Solidity is adopted in Klaytn because it is a de facto standard contract programming language for Ethereum and has a large user base and an active community.
 
 [klaytn-contracts](https://github.com/klaytn/klaytn-contracts) is an open source smart contract library which provides reusable building blocks for developers to easily use in their Klaytn based projects. It contains a full suite of standardized smart contract interfaces, libraries, and implementations for quick and safe inheritance and development.
 

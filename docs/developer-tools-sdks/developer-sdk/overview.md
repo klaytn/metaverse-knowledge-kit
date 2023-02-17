@@ -29,14 +29,14 @@ The following are some of the use-cases of Klaytn Developer SDK (KDS) in Metaver
 ## Packages <a id="Packages"></a>
 Klaytn is committed to make all the ecosytem tools available as part of this SDK. However, the modules listed below are currently available with the current [release](https://github.com/klaytn/klaytn-developer-sdk/releases)
 
+**Oracle Starter Kit:** 
+[Oracle Starter Kit](./oracle-starter-kit.md) provides libraries for random number generation, external API (GET/POST) calls and price feed. It is not limited to one oracle provider, rather it provides the felxiblity to access [Chainlink](./oracle-starter-kit.md) and [Witnet](./oracle-starter-kit.md) Oracle services. 
+
 **Bridge Starter Kit:**
-Bridge services like [Wormhole](./bridge-starter-kit/wormhole.md) and [Celer](./bridge-starter-kit/celer.md) are integrated with Klaytn blockchain. KDS has options to integrate with both the protocols for asset transfers. 
+Bridge Starter Kit provides options to interopt with other chains. [Wormhole](./bridge-starter-kit/wormhole.md) and [Celer](./bridge-starter-kit/celer.md) bridge integration is available as part of this sdk.
 
 **Dex Starter Kit:** 
 Dex Starter Kit provides libraries to integrate with dex-contracts and implement features like swapping, staking, farming, minting and excuting multisig transactions.
-
-**Oracle Starter Kit:** 
-[Oracle Starter Kit](./oracle-starter-kit.md) provides libraries for random number generation, external API (GET/POST) calls and price feed. It is not limited to one oracle provider, rather it provides the felxiblity to access Chainlink and Witnet Oracle services. 
 
 
 :::info

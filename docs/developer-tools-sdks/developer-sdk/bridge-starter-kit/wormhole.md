@@ -6,32 +6,39 @@ sidebar_label: Wormhole
 # 🌉 Wormhole
 Wormhole is a communication bridge between Klaytn and other top decentralized finance (DeFi) networks. Existing projects, platforms, and communities are able to move tokenized assets seamlessly across blockchains and benefit from Klaytn's high speed and low cost.
 
+Features of wormhole bridge available in this package are: 
+
+1. **Token Registration** : Register tokens in order to transfer to the destination chain.
+2. **Token Transfer** : Transfer assets from one chain to another. 
+
+Follow the below steps to try out the above features using the sdk. 
+
 ## Installation
-`npm install @klaytn-developer-sdk/bridges-wormhole --save`
+`npm install @klaytn/kds-bridges-wormhole --save`
 
 ## Quick Start
-BridgeSDK is the package containing the readymade use-cases.
-CoreBridgeSDK exposes methods of `@certusone/wormhole-sdk` to write custom methods.
+There are two modules in the wormhole bridge starter kit.
+1. BridgeSDK provides the implementation and examples of bridge use-cases.
+2. CoreBridgeSDK exposes methods of `@certusone/wormhole-sdk` to write custom methods.
 
 ```typescript
-import BridgeSDK from '@klaytn-developer-sdk/bridges-wormhole';
-import CoreBridgeSDK from '@klaytn-developer-sdk/bridges-wormhole/core';
+import BridgeSDK from '@klaytn/kds-bridges-wormhole';
+import CoreBridgeSDK from '@klaytn/kds-bridges-wormhole/core';
 
 or
 
-const BridgeSDK = require('@klaytn-developer-sdk/bridges-wormhole');
-const CoreBridgeSDK = require('@klaytn-developer-sdk/bridges-wormhole/core');
+const BridgeSDK = require('@klaytn/kds-bridges-wormhole');
+const CoreBridgeSDK = require('@klaytn/kds-bridges-wormhole/core');
 ```
 
-You can run following ready-made use-cases to test
-## 1. Token Attestation
-Attests a token of one chain (source chain) to another chain (destination chain) for EVM compatible chains.
+## 1. Token Registration
+Registering tokens with the token bridge can be done from any supported blockchain, and only needs to be done once - globally - per token. It can be done by attesting a token on the source chain by calling the below method.
 
 ```typescript
 BridgeSDK.attest(config, source, destination)
 ```
 
-> **_NOTE:_**  Make sure the Token to be attested is present in source chain. Native fee coins in source and destination chain in the provided privatekey account is sufficient.
+> **_NOTE:_**  Make sure the token to be attested is present in source chain. Native fee coins in source and destination chain in the provided privatekey account is sufficient.
 
 ### Parameters
 1. `Object` - `config`
@@ -54,8 +61,8 @@ BridgeSDK.attest(config, source, destination)
 
 ### Example
 ```typescript
-const BridgeSDK = require('@klaytn-developer-sdk/bridges-wormhole');
-const CoreBridgeSDK = require('@klaytn-developer-sdk/bridges-wormhole/core');
+const BridgeSDK = require('@klaytn/kds-bridges-wormhole');
+const CoreBridgeSDK = require('@klaytn/kds-bridges-wormhole/core');
 
 const config = { restAddress: "https://wormhole-v2-testnet-api.certus.one" };
 const source = {
@@ -82,7 +89,9 @@ console.log(destinationDeployedContract); // 0xfdA23F910E5CE6b7C712F624DE20d9cC3
 ```
 
 ## 2.Transfer Tokens
-Transfer tokens from source chain to destination chain for EVM compatible chains.
+Before transferring tokens, you should ensure that the token is registered on the chain you are transferring to, and that any necessary prerequisite steps (such as sending token approvals or creating associated token accounts) have already been done.
+
+You can initate a transfer by calling the below method 
 
 ```typescript
 BridgeSDK.transferBasic(config, source, destination, AMOUNT, IS_NATIVE)
@@ -113,8 +122,8 @@ BridgeSDK.transferBasic(config, source, destination, AMOUNT, IS_NATIVE)
 
 ### Example
 ```typescript
-const BridgeSDK = require('@klaytn-developer-sdk/bridges-wormhole');
-const CoreBridgeSDK = require('@klaytn-developer-sdk/bridges-wormhole/core');
+const BridgeSDK = require('@klaytn/kds-bridges-wormhole');
+const CoreBridgeSDK = require('@klaytn/kds-bridges-wormhole/core');
 
 const config = { restAddress: "https://wormhole-v2-testnet-api.certus.one" };
 const source = {
@@ -142,6 +151,7 @@ const result = await BridgeSDK.transferBasic(config, source, destination, AMOUNT
 // Transaction hash of the destination chain
 console.log(result.hash);
 ```
+
 
 ## Reference Docs
 

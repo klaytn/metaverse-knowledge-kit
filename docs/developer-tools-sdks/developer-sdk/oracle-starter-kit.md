@@ -17,12 +17,12 @@ Oracle Starter Kit is integrated with `Chainlink` and `Witnet` services. This is
 - VRF
 - External API Calls
 
-It also has a Command Line Interface to initialize a sample project and interact with the deployed contract. Follow the below steps to use Oracle starter kit and get off-chain data to your dapp. 
+It also has a command line interface to initialize a sample project and interact with the deployed contract. Follow the below steps to use Oracle starter kit and get off-chain data to your dapp. 
 
 ## Installation
 
 ```typescript
-npm install -g @klaytn-developer-sdk/kds-cli --force
+npm install -g @klaytn/kds-cli --force
 ```
 The above command installs the cli package for Klaytn developer sdk globally, so that we can use oracle-starter-kit 
 

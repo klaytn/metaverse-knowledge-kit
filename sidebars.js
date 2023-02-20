@@ -52,7 +52,7 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Non Fungible Token(NFT)',
+          label: 'Non Fungible Token',
           collapsed: true,
           items: [
             'klaytn-contracts/kip-17/introduction',
@@ -113,7 +113,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '💾 Decentralized Storage',
+      label: '🌌 Decentralized Storage',
       collapsed: false,
       link: {
         type: 'generated-index',

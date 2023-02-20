@@ -1,9 +1,9 @@
 ---
 title: Gaming SDK
-sidebar_label: How to use the KIP7 token
+sidebar_label: Create KIP7 token
 ---
 
-# 💻 How to use the KIP7 token <a id="How to use the KIP7 token"></a>
+# 💎 How to create KIP7 token <a id="How to use the KIP7 token"></a>
 
 In this section you will see how to build a Unity project using the KIP7 (ERC-20) token standard on Klaytn.
 
@@ -17,17 +17,17 @@ Make sure to install all dependencies to fix all bugs.
 
 Under **Assets** → **Web3Unity** → **Scenes**, double-click on **WebLogin**. This is the prefab used to connect a wallet in a WebGL project.
 
-![](./../../../static/images/chainsafe/12_webLogin.png)
+![](/images/chainsafe/12_webLogin.png)
 
 Go to **File** → **Build Settings** → **WebGL** → **Switch Platform**
 
-![](./../../../static/images/chainsafe/13_webGL_switch.png)
+![](/images/chainsafe/13_webGL_switch.png)
 
 From the same window, click on **Add Open Scenes** (top right) to add the Login scene as the first scene to appear when we run the project.
 
 From the same window, click on **Player Settings** → **Player** → **Resolution and Presentation**, under **WebGL Template**, select the one with the same as our Unity version (WebGL 2020 for our case).
 
-![](../../../static/images/chainsafe/14_webGL_template.png)
+![](/images/chainsafe/14_webGL_template.png)
 
 Go back to the Unity project. Under **Assets**, select **Scenes** and double-click on **SampleScene** to use it as our second scene (FYI the first one is the login scene).
 
@@ -35,7 +35,7 @@ Go to **File** → **Build Settings** → **Add Open Scenes**. The SampleScene w
 
 > Make sure the WebLogin scene is at the top because the order matters.
 
-![](../../../static/images/chainsafe/15_add_openScenes.png)
+![](/images/chainsafe/15_add_openScenes.png)
 
 ## Create your Contract <a id="Create your Contract"></a>
 
@@ -273,20 +273,20 @@ To create the buttons, follow the steps in the section [Custom Interaction with 
 
 Your UI should look like this:
 
-![](./../../../static/images/chainsafe/25_kip7_buttonUI.png)
+![](/images/chainsafe/25_kip7_buttonUI.png)
 
 
 Link each button to the corresponding function in the contract. E.g here, we linked the button **Name** to the function Name() in the script, which calls the function name() in the contract.
 
-![](./../../../static/images/chainsafe/26_linkButton_toScripts.png)
+![](/images/chainsafe/26_linkButton_toScripts.png)
 
 Change the `chainId` of the network in the WebGL Templates folder to 1001 to connect to baobab testnet
 
-![](../../../static/images/chainsafe/27_kip7_setChainId.png)
+![](/images/chainsafe/27_kip7_setChainId.png)
 
 Click on ▶️ to run the program and test the **Name**, **Total Supply** and **BalanceOf** buttons.
 
-![](../../../static/images/chainsafe/28_buildRun_kip7funcs.png)
+![](/images/chainsafe/28_buildRun_kip7funcs.png)
 
 ## Test the Transfer and the Mint function <a id="Test the Transfer and the Mint function"></a>
 
@@ -294,11 +294,11 @@ To test the **Transfer** button, we need to build and run the project. So go to 
 
 Click on **Login** to connect Metamask.
 
-![](../../../static/images/chainsafe/29_test_kip7_build.png)
+![](/images/chainsafe/29_test_kip7_build.png)
 
 Once connected, click on `Transfer` to execute the KIP7 token transfer.
 
-![](../../../static/images/chainsafe/30_test_kip7_transferFunc.png)
+![](/images/chainsafe/30_test_kip7_transferFunc.png)
 
 Here are the details of the transaction on [Klaytnscope](https://baobab.scope.klaytn.com/tx/0x1b9c6c4a21fa2bfd5e304c647908e26e0f0c4d5fed8d727bce1d586cca2afab1?tabId=eventLog).
 

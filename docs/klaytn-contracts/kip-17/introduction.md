@@ -4,9 +4,9 @@ sidebar_label: Introduction
 ---
 
 ## Introduction <a id="KIP17 Introduction"></a>
-[KIP17](https://kips.klaytn.foundation/KIPs/kip-17) as part of the KIPs for the Klaytn platform, establishes the implementation of a standard API for [Non-Fungible Tokens](https://docs.klaytn.foundation/content/smart-contract/token-standard#non-fungible-token-standard-kip-17)(NFTs)  within smart contracts.  NFTs can represent ownership over digital or physical assets. For example, it can be used to represent digital art, game items, or any kind of unique assets and allow people to trade them. 
+[KIP17](https://kips.klaytn.foundation/KIPs/kip-17) establishes the implementation of a standard API for [Non-Fungible Tokens](https://docs.klaytn.foundation/content/smart-contract/token-standard#non-fungible-token-standard-kip-17)(NFTs) for smart contracts.  NFTs can represent ownership over digital or physical assets. For example, it can be used to represent digital art, game items, or any kind of unique assets and allow people to trade them. 
 
-KIP17 as a token standard is heavily derived from [ERC721](https://eips.ethereum.org/EIPS/eip-721), the Ethereum standard interface for non-fungible tokens. To issue non-fungible tokens on top of Klaytn, the KIP17 standard specification must be implemented.
+KIP17 as a token standard is heavily derived from [ERC721](https://eips.ethereum.org/EIPS/eip-721), the Ethereum standard interface for non-fungible tokens. To issue non-fungible tokens in Klaytn, the KIP17 standard specification must be implemented.
 
 ## Usecase <a id="KIP17 Introduction"></a>
 As it has been established, Metaverse is the virtual representation of the physical world.  With the use of NFTs, real world assets ranging from houses, land, car, furniture and other goods can be represented in the metaverse.   NFTs when integrated in your metaverse applications, allows for:

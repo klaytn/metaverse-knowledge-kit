@@ -20,6 +20,8 @@ Below are the features available for DEX admin and user as part of this sdk.
 * Remove Liquidity 
 
 ### Installation
+To install the kds dex package, run the following command in your terminal.
+
   `npm install @klaytn/kds-dexs --save`
 
 Follow the below steps to try out the above features using the sdk.

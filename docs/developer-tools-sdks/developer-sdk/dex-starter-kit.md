@@ -11,13 +11,14 @@ This sdk includes the integration of [@klaytn/dex-contracts](https://github.com/
 Below are the features available for DEX admin and user as part of this sdk. 
 
 **Admin Functionalities**
-* Once the dex is deployed the ownership is transferred to a multisig contract. All the admin related smart contract funtions can only be called by the multisig contract. 
+* Once the dex is deployed the ownership is transferred to a multisig contract. All the admin related smart contract functions can only be called by the multisig contract. 
 
 **User Functionalities**
 * Swap
 * Stake 
 * Add Liquidity 
 * Remove Liquidity 
+
 ### Installation
   `npm install @klaytn/kds-dexs --save`
 
@@ -28,7 +29,7 @@ In order to execute the functions, the dex-contracts needs to be deployed either
 
 Also, make sure to fulfill the following prerequisites
 1. You must have enough supply of KLAY & other utility tokens to execute all the functions
-2. Following DEX contracts should be already deployed on Klaytn Mainnet OR Testnet ([Ref](https://github.com/klaytn/klaytn-dex-contracts/blob/dev/README.md))
+2. Deployment of the following DEX contracts on Klaytn Mainnet OR Testnet is required. ([Ref](https://github.com/klaytn/klaytn-dex-contracts/blob/dev/README.md))
    - DexFactory
    - DexRouter
    - DexToken

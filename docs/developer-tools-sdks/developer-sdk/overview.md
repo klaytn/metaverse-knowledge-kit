@@ -33,7 +33,7 @@ Klaytn is committed to making all the ecosystem tools available as part of this 
 [Oracle Starter Kit](./oracle-starter-kit.md) provides libraries for random number generation, external API (GET/POST) calls and price feed. It is not limited to one oracle provider, rather it provides the felxiblity to access [Chainlink](./oracle-starter-kit.md) and [Witnet](./oracle-starter-kit.md) Oracle services. 
 
 **Bridge Starter Kit:**
-Bridge Starter Kit provides options to interopt with other chains. [Wormhole](./bridge-starter-kit/wormhole.md) and [Celer](./bridge-starter-kit/celer.md) bridge integration is available as part of this sdk.
+Bridge Starter Kit provides options to interoperate with other chains. [Wormhole](./bridge-starter-kit/wormhole.md) and [Celer](./bridge-starter-kit/celer.md) bridge integration is available as part of this sdk.
 
 **Dex Starter Kit:** 
 Dex Starter Kit provides libraries to integrate with dex-contracts and implement features like swapping, staking, farming, minting and excuting multisig transactions.

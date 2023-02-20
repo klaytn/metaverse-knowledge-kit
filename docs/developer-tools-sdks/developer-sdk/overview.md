@@ -4,7 +4,7 @@ sidebar_label: Overview
 ---
 
 ## Overview <a id="overview"></a>
-The Klaytn Developer SDK (KDS) is a monorepo for all the ecosystem tools in Klaytn. Its a collection of npm packages which wrap functionality of various tools into an easy to use SDK (per tool) to build on Klaytn. 
+The Klaytn Developer SDK (KDS) is a collection of npm packages which wrap functionality of various tools into an easy to use SDK (per tool) to build on Klaytn. It aims to integrate all the ecosystem tools in Klaytn.
 
 It includes some starter kits with default combinations of tools and configurations. It also has a Command Line Interface(CLI) that allow developers to manage services from thier local terminal. Developers can use the SDK by easily importing a npm package to access third party tools like Oracles, Bridges etc.  
 

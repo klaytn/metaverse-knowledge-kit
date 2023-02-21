@@ -3,7 +3,7 @@ title: 💱 Dex Starter Kit
 sidebar_label: Dex Starter Kit
 ---
 
-## Overview
+# Overview
 A decentralized exchange (or DEX) is a peer-to-peer marketplace where transactions occur directly between crypto traders. Klaytn has an opensource code for the Dex infrastructure containing features like fungible token swapping, staking and liquidity provision, token-based governance, and token minting.
 
 This sdk includes the integration of [@klaytn/dex-contracts](https://github.com/klaytn/klaytn-dex-contracts/blob/dev/docs/dex-specification.md) in the starter kit to execute all the admin functionalities and basic user operations via the sdk. 
@@ -14,19 +14,19 @@ Below are the features available for DEX admin and user as part of this sdk.
 * Once the dex is deployed the ownership is transferred to a multisig contract. All the admin related smart contract functions can only be called by the multisig contract. 
 
 **User Functionalities**
-* Swap
+* Farm
 * Stake 
-* Add Liquidity 
-* Remove Liquidity 
+* Swap
+* Add/Remove Liquidity 
 
-### Installation
+## Installation
 To install the `kds-dex` package, run the following command in your terminal.
 
   `npm install @klaytn/kds-dexs --save`
 
 Follow the below steps to try out the above features using the sdk.
 
-### Prerequisites
+## Prerequisites
 In order to execute the functions, the dex-contracts needs to be deployed either in Cypress or Baobab network. You can either deploy the contracts [here](https://github.com/klaytn/klaytn-dex-contracts) or use the deployed contracts in [Baobab](https://github.com/klaytn/klaytn-dex-contracts/tree/dev/deployments). 
 
 Also, make sure to fulfill the following prerequisites
@@ -44,17 +44,17 @@ Also, make sure to fulfill the following prerequisites
 
 Here is a [list](./dex_contracts.json) of addresses which is already deployed in Baobab with MultiSig contract as owner. Its recommended to deploy your own contracts in Baobab for testing to execute all the functions as the privateKey used to deploy the contracts is different. 
 
-### Usage
+## Usage
 You can simply import the desired modules into your script & run it, for more details on how to import each module please refer to the relevant section below. 
 
-#### 1. Config Module
+### 1. Config Module
 Config module can be used to initalize contracts and get contract instances to interact with dex contracts. You can initilize the below contracts using Config module. 
 * initDex - returns the router and factory contract instance. 
 * initFarming - returns the Farming contract instance. Using this instance you can interact with Farming contract functions.
 * initStaking - returns the Staking contract instance. Using this instance you can interact with Staking contract functions.
 * initMultiSig - returns the MultiSig contract instance. Using this instance you can execute functions in  MultiSig contract. 
 
-##### Example
+#### Example
 In the below example, we are going to initDex and get the router and factory contract instances. Similary you can use other functions defined in the module
 
 ```js
@@ -82,14 +82,14 @@ async function main() {
 main();
 ```
 
-#### 2. Farming
+### 2. Farming
 Farming module can be used to manage the farming operations with LP tokens.You can execute the below functions using the farming module 
 
 * deposit - Deposit the specified amount of LP tokens to the specified pool.
 * withdraw - Withdraw the specified amount of LP tokens from the specified pool
 * emergencyWithdraw - 	Withdraw LP tokens from the specified pool without receiving the reward
 
-##### Example
+#### Example
 In the below example, we are going to deposit tokens to a pool based on the PoolId. Similary you can use other functions defined in the module
 
 ```js
@@ -109,14 +109,14 @@ async function main() {
 
 main();
 ```
-#### 3. Staking
+### 3. Staking
 Staking module can be used for long-term staking which allows users to stake the Dex token and earn other tokens as rewards.You can execute the below functions using the Staking module 
 
 * deposit - Deposit given amount of Staked Token in given Staking Pool contract
 * withdraw - Withdraw Staked tokens from given Staking pool contract
 * emergencyWithdraw - Emergency withdraw funds from given Staking Pool contract.
 
-##### Example
+#### Example
 In the below example, we are going to stake a KIP7 token using Staking module. Similary you can use other functions defined in the module
 
 ```js
@@ -138,7 +138,7 @@ async function main() {
 main();
 ```
 
-#### 4. Swap
+### 4. Swap
 Swap module can be used to trade one ERC-20 or KIP7 token for another. Each pair of tokens on Dex is underpinned by a liquidity pool. There are multiple functions for swapping tokens for different kinds of swap operations. You can swap tokens using the below functions in the Swap module 
 
 * exactTokensForTokens - function to swap exact amount of Tokens for a given amount of Tokens.
@@ -148,7 +148,7 @@ Swap module can be used to trade one ERC-20 or KIP7 token for another. Each pair
 * exactTokensForKlay - function to swap exact amount of Tokens for a given amount of KLAY.
 * klayForExactTokens - function to swap KLAYs for a given exact amount of Tokens.
 
-##### Example
+#### Example
 In the below example, we are going to Swap exactKlayForTokens using Swap module. Similary you can use other functions defined in the module
 
 ```js
@@ -179,13 +179,55 @@ async function main() {
 
 main();
 ```
+### 5. Add/Remove Liquidity
+Liquidity module can be used to add liquidity into a pool and remove liquidity from a pool. Each pair of tokens on Dex is underpinned by a liquidity pool. You can use the Liquidity module to execute the below functions
 
-#### 5. Multisig
+* add - add liquidity to a given pair of tokens (token0 & token1).
+* addWithKlay - add liquidity with Klay to a given pair of tokens (token & Klay).
+* remove - remove liquidity from a given pair of tokens (token0 & token1).
+* removeWithKlay - remove liquidity from a given pair of tokens (token & klay).
+
+#### Example
+In the below example, we are going to add liquidity with Klay using Liquidity module. Similary you can use other functions defined in the module
+
+```js
+import {Liquidity} from '@klaytn/kds-dexs';
+
+let routerAddress = "0x5867c40175a45b080abad03f19131cfa9569287b";
+let factoryAddress = "0x6b9b434e6e6a381304b0eace93894f1b649637bf";
+let privKey = "your private key";
+let rpcURL = "https://public-node-api.klaytnapi.com/v1/baobab";
+
+async function main() {
+    const token = '0x1234567890123456789012345678901234567890';
+    const amountDesired = '100';
+    const amountKlayDesired = '200';
+    const amountTokenMin = '100';
+    const amountKlayMin = '200';
+    const deadline = '1500000000000';
+
+    // Create a new instance of Liquidity 
+    const liquidity = new Liquidity(routerAddress, factoryAddress, privKey, rpcURL);
+
+    // token - token a KIP7 contract's address of a given pair of tokens (whose liquidity to be added).
+    // amountDesired -  desired / max amount of the tokens of Token want to add as liquidity.
+    // amountKlayDesired - desired / max amount of the tokens of Klay want to add as liquidity.
+    // amountTokenMin - minimum amount of the tokens of Token want to add as liquidity.
+    // amountKlayMin - minimum amount of the tokens of Klay want to add as liquidity.
+    // deadline - UTC timestamp as deadline of this transaction, once deadline passed on-chain transaction should be reverted.
+    const txReceipt = await liquidity.addWithKlay(token, amountDesired, amountKlayDesired, amountTokenMin, amountKlayMin, deadline.toString())
+    console.log(txReceipt);
+}
+
+main();
+```
+
+### 6. Multisig
 Multisig module can be used to submit and confirm proposals. After a certain number of signers confirmed an operation, it can be executed. After the specified condition is met, i.e. the number of signers that confirmed an operation is greater than min_required, the proposal is executed automatically during confirmTransaction function call. In case of a fail, the proposal could also be executed manually.
 
 You can follow the below steps to execute or call any method using multisig contract using MultiSig module. 
 
-##### Example
+#### Example
 In the below example, lets create a new LP farming pool using multisig contract. In order to do that, 
 1. First, you need to get the encoded raw transaction data of the add method in Farming contract along with the parameters. [Ref](https://github.com/klaytn/klaytn-developer-sdk/blob/main/packages/dexs-starter-kit/core/Farming.ts#L88)
 2. Call submitTransaction method from multisig contract to add pool. 

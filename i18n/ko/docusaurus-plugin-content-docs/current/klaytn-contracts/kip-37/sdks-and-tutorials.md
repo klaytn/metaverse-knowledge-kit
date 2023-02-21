@@ -17,7 +17,7 @@ This code below defines a KIP37 token. The contract uses the `KIP37` contract fr
 
 The contract has a constructor that initializes the KIP37 contract with the name "MultiTokenNFT". It also initializes a mapping to store the metadata URIs for each token, as well as a token ID counter to keep track of the tokens that have been minted.
 
-The contract defines a mintToken function, which allows users to mint new tokens with metadata URIs. This function takes a string representing the token metadata URI and the amount of tokens to mint, and uses the _mint function of the KIP37 contract to create and mint the new tokens. The function also increments the token ID counter and stores the metadata URI in the mapping.
+The contract defines a mintToken function, which allows users to mint new tokens with metadata URIs. This function takes a string representing the token metadata URI and the amount of tokens to mint, and uses the `_mint` function of the KIP37 contract to create and mint the new tokens. The function also increments the token ID counter and stores the metadata URI in the mapping.
 
 The contract also defines a uri function, which overrides the uri function of the KIP37 contract. This function retrieves the metadata URI for a given token ID from the mapping.
 
@@ -84,9 +84,12 @@ Create a new file named `kip37Caver.js` in the scripts folder.
 
 Paste the code below in your newly created `kip37Caver.js` file. The code illustrates the use of caver.js to interact with the KIP17 token previously created.
 
-First, we import caver.js and the contract ABI, which defines the functions and parameters of the KIP7 contract. Then, we initialize caver.js and the KIP7 contract by providing the contract address.
-
-Next we set the contract address, create and add keyring to enable users sign on using their own Klaytn account. Then, we call a balanceOf function to get a specified address token balance given its ID. Then, we minted tokens to the sender of the transaction given the tokenURI and amount. Finally, we transfer tokens from the current account to another account given the token id, amount to transfer and bytes,  using the `safeTransferFrom` function of the contract.
+1. First, we import caver.js and the contract ABI, which defines the functions and parameters of the KIP7 contract. 
+2. Initialize caver.js and the KIP7 contract by providing the contract address.
+3. Set the contract address, create and add keyring to enable users sign on using their own Klaytn account. 
+4. Call a balanceOf function to get a specified address token balance given its ID. 
+5. Mint tokens to the sender of the transaction given the tokenURI and amount. 
+6. Finally, we transfer tokens from the current account to another account given the token id, amount to transfer and bytes,  using the `safeTransferFrom` function of the contract.
 
 ``` javascript
 

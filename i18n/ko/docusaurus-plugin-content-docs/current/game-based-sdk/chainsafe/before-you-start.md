@@ -31,7 +31,7 @@ The ABI has a special formatting. Replace the " with \" , otherwise it will not 
 string abi = "[ { \"inputs\": [ { \"internalType\": \"uint8\", \"name\": \"_myArg\", \"type\": \"uint8\" } ], \"name\": \"addTotal\", \"outputs\": [], \"stateMutability\": \"nonpayable\", \"type\": \"function\" }, { \"inputs\": [], \"name\": \"myTotal\", \"outputs\": [ { \"internalType\": \"uint256\", \"name\": \"\", \"type\": \"uint256\" } ], \"stateMutability\": \"view\", \"type\": \"function\" } ]";
 ```
 
-## Solving System.ComponentModel.Win32Exception Error <a id="Solving System.ComponentModel.Win32Exception Error"></a>
+## Solving Win32Exception <a id="Solving System.ComponentModel.Win32Exception Error"></a>
 
 You may encounter this error: System.ComponentModel.Win32Exception (2): No such file or directory while building the project if you are using macOS. If it's the case, follow these steps:
 

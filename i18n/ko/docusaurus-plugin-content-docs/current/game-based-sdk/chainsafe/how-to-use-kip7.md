@@ -1,9 +1,9 @@
 ---
 title: Gaming SDK
-sidebar_label: How to use the KIP7 token
+sidebar_label: Create KIP7 token
 ---
 
-# 💻 How to use the KIP7 token <a id="How to use the KIP7 token"></a>
+# 💎 How to create KIP7 token <a id="How to use the KIP7 token"></a>
 
 In this section you will see how to build a Unity project using the KIP7 (ERC-20) token standard on Klaytn.
 

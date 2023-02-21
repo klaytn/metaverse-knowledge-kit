@@ -154,25 +154,39 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '🔧 Developer Tools and SDKs',
+      label: '⚓ Developer Tools and SDKs',
       collapsed: false,
       link: {
         type: 'generated-index',
       },
-      items: [
-        'developer-tools-sdks/developer-tools',  
+      items: [ 
         {
           type: 'category',
           label: 'Developer SDK',
-          collapsed: true,
+          collapsed: false,
+          link: {
+            type: 'generated-index',
+          },
           items: [
-            'developer-tools-sdks/developer-sdk/overview',
-            'developer-tools-sdks/developer-sdk/bridge-starter-kit',
-            'developer-tools-sdks/developer-sdk/oracle-starter-kit',
-            'developer-tools-sdks/developer-sdk/dex-starter-kit',
-          ]
-        }
-        ],
+            'developer-tools-sdks/developer-sdk/overview', 
+            'developer-tools-sdks/developer-sdk/oracle-starter-kit',  
+            {
+              type: 'category',
+              label: 'Bridge Starter Kit',
+              collapsed: true,
+              link: {
+                type: 'generated-index',
+              },
+              items: [
+                'developer-tools-sdks/developer-sdk/bridge-starter-kit/celer',  
+                'developer-tools-sdks/developer-sdk/bridge-starter-kit/wormhole',   
+                ],
+            },
+            'developer-tools-sdks/developer-sdk/dex-starter-kit',   
+          ],
+        },
+        'developer-tools-sdks/developer-tools', 
+      ],
     },
     {
       type: 'category',

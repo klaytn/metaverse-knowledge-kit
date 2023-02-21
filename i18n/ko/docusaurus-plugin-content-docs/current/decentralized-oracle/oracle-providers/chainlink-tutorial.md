@@ -97,3 +97,10 @@ Congratulations on successfully requesting for random numbers using ChainLink VR
 
 ## Conclusion
 In this tutorial, we saw how to use  Chainlink oracle to get the Random Numbers on Klaytn Testnet (Baobab). If you want more information, visit [Klaytn Docs](https://docs.klaytn.foundation/) and [Chainlink Oracle Docs](https://docs.chain.link/getting-started/conceptual-overview). If you have any questions, visit [Klaytn Forum](https://forum.klaytn.foundation/).
+
+
+:::info
+
+Chainlink integration is available only in the **Baobab** testnet.
+
+:::

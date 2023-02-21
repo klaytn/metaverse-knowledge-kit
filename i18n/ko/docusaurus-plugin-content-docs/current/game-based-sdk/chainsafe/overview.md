@@ -7,7 +7,7 @@ sidebar_label: Overview
 
 The ChainSafe Unity SDK provides a toolkit for Game Developers to interact with blockchains. It will give you the proper tools to connect to the network, send and sign transactions, interact with smart contracts, fetch balances (coins, NFTs, tokens) and more. 
 
-This guide will walk you through setting up your environment, installing ChainSafe, and using the ChainSafe SDK to bridge your game to the blockchain.
+This guide will walk you through setting up your environment, installing ChainSafe, and using the ChainSafe SDK to bridge your game to the Klaytn Blockchain.
 
 For additional methods please refer to the [ChainSafe Documentation](https://docs.gaming.chainsafe.io/).
 

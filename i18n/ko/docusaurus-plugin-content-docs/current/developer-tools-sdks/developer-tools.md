@@ -1,11 +1,11 @@
 ---
-title: 🔧 Developer Tools
+title: ⚓ Developer Tools
 sidebar_label: Developer Tools
 ---
 
 ## Overview <a id="Developer Tools"></a>
 
-There are many SDKs and developer tools supported on Klaytn that will be useful in building your metaverse applications. For individuals looking to build metaverse smart contracts for hackathon projects, or for enterprises trying to lead ways in the digital world to stir up new opportunities around branding, global reach, and revenue generation. The following list of tools is a core list of tools to choose from.
+There are many tools supported on Klaytn that will be useful in building your metaverse applications. For individuals looking to build metaverse smart contracts for hackathon projects, or for enterprises trying to lead ways in the digital world to stir up new opportunities around branding, global reach, and revenue generation. The following list of tools is a core list of tools to choose from.
 
 
 ## Wallets <a id="Wallets"> </a>

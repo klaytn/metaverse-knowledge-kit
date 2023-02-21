@@ -104,9 +104,12 @@ Create a new file named `kip17Caver.js` in the scripts folder.
 
 Paste the code below in your newly created `kip17Caver.js` file. The code illustrates the use of caver.js to interact with the KIP17 token previously created.
 
-First, we import caver.js and the contract ABI, which defines the functions and parameters of the KIP7 contract. Then, we initialize caver.js and the KIP7 contract by providing the contract address.
-
-Next we set the contract address, create and add keyring to enable users sign on using their own Klaytn account. Then, we call a balanceOf function to get a specified address token balance. Then, we minted tokens to a  specified account given the sender of this transaction is the creator of the contract. Finally, we transfer tokens from the current account to another account given the token id using the `safeTransferFrom`
+1. First, We import caver.js and the contract ABI, which defines the functions and parameters of the KIP7 contract. 
+2. We initialize caver.js and the KIP7 contract by providing the contract address.
+3. Set the contract address, create and add keyring to enable users sign on using their own Klaytn account. 
+4. Call a balanceOf function to get a specified address token balance. 
+5. Mint tokens to a specified account given the sender of this transaction is the creator of the contract. 
+6. Finally, we transfer tokens from the current account to another account given the token id using the `safeTransferFrom`
 function of the contract.
 
 ``` javascript

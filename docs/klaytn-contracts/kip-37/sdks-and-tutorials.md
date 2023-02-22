@@ -100,7 +100,7 @@ const contractABI = require("../abi/kip37Abi.json")
 
 // Initialize caver.js and the KIP7 contract
 const caver = new Caver('https://api.baobab.klaytn.net:8651/')
-const contractAddr = "paste contract address"
+const contractAddr = "<Paste contract address>"
 const contract = caver.contract.create(contractABI, contractAddr);
 
 // Create and add keyring

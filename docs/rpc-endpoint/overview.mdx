@@ -64,14 +64,6 @@ https://api.baobab.klaytn.net:8651
 <TabItem value="fantrie" label="Fantrie">
 
 ```js
-Mainnet 
-
-https://klaytn01.fautor.app/
-https://klaytn02.fautor.app/
-https://klaytn03.fautor.app/
-https://klaytn04.fautor.app/
-https://klaytn05.fautor.app/
-
 Testnet
 
 https://baobab01.fautor.app/
@@ -115,13 +107,6 @@ wss://api.baobab.klaytn.net:8652
 <TabItem value="fantrie" label="Fantrie">
 
 ```js
-Mainnet 
-
-wss://klaytn01.fautor.app/ws/
-wss://klaytn02.fautor.app/ws/
-wss://klaytn03.fautor.app/ws/
-wss://klaytn04.fautor.app/ws/
-wss://klaytn05.fautor.app/ws/
 
 Testnet
 
@@ -154,7 +139,7 @@ wss://baobab02.fautor.app/ws/
 
 ## Archive Nodes
 
-Klaytn, as a public blockchain, a diverse set of nodes ensure that the network is secure. These nodes, store and analyze blockchain information, validate the blockchain's state. Each node on the same network can interact with another node to accomplish a variety of tasks.
+In general, a diverse set of nodes ensure that the blockchain network (e.g Klaytn) is secure. These nodes, store and analyze blockchain information, validate the blockchain's state. Each node on the same network can interact with another node to accomplish a variety of tasks.
 
 One type of node serving a unique purpose is the archival node, which is responsible for storing the complete historical data of the blockchain. The most current blockchain state is stored by other types, including the full node and the light node.
 
@@ -169,10 +154,11 @@ Your metaverse smart contract may need to be tested in some edge circumstances b
 In order to develop a reputation system in your metaverse application, for instance, you may need to keep track of users' actions over an extended period of time. This is one real-world illustration of the necessity of archive nodes.
 
 
-
+### Provider
+**A. Fantrie**
 
 <Tabs>
-<TabItem value="fantrie" label="Fantrie">
+<TabItem value="fantrie" label="HTTPS">
 
 ```js
 Mainnet
@@ -182,6 +168,20 @@ https://cypress.fautor.app/archive
 Testnet
 
 https://baobab.fautor.app/archive
+```
+
+</TabItem>
+
+<TabItem value="fantrie1" label="WSS">
+
+```js
+Mainnet
+
+wss://cypress.fautor.app/archive/ws
+
+Testnet
+
+wss://baobab.fautor.app/archive/ws
 ```
 
 </TabItem>

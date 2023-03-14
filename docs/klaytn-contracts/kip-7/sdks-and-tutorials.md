@@ -65,7 +65,7 @@ In order to interact with deployed contracts using caver-js, you will need to fo
 
 **a. Set up ABI folder**
 
-Create a new folder named abi  in your project directory. Inside this new folder, create a new file named `kip7Abi.json`. Paste the contract ABI into this newly created file.
+Create a new folder named `abi`  in your project directory. Inside this new folder, create a new file named `kip7Abi.json`. Paste the contract ABI into this newly created file.
 
 **b. Create your Scripts**
 
@@ -84,7 +84,7 @@ Paste the code below in your newly created `kip7Caver.js` file. Code below illus
 
 
 ```javascript
-// Interact with KIP7 contract with caver-js
+// Interact with KIP7 contract using caver-js
 
 // Import caver.js and the KIP7 contract ABI
 const Caver = require('caver-js')
@@ -96,7 +96,7 @@ const contractAddr = “paste contract address here”
 const contract = caver.contract.create(contractABI, contractAddr);
 
 // Create and add keyring
-const keyring = caver.wallet.keyring.createFromPrivateKey(‘paste’ private key here)
+const keyring = caver.wallet.keyring.createFromPrivateKey('<Paste private key from Kaikas Wallet>')
 caver.wallet.add(keyring)
 
 // function to get token balance

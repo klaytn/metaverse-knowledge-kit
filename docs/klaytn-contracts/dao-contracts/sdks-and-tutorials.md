@@ -42,7 +42,7 @@ In this section, you'll create your simple governance token—the token you will
 
 This will engage your MetaMask to deploy the contract to the Klaytn Baobab Testnet through your currently selected MetaMask account. Click **Confirm** in the MetaMask modal.
 
-![](/images/dao/daoRemixGovernanceToken.png)
+![](/images/dao/daoRemixGovtToken.png)
 
 ## 3. Create and deploy your KIP-7 mintable token contract <a id="Create and deploy your KIP-7 mintable token contract"></a>
 
@@ -420,144 +420,8 @@ After successfully executing this transaction, new tokens will be minted to the 
 
 ![](/images/dao/tokenDisplay.png)
 
-Congratulations on performing your on-chain governance successfully.
+Congratulations on performing your on-chain governance successfully. You can find the full implementation of the script file on [Github](https://gist.github.com/ayo-klaytn/c6d74b09ad20fa1d6f45c9bdf783009e)
 
-**FullCode**
-
-```js
-// Interact with governanceToken contract with caver-js
-
-// Import caver.js and each governance contract ABI
-const Caver = require('caver-js')
-const governanceTokenABI = require("../abi/governance/governanceToken.json")
-const governanceMintableTokenABI = require("../abi/governance/govtMintableTokenContract.json")
-const governanceContractABI = require("../abi/governance/governanceContract.json")
-
-// Initialize caver.js and the each governance contract
-const caver = new Caver('https://api.baobab.klaytn.net:8651/')
-const governanceTokenAddr = "<PASTE GOVERNANCE TOKEN CONTRACT ADDRESS>";
-const governanceMintableTokenAddr = "<<PASTE GOVERNANCE MINTABLE TOKEN CONTRACT ADDRESS>>";
-const governanceContractAddr = "<PASTE GOVERNANCE CONTRACT ADDRESS>";
-
-
-const contract = caver.contract.create(governanceTokenABI, governanceTokenAddr);
-const govtMintableContract = caver.contract.create(governanceMintableTokenABI, governanceMintableTokenAddr);
-const governanceContract = caver.contract.create(governanceContractnABI, governanceContractAddr);
-
-// Create and add keyring
-// Provide the private key of the address that deployed each governance contract in this tutorial
-const keyring = caver.wallet.keyring.createFromPrivateKey("<PASTE YOUR PRIVATE KEY>")
-caver.wallet.add(keyring)
-
-// function to delegate
-//  provide an account to be able to cast votes in the governance contract.
-const delegateAccount = async (delegatee) => {
-    contract.send({from: keyring.address, gas: 1500000, value: 0}, 'delegate', delegatee)
-    .then(receipt => {
-        console.log(receipt);
-    })
-    .catch(err => {
-        console.log(err);
-    })
-}
-
-// check delegates
-const  checkDelegates = async (addr) => {
-    contract.methods.delegates(addr).call()
-    .then(result => {
-        console.log(result);
-    })
- }
-
-// Transfer the contract ownership
-// Your governance contract can now mint the ERC-20 tokens.
-const transferOwnership = async () => {
-    const newOwner = "<PASTE GOVERNANCE CONTRACT ADDRESS>"; // governance contract
-    govtMintableContract.send({from: keyring.address, gas: 1500000, value: 0}, 'transferOwnership', newOwner)
-    .then(receipt => {
-        console.log(receipt);
-    })
-    .catch(err => {
-        console.log(err);
-    })
-}
-
-// check new owner
-const  checkNewOwner = async () => {
-    govtMintableContract.methods.owner().call()
-    .then(result => {
-        console.log(result);
-    })
- }
-
-
-// Propose
-// create the actual proposal on the governance contract.
-const propose = async () => {
-    const target = ["<PASTE GOVERNANCE MINTABLE TOKEN CONTRACT ADDRESS>"] // KIP7 Mintable Token Contract Address
-    const values = ["0"] 
-    const calldata = ["<PASTE YOUR CALL DATA>"]
-    const description = "First Proposal";
-
-
-    governanceContract.send({from: keyring.address, gas: 1500000, value: 0}, 'propose', target, values, calldata, description)
-    .then(receipt => {
-        console.log(receipt.events.ProposalCreated.returnValues.proposalId);
-    })
-    .catch(err => {
-        console.log(err);
-    })
-}
-
-// Cast vote
-// This will create a transaction that casts your vote
-const castVote = async () => {
-    const proposalId = “<PASTE PROPOSALID>”;
-    const support = "1";
-
-    governanceContract.send({from: keyring.address, gas: 1500000, value: 0}, 'castVote', proposalId, support)
-    .then(receipt => {
-        console.log(receipt);
-    })
-    .catch(err => {
-        console.log(err);
-    })
-}
-
-
-// Execute Passed Proposal
-// Will execute the passed proposal on the governance contract
-const executeProposal = async () => {
-    const target = [“<PASTE GOVERNANCE MINTABLE CONTRACT ADDRESS>”] // KIP7 Mintable Token Contract Address
-    const values = ["0"] 
-    const calldata = [“<PASTE CALLDATA HERE>”]
-    const descriptionHash = “<PASTE DESCRIPTION HASH HERE>”;
-
-
-    governanceContract.send({from: keyring.address, gas: 1500000, value: 0}, 'execute', target, values, calldata, descriptionHash)
-    .then(receipt => {
-        console.log(receipt);
-    })
-    .catch(err => {
-        console.log(err);
-    })
-}
-
-
-const delegatee = "<PASTE YOUR ACCOUNT>"; 
-delegateAccount(delegatee);
-checkDelegate(delegatee);
-
-// transferOwnership();
-// checkNewOwner();
-
-// propose();
-
-// castVote();  
-
-// executeProposal();
-
-```
  
 ## 6. Conclusion <a id="Conclusion"></a>
 

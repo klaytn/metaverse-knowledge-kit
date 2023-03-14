@@ -24,8 +24,9 @@ DAO members frequently invest their funds in the form of tokens to achieve a com
 
 Having said that, DAO members have the option of making proposals for the project's future. The following categories represent some of the critical decisions made by DAO members:
 
-* **Technical Upgrades**: Token holders may submit proposals for distributing DAO funds for bug fixes and system upgrades in this case. People interested in the protocol may be compensated in this case if they assist with bug fixes or system upgrades.
-* **Treasury Pooling Allocation**: Members can use the DAO funds to take advantage of a profitable investment opportunity. Investing in valuable assets is one example (NFTs).
+* **Technical proposals**: These proposals suggest technical improvements or changes to the network to further enhance the security, performance, or functionality of the protocol.
+* **Treasury proposals**: These are proposals that can request funding from the DAO's treasury, make changes to the treasury for the project’s future.
+* **Community proposals**: These proposals allows members to request funding to engage and grow the community.
 
 
 ## Usecase <a id="DAO Usecase"></a>

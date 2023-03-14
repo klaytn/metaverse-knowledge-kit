@@ -16,7 +16,7 @@ The following are some of the benefits of running an organization in a decentral
 
 ## How does a DAO work? <a id="How do DAO’s work"></a>
 
-Smart contracts can be used to program the functionality of a DAO. Governance abilities such as raising proposals, casting votes, and executing proposals are all possible and readily available on-chain. Remember that all of this is done by members of the community, not by a central authority.
+Smart contracts can be used to program the functionality of a DAO. Governance abilities such as creating new proposals, casting votes, and finalising proposals are all possible and readily available on-chain. Remember that all of this is done by members of the community, not by a central authority.
 
 Members, ideally, agree on decisions after raising a proposal in the first instance. If the proposal is supported by the majority of stakeholders, it is automatically implemented. For example, based on the result of a members’ vote, a code may be triggered to mint a predetermined amount of tokens held in the DAO’s custody to a specified blockchain address.  
 

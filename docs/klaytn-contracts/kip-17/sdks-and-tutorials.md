@@ -4,7 +4,7 @@ sidebar_label: Tutorial
 ---
 
 # 💻 KIP17 Tutorial <a id="KIP17 Tutorial"></a>
-In order to interact with deployed contracts using caver-js, you will need to follow these steps.
+In this guide, you will deploy a KIP17 contracts on Remix IDE and, after deployment, interact with the contract using caver-js.
 
 ## 1. Prerequisite <a id="KIP17 Tutorial Prerequsite"></a>
 
@@ -17,7 +17,7 @@ The code below defines a KIP17 token called. The contract uses the `KIP17` and `
 
 The contract has a constructor that initializes the KIP17 contract with the name "HappyMonkey" and the symbol "HM". It also increments the token ID counter to start at 1 (the default value is 0).
 
-The contract defines two public functions, withdraw and safeMint, as well as several internal and override functions. The withdraw function allows the contract owner to withdraw any KLAY that is in the contract. The safeMint function allows users to mint new tokens in the bundle, provided that the total supply is less than the maximum limit and the user sends at least the minimum required amount of KLAY.
+The contract defines two public functions, withdraw and safeMint, as well as several internal and override functions. The withdraw function allows the contract owner to withdraw any KLAY that is in the contract. The safeMint function allows users to mint new tokens provided that the total supply is less than the maximum limit and the user sends at least the minimum required amount of KLAY.
 
 The contract also overrides the _baseURI and supportsInterface functions from the KIP17 and KIP17Enumerable contracts, as well as the _beforeTokenTransfer function from the [KIP17](https://github.com/klaytn/klaytn-contracts/tree/master/contracts/KIP/token/KIP17) contract. These functions are used for various internal and utility purposes, such as setting the base URI for token metadata and checking if the contract supports a specific interface.
 
@@ -94,7 +94,7 @@ After installing caver-js, you will need to follow these steps.
 
 **a. Set up ABI folder**
 
-Create a new file named `kip17Abi.json` in the helper folder. 
+Create a new file named `kip17Abi.json` in the `abi` folder. 
 
 **b. Create your Scripts**
 
@@ -113,7 +113,7 @@ Paste the code below in your newly created `kip17Caver.js` file. The code illust
 function of the contract.
 
 ``` javascript
-// Interact with KIP7 contract with caver-js
+// Interact with KIP7 contract using caver-js
 
 // Import caver.js and the KIP7 contract ABI
 const Caver = require('caver-js')
@@ -125,7 +125,7 @@ const contractAddr = "paste contract address"
 const contract = caver.contract.create(contractABI, contractAddr);
 
 // Create and add keyring
-const keyring = caver.wallet.keyring.createFromPrivateKey(“Paste private key from kaikas wallet”)
+const keyring = caver.wallet.keyring.createFromPrivateKey('<Paste private key from Kaikas Wallet>')
 caver.wallet.add(keyring)
 
 // function to get token balance

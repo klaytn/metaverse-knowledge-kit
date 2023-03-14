@@ -70,7 +70,11 @@ const sidebars = {
           type: 'category',
           label: 'DAO Contracts',
           collapsed: true,
-          items: ['klaytn-contracts/dao-contracts/introduction'],
+          items: [
+            'klaytn-contracts/dao-contracts/introduction', 
+            'klaytn-contracts/dao-contracts/sdks-and-tutorials',
+            'klaytn-contracts/dao-contracts/governance-tools'
+          ]
         },
         'klaytn-contracts/tools-and-sdks',
       ],
@@ -153,10 +157,9 @@ const sidebars = {
           items: [
             'decentralized-oracle/oracle-providers/overview',
             'decentralized-oracle/oracle-providers/witnet-tutorial',
-            'decentralized-oracle/oracle-providers/chainlink-tutorial',
-          ],
-        },
-      ],
+            'decentralized-oracle/oracle-providers/supraOracles-tutorial']
+        }
+        ],
     },
     {
       type: 'category',

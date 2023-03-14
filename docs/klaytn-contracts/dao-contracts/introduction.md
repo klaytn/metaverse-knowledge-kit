@@ -11,7 +11,7 @@ In contrast to traditional organizations, DAOs are community-driven entities tha
 The following are some of the benefits of running an organization in a decentralized way:
 
 * **Transparency**: All proposals and votes can be viewed publicly on the blockchain. This enhances transparency and accountability because all members will want to act honestly.
-* **Community-driven**: People with similar interests are brought together to work toward a common goal. As a result, a DAO allows people from all over the world to collaborate on a common goal.
+* **Community-driven**: People with similar interests are brought together to work towards a common goal. As a result, a DAO allows people from all over the world to collaborate on a common goal.
 * **No-central Authority**: Decisions in a DAO are not made by a central authority.
 
 ## How does a DAO work? <a id="How do DAO’s work"></a>

@@ -5,7 +5,7 @@ sidebar_label: Tutorial
 
 # 💻 Simple On-chain Governance Tutorial
 
-In this tutorial you will use [Klaytn Contract](https://github.com/klaytn/klaytn-contracts), [Klaytn Contract Wizard](https://wizard.klaytn.foundation/)  and [Caver-Js](https://docs.klaytn.foundation/content/dapp/sdk/caver-js/getting-started) to run a simple on-chain governance. You tend to learn about how to:
+In this tutorial you will use [Klaytn Contract](https://github.com/klaytn/klaytn-contracts), [Klaytn Contract Wizard](https://wizard.klaytn.foundation/)  and [Caver-Js](https://docs.klaytn.foundation/content/dapp/sdk/caver-js/getting-started) to run a simple on-chain governance. You will learn about how to:
 * Create a KIP7 governance token contract that you ll use to cast votes on the governance proposals.
 * Create a standard governor contract.
 * Create a mintable KIP7 contract that will mint new tokens on the successful execution of the on-chain governance proposal.

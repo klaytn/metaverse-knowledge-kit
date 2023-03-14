@@ -152,7 +152,7 @@ const sidebars = {
           items: [
             'decentralized-oracle/oracle-providers/overview',
             'decentralized-oracle/oracle-providers/witnet-tutorial',
-            'decentralized-oracle/oracle-providers/chainlink-tutorial']
+            'decentralized-oracle/oracle-providers/supraOracles-tutorial']
         }
         ],
     },

@@ -4,7 +4,7 @@ sidebar_label: Tutorial
 ---
 
 # 💻 KIP37 Tutorial <a id="KIP37 Tutorial"></a>
-In order to interact with deployed contracts using caver-js, you will need to follow these steps.
+In this guide, you will deploy a KIP37 contract on Remix IDE and then use caver-js to interact with it
 
 ## 1. Prerequisite <a id="KIP37 Tutorial Prerequsite"></a>
 
@@ -74,7 +74,7 @@ After installing caver-js, you will need to follow these steps.
 
 **a. Set up ABI folder**
 
-Create a new file named `kip37Abi.json` in the helper folder. 
+Create a new file named `kip37Abi.json` in the `abi` folder. 
 
 **b. Create your Scripts**
 
@@ -92,6 +92,20 @@ Paste the code below in your newly created `kip37Caver.js` file. The code illust
 6. Finally, we transfer tokens from the current account to another account given the token id, amount to transfer and bytes,  using the `safeTransferFrom` function of the contract.
 
 ``` javascript
+
+// Interact with KIP37 contract using caver-js
+// Import caver.js and the KIP7 contract ABI
+const Caver = require('caver-js')
+const contractABI = require("../abi/kip37Abi.json")
+
+// Initialize caver.js and the KIP7 contract
+const caver = new Caver('https://api.baobab.klaytn.net:8651/')
+const contractAddr = "<Paste contract address>"
+const contract = caver.contract.create(contractABI, contractAddr);
+
+// Create and add keyring
+const keyring = caver.wallet.keyring.createFromPrivateKey('<Paste private key from Kaikas Wallet>')
+caver.wallet.add(keyring)
 
 // function to mintTokens 
 const mintTokens = async () => {

@@ -1,4 +1,4 @@
-name: klaytn-metaverse-package-docs dev deploy workflow
+name: metaverse-knowledge-kit dev deploy workflow
 on:
   push:
     branches:

@@ -1,4 +1,4 @@
-name: klaytn-metaverse-package-docs production deploy workflow
+name: metaverse-knowledge-kit production deploy workflow
 on:
   push:
     tags:

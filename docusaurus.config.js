@@ -66,7 +66,7 @@ const config = {
     ({
       image: 'img/klaytn.png',
       navbar: {
-        title: 'Metaverse Docs',
+        title: 'Metaverse Knowledge Kit',
         logo: {
           alt: 'Klaytn Logo',
           src: 'img/klaytn.png',

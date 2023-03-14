@@ -3,7 +3,8 @@ title: ⛓ Governance Tools
 sidebar_label: Governance Tools
 ---
 
-This page contains the list of governance tools to help you build decentralized organizations(DAO) on Klaytn.
+This page contains the list of governance tools which can be integrated with the dapp to build 
+a DAO in Metaverse.
 
 1. [Snapshot](https://docs.snapshot.org/) is a leading decentralized off-chain governance platform  that enables protocols/projects to conduct secure decentralized decision making without having to build the infrastructure from scratch. Visit this [guide](https://medium.com/klaytn/using-snapshot-for-your-klaytn-project-governance-1ced3ff6244) on how to get started using Snapshot on Klaytn.
 

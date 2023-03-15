@@ -1,15 +1,17 @@
 ---
-title: Intro Page
+title: 🔮 Introduction
 ---
 
-#클레이튼 메타버스 문서
+# 🔮 Metaverse Knowledge Kit
 
-클레이튼 게임 및 메타버스 패키지는 클레이튼 생태계에서 개발자들에게 권한을 부여하고 클레이튼에서 놀라운 웹 3 프로젝트의 개발을 가속화하기 위해 개발된 도구 및 서비스 모음입니다. 이 리소스는 게임 및 메타버스 프로젝트를 구축할 수 있는 올바른 정보를 얻는 데 도움이 될 것입니다. 이 문서는 3 가지 범주로 나뉩니다:
+The Klaytn Metaverse Knowledge Kit is a collection of tools and services developed in the Klaytn ecosystem to empower developers and accelerate the development of amazing web3 projects on Klaytn. The resources will help you to get the right information to build your game and metaverse projects. This documentation is divided into 3 categories:
 
-**정보 콘텐츠**:해당 리소스를 사용하는 방법에 대한 문서 및 자습서뿐만 아니라 관련 기존 라이브러리 도구에 대한 링크,모범 사례,표준의 컨텍스트를 제공합니다. 도구 및 구성의 기본 조합 어쩌면 일부 스타터 키트.
+**Informational Content**: Provides context of standards, usecases, best practices, links to existing libraries tooling, as well as documentation and tutorials on how to use those resources.
 
-*그러나 생물 과학과 같은 다른 분야에 대한 어플리케이션도 있습니다..
+**Package Support**: Built-in npm packages which wrap functionality of various tools into an easy to use SDK (per tool). Some starter kits with default combinations of tools and configurations.
 
-*이 패키지는 추상 콜백을 클래스 메서드,함수 또는 함수 오브젝트에 연결하는 기능을 제공하고 다른 콜백을 연결하기 위한 어댑터 클래스를 담고 있습니다..
+**API Support**: Klaytn provides a secure and unified API which covers all the SDKs, tools and node API to interact with the network and for building applications.
 
-
+:::info
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+:::

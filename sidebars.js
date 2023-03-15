@@ -28,9 +28,7 @@ const sidebars = {
         description: 'Kick Start your journey in Metaverse!',
         keywords: ['started'],
       },
-      items: [
-        'getting-started/overview', 
-        'getting-started/introduction'],
+      items: ['getting-started/overview', 'getting-started/introduction'],
     },
     {
       type: 'category',
@@ -47,8 +45,8 @@ const sidebars = {
           collapsed: true,
           items: [
             'klaytn-contracts/kip-7/introduction',
-            'klaytn-contracts/kip-7/sdks-and-tutorials'
-            ],
+            'klaytn-contracts/kip-7/sdks-and-tutorials',
+          ],
         },
         {
           type: 'category',
@@ -56,7 +54,8 @@ const sidebars = {
           collapsed: true,
           items: [
             'klaytn-contracts/kip-17/introduction',
-            'klaytn-contracts/kip-17/sdks-and-tutorials'],
+            'klaytn-contracts/kip-17/sdks-and-tutorials',
+          ],
         },
         {
           type: 'category',
@@ -64,7 +63,8 @@ const sidebars = {
           collapsed: true,
           items: [
             'klaytn-contracts/kip-37/introduction',
-            'klaytn-contracts/kip-37/sdks-and-tutorials'],
+            'klaytn-contracts/kip-37/sdks-and-tutorials',
+          ],
         },
         {
           type: 'category',
@@ -76,7 +76,8 @@ const sidebars = {
             'klaytn-contracts/dao-contracts/governance-tools'
           ]
         },
-        'klaytn-contracts/tools-and-sdks']
+        'klaytn-contracts/tools-and-sdks',
+      ],
     },
     {
       type: 'category',
@@ -88,7 +89,8 @@ const sidebars = {
       items: [
         'dynamic-nfts/dnft-introduction',
         'dynamic-nfts/dnft-usecase',
-        'dynamic-nfts/tutorial'],
+        'dynamic-nfts/tutorial',
+      ],
     },
     {
       type: 'category',
@@ -112,8 +114,10 @@ const sidebars = {
             'game-based-sdk/chainsafe/custom-interaction-with-login',
             'game-based-sdk/chainsafe/how-to-use-kip7',
             'game-based-sdk/chainsafe/how-to-use-kip17',
-            'game-based-sdk/chainsafe/how-to-use-kip37'],
-        }],
+            'game-based-sdk/chainsafe/how-to-use-kip37',
+          ],
+        },
+      ],
     },
     {
       type: 'category',
@@ -131,9 +135,10 @@ const sidebars = {
           collapsed: true,
           items: [
             'decentralized-storage/ipfs',
-            'decentralized-storage/tutorial',]
-        }
-        ],
+            'decentralized-storage/tutorial',
+          ],
+        },
+      ],
     },
     {
       type: 'category',
@@ -163,17 +168,17 @@ const sidebars = {
       link: {
         type: 'generated-index',
       },
-      items: [ 
+      items: [
         {
           type: 'category',
-          label: 'Developer SDK',
+          label: 'Service SDK',
           collapsed: false,
           link: {
             type: 'generated-index',
           },
           items: [
-            'developer-tools-sdks/developer-sdk/overview', 
-            'developer-tools-sdks/developer-sdk/oracle-starter-kit',  
+            'developer-tools-sdks/service-sdk/overview',
+            'developer-tools-sdks/service-sdk/oracle-starter-kit',
             {
               type: 'category',
               label: 'Bridge Starter Kit',
@@ -182,14 +187,14 @@ const sidebars = {
                 type: 'generated-index',
               },
               items: [
-                'developer-tools-sdks/developer-sdk/bridge-starter-kit/celer',  
-                'developer-tools-sdks/developer-sdk/bridge-starter-kit/wormhole',   
-                ],
+                'developer-tools-sdks/service-sdk/bridge-starter-kit/celer',
+                'developer-tools-sdks/service-sdk/bridge-starter-kit/wormhole',
+              ],
             },
-            'developer-tools-sdks/developer-sdk/dex-starter-kit',   
+            'developer-tools-sdks/service-sdk/dex-starter-kit',
           ],
         },
-        'developer-tools-sdks/developer-tools', 
+        'developer-tools-sdks/developer-tools',
       ],
     },
     {
@@ -199,10 +204,8 @@ const sidebars = {
       link: {
         type: 'generated-index',
       },
-      items: [
-        'rpc-endpoint/overview',  
-        ],
-    }
+      items: ['rpc-endpoint/overview'],
+    },
   ],
 };
 

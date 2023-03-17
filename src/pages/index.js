@@ -8,8 +8,8 @@ import Translate, { translate } from '@docusaurus/Translate';
 
 import styles from './index.module.css';
 
-const title = <Translate>Klaytn Metaverse</Translate>;
-const tagline = <Translate>Lets Build The Metaverse Together</Translate>;
+const title = <Translate>Metaverse Knowledge Kit</Translate>;
+const tagline = <Translate>Seamlessly build your Metaverse on Klaytn</Translate>;
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -18,29 +18,8 @@ function HomepageHeader() {
       className={clsx('hero hero--primary', styles.heroBanner, styles.heroBg)}
     >
       <div className={clsx(styles.heroElements)}>
-        <img
-          className={clsx(styles.elementCloudLeft)}
-          src="/img/cloud-left.png"
-        />
-        <img
-          className={clsx(styles.elementLogo)}
-          src="/img/3D-Sphere-Planet.png"
-        />
-        <img
-          className={clsx(styles.elementMinecraft)}
-          src="/img/minecraft.png"
-        />
-        <img className={clsx(styles.elementPerson)} src="/img/person.png" />
-        <img className={clsx(styles.elementRocket)} src="/img/rocket.png" />
-        <img
-          className={clsx(styles.elementCloudRight)}
-          src="/img/cloud-right.png"
-        />
-        <img className={clsx(styles.elementCoin)} src="/img/coin.png" />
-        <img
-          className={clsx(styles.elementSpeedDelivery)}
-          src="/img/speed-delivery.png"
-        />
+        <img className={clsx(styles.elementSphere)} src="/img/klaytn-sphere.png"/>
+        <img className={clsx(styles.elementRedstairs)} src="/img/red-stairs.png"/>
       </div>
       <div className={clsx('container', styles.heroContainer)}>
         <h1 className="hero__title">{title}</h1>

@@ -169,10 +169,45 @@ Your metaverse smart contract may need to be tested in some edge circumstances b
 In order to develop a reputation system in your metaverse application, for instance, you may need to keep track of users' actions over an extended period of time. This is one real-world illustration of the necessity of archive nodes.
 
 
-
+### Provider
+**A. Klaytn Foundation**
 
 <Tabs>
-<TabItem value="fantrie" label="Fantrie">
+<TabItem value="kf1" label="HTTPS">
+
+```js
+Mainnet
+
+https://archive-en.cypress.klaytn.net
+
+Testnet
+
+https://archive-en.baobab.klaytn.net
+```
+
+</TabItem>
+
+<TabItem value="kf2" label="WSS">
+
+```js
+Mainnet
+
+wss://archive-en.cypress.klaytn.net/ws
+
+Testnet
+
+wss://archive-en.baobab.klaytn.net/ws
+```
+
+</TabItem>
+
+</Tabs>
+
+
+**B. Fantrie**
+
+<Tabs>
+<TabItem value="fantrie" label="HTTPS">
 
 ```js
 Mainnet
@@ -185,8 +220,22 @@ https://baobab.fautor.app/archive
 ```
 
 </TabItem>
-</Tabs>
 
+<TabItem value="fantrie1" label="WSS">
+
+```js
+Mainnet
+
+wss://cypress.fautor.app/archive/ws
+
+Testnet
+
+wss://baobab.fautor.app/archive/ws
+```
+
+</TabItem>
+
+</Tabs>
 
 
 ## How to run your own Node

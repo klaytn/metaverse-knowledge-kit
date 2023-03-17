@@ -14,7 +14,7 @@ Features of wormhole bridge available in this package are:
 Follow the below steps to try out the above features using the sdk. 
 
 ## Installation
-`npm install @klaytn/kds-bridges-wormhole --save`
+`npm install @klaytn/kss-bridges-wormhole --save`
 
 ## Quick Start
 There are two modules in the wormhole bridge starter kit.
@@ -22,13 +22,13 @@ There are two modules in the wormhole bridge starter kit.
 2. CoreBridgeSDK exposes methods of `@certusone/wormhole-sdk` to write custom methods.
 
 ```typescript
-import BridgeSDK from '@klaytn/kds-bridges-wormhole';
-import CoreBridgeSDK from '@klaytn/kds-bridges-wormhole/core';
+import BridgeSDK from '@klaytn/kss-bridges-wormhole';
+import CoreBridgeSDK from '@klaytn/kss-bridges-wormhole/core';
 
 or
 
-const BridgeSDK = require('@klaytn/kds-bridges-wormhole');
-const CoreBridgeSDK = require('@klaytn/kds-bridges-wormhole/core');
+const BridgeSDK = require('@klaytn/kss-bridges-wormhole');
+const CoreBridgeSDK = require('@klaytn/kss-bridges-wormhole/core');
 ```
 
 ## 1. Token Registration
@@ -61,8 +61,8 @@ BridgeSDK.attest(config, source, destination)
 
 ### Example
 ```typescript
-const BridgeSDK = require('@klaytn/kds-bridges-wormhole');
-const CoreBridgeSDK = require('@klaytn/kds-bridges-wormhole/core');
+const BridgeSDK = require('@klaytn/kss-bridges-wormhole');
+const CoreBridgeSDK = require('@klaytn/kss-bridges-wormhole/core');
 
 const config = { restAddress: "https://wormhole-v2-testnet-api.certus.one" };
 const source = {
@@ -122,8 +122,8 @@ BridgeSDK.transferBasic(config, source, destination, AMOUNT, IS_NATIVE)
 
 ### Example
 ```typescript
-const BridgeSDK = require('@klaytn/kds-bridges-wormhole');
-const CoreBridgeSDK = require('@klaytn/kds-bridges-wormhole/core');
+const BridgeSDK = require('@klaytn/kss-bridges-wormhole');
+const CoreBridgeSDK = require('@klaytn/kss-bridges-wormhole/core');
 
 const config = { restAddress: "https://wormhole-v2-testnet-api.certus.one" };
 const source = {

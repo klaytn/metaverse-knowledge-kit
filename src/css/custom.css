@@ -16,6 +16,7 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --doc-sidebar-width: 270px !important;
+  --aa-wb-color: #FFF;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -28,6 +29,7 @@
   --ifm-color-primary-lighter: #f79a5c;
   --ifm-color-primary-lightest: #f8b386;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --aa-wb-color: #FFF;
 }
 
 :root {
@@ -129,4 +131,16 @@ nav.menu > ul a {
 
 nav.menu {
   overflow-x: auto;
+}
+
+.navbar__title {
+  font-size: 20px;
+}
+
+.hero__title, .hero__subtitle {
+  color: var(--aa-wb-color)
+}
+
+.hero--primary {
+  --ifm-hero-background-color: rgba(29, 25, 25, 0.1) !important;
 }

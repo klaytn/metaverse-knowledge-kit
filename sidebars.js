@@ -195,7 +195,6 @@ const sidebars = {
             'service-sdk/bridge-starter-kit/wormhole',
           ],
         },
-        'service-sdk/dex-starter-kit',
       ],
     },
     {

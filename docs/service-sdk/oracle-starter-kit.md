@@ -129,7 +129,7 @@ The Witnet Price Feeds consumer contract has one task, to read the latest price 
 #### Example
 
 ```typescript
-  // 1 KLAY = 0.23 USD
+  // As at the time of writing this document, 1 KLAY = 0.23 USD
   npx hardhat read-witnet-price-feed --contract 0x573AAAdF4Cf117586e74AE3845473fc65cd59C4c --id 0x6cc828d1 --network baobab
 
   /*

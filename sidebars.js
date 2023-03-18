@@ -181,6 +181,7 @@ const sidebars = {
       },
       items: [
         'service-sdk/overview',
+        'service-sdk/dex-starter-kit',
         'service-sdk/oracle-starter-kit',
         {
           type: 'category',

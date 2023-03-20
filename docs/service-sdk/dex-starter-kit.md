@@ -24,9 +24,9 @@ Below are the features available for DEX admin and user as part of this sdk.
 
 ## Installation
 
-To install the `kds-dex` package, run the following command in your terminal.
+To install the `kss-dexs` package, run the following command in your terminal.
 
-`npm install @klaytn/kds-dexs --save`
+`npm install @klaytn/kss-dexs --save`
 
 Follow the below steps to try out the above features using the sdk.
 
@@ -68,7 +68,7 @@ Config module can be used to initalize contracts and get contract instances to i
 In the below example, we are going to initDex and get the router and factory contract instances. Similary you can use other functions defined in the module
 
 ```js
-import { Config } from '@klaytn/kds-dexs';
+import { Config } from '@klaytn/kss-dexs';
 
 let routerAddress = '0x5867c40175a45b080abad03f19131cfa9569287b';
 let factoryAddress = '0x6b9b434e6e6a381304b0eace93894f1b649637bf';
@@ -110,7 +110,7 @@ Farming module can be used to manage the farming operations with LP tokens.You c
 In the below example, we are going to deposit tokens to a pool based on the PoolId. Similary you can use other functions defined in the module
 
 ```js
-import { Farming } from '@klaytn/kds-dexs';
+import { Farming } from '@klaytn/kss-dexs';
 
 let farmingAddress = '0xf68b8d3fae7feb747cb4dce0a4c91a100b140245';
 let privKey = 'your private key';
@@ -140,7 +140,7 @@ Staking module can be used for long-term staking which allows users to stake the
 In the below example, we are going to stake a KIP7 token using Staking module. Similary you can use other functions defined in the module
 
 ```js
-import { Staking } from '@klaytn/kds-dexs';
+import { Staking } from '@klaytn/kss-dexs';
 
 let routerAddress = '0x5867c40175a45b080abad03f19131cfa9569287b';
 let privKey = 'your private key';
@@ -174,7 +174,7 @@ Swap module can be used to trade one ERC-20 or KIP7 token for another. Each pair
 In the below example, we are going to Swap exactKlayForTokens using Swap module. Similary you can use other functions defined in the module
 
 ```js
-import { Swap } from '@klaytn/kds-dexs';
+import { Swap } from '@klaytn/kss-dexs';
 
 let routerAddress = '0x5867c40175a45b080abad03f19131cfa9569287b';
 let factoryAddress = '0x6b9b434e6e6a381304b0eace93894f1b649637bf';
@@ -224,7 +224,7 @@ Liquidity module can be used to add liquidity into a pool and remove liquidity f
 In the below example, we are going to add liquidity with Klay using Liquidity module. Similary you can use other functions defined in the module
 
 ```js
-import { Liquidity } from '@klaytn/kds-dexs';
+import { Liquidity } from '@klaytn/kss-dexs';
 
 let routerAddress = '0x5867c40175a45b080abad03f19131cfa9569287b';
 let factoryAddress = '0x6b9b434e6e6a381304b0eace93894f1b649637bf';

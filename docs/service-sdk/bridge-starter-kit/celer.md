@@ -22,7 +22,7 @@ Follow the below steps to try out the above features using the sdk.
 
 ## Installation
 ```sh
-npm install @klaytn/kds-bridges-celer --save
+npm install @klaytn/kss-bridges-celer --save
 ```
 
 ## Quick Start
@@ -31,13 +31,13 @@ There are two modules in the celer bridge starter kit.
   2. CoreBridgeSDK exposes methods of `celer` core functions to write custom snippets.
 
 ```typescript
-import BridgeSDK from '@klaytn/kds-bridges-celer';
-import CoreBridgeSDK from '@klaytn/kds-bridges-celer/core';
+import BridgeSDK from '@klaytn/kss-bridges-celer';
+import CoreBridgeSDK from '@klaytn/kss-bridges-celer/core';
 
 or
 
-const BridgeSDK = require('@klaytn/kds-bridges-celer');
-const CoreBridgeSDK = require('@klaytn/kds-bridges-celer/core');
+const BridgeSDK = require('@klaytn/kss-bridges-celer');
+const CoreBridgeSDK = require('@klaytn/kss-bridges-celer/core');
 ```
 
 > **_NOTE:_** Please make sure the wallet provided has enough balance in source/destination to perform the transactions.
@@ -68,7 +68,7 @@ Promise `transferId` - `string` Transfer ID for tracking the transaction. To tra
 
 #### Example
 ```typescript
-const BridgeSDK = require('@klaytn/kds-bridges-celer')
+const BridgeSDK = require('@klaytn/kss-bridges-celer')
 
 let CBRIDGE_GATEWAY_URL = "https://cbridge-v2-test.celer.network"
 let WALLET_ADDRESS = "0x5Bc0635a264B94A8662e0F2887d76F8E5925F837"
@@ -125,7 +125,7 @@ Promise `transactionReceipt` - `object` blockchain transaction receipt
 
 #### Example
 ```typescript
-let BridgeSDK = require("@klaytn/kds-bridges-celer");
+let BridgeSDK = require("@klaytn/kss-bridges-celer");
 
 let CBRIDGE_GATEWAY_URL = "https://cbridge-v2-test.celer.network"
 let WALLET_ADDRESS = "0x5Bc0635a264B94A8662e0F2887d76F8E5925F837"
@@ -178,7 +178,7 @@ Promise `depositId` - `string` deposit id
 
 #### Example
 ```typescript
-let BridgeSDK = require("@klaytn/kds-bridges-celer");
+let BridgeSDK = require("@klaytn/kss-bridges-celer");
 
 let CBRIDGE_GATEWAY_URL = "https://cbridge-v2-test.celer.network"
 let WALLET_ADDRESS = "0x5Bc0635a264B94A8662e0F2887d76F8E5925F837"
@@ -233,7 +233,7 @@ Promise `transactionReceipt` - `object` blockchain transaction receipt
 
 #### Example
 ```typescript
-let BridgeSDK = require("@klaytn/kds-bridges-celer");
+let BridgeSDK = require("@klaytn/kss-bridges-celer");
 
 let CBRIDGE_GATEWAY_URL = "https://cbridge-v2-test.celer.network"
 let WALLET_ADDRESS = "0x5Bc0635a264B94A8662e0F2887d76F8E5925F837"
@@ -294,7 +294,7 @@ Promise `burnId` - `string` burn id to track the status or refund transaction if
 
 #### Example
 ```typescript
-let BridgeSDK = require("@klaytn/kds-bridges-celer");
+let BridgeSDK = require("@klaytn/kss-bridges-celer");
 
 let CBRIDGE_GATEWAY_URL = "https://cbridge-v2-test.celer.network"
 let SRC_CHAIN_RPC= "https://godwoken-testnet-v1.ckbapp.dev"
@@ -348,7 +348,7 @@ Promise `transactionReceipt` - `object` blockchain transaction receipt
 
 #### Example
 ```typescript
-let BridgeSDK = require("@klaytn/kds-bridges-celer");
+let BridgeSDK = require("@klaytn/kss-bridges-celer");
 
 let CBRIDGE_GATEWAY_URL = "https://cbridge-v2-test.celer.network"
 let WALLET_ADDRESS = "0x5Bc0635a264B94A8662e0F2887d76F8E5925F837"

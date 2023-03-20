@@ -129,11 +129,11 @@ The Witnet Price Feeds consumer contract has one task, to read the latest price 
 #### Example
 
 ```typescript
-  // 1 KLAY = 0.20 USD
-  npx hardhat read-witnet-price-feed --contract 0x37291E5036db32DFe714823dE7A96253676e6487 --id 0x6cc828d1 --network baobab
+  // As at the time of writing this document, 1 KLAY = 0.23 USD
+  npx hardhat read-witnet-price-feed --contract 0x573AAAdF4Cf117586e74AE3845473fc65cd59C4c --id 0x6cc828d1 --network baobab
 
   /*
-    Last price is: 209744
+    Last price is: 237467
   */
 ```
 
@@ -154,12 +154,13 @@ Requesting the new randomness.
 Once the the request to new randomness is performed successfully. The other tasks can be performed after transaction submission.
 
 ```bash
-  npx hardhat request-witnet-randomness --contract <deployedContractAddress> --network baobab
+  npx hardhat request-witnet-randomness --contract <deployedContractAddress> --value <value> --network baobab
 ```
 
 #### Parameters
 
 `deployedContractAddress` - `string` Deployed Deployed Witnet RandomNumber contract address
+`value` - `number` Value for transaction cost when requesting random numbers. Ex: 500000000000000000 i.e, 0.5 KLAY
 
 ##### Returns
 
@@ -168,7 +169,7 @@ Once the the request to new randomness is performed successfully. The other task
 ##### Example
 
 ```typescript
-  npx hardhat request-witnet-randomness --contract 0x8937C127F3060fF8a23E9a0fb5AEA10bc30e28be --network baobab
+npx hardhat request-witnet-randomness --contract 0x8937C127F3060fF8a23E9a0fb5AEA10bc30e28be --value 500000000000000000 --network baobab
   /*
     Transaction Hash: 0x809addb235dc953c90a563c396c11978a359b574336564c7ec890514c961e050
   */

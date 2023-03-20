@@ -1,5 +1,5 @@
 ---
-title: 🎪 Klaytn Service SDK
+title: 👨‍🔧 Klaytn Service SDK
 sidebar_label: Overview
 ---
 

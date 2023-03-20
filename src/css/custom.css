@@ -151,10 +151,11 @@ nav.menu {
 
 @media screen and (max-width: 600px) {
   .elementSphere_src-pages-index-module {
-    width: 400px !important;
+    width: 619px !important;
     position: absolute !important;
-    left: -116px !important;
-    top: 80px !important;
+    left: -276px !important;
+    top: -11px !important;
+    max-width: none !important;
   }
 
   .navbar__title {

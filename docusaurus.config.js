@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Klaytn Metaverse',
-  tagline: 'Lets Build The Metaverse Together',
+  title: 'Metaverse Knowledge Kit',
+  tagline: 'Seamlessly build your Metaverse on Klaytn',
   //@ts-ignore
   url: process.env.URL,
   baseUrl: '/',
@@ -98,27 +98,31 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'Explore other Resources',
             items: [
               {
-                label: 'Metaverse',
-                to: '/docs/intro',
+                label: 'Github',
+                href: 'https://github.com/klaytn',
               },
               {
-                label: 'FAQs',
-                href: 'https://docs.klaytn.foundation/misc/faq',
+                label: 'Klaytn Docs',
+                href: 'https://docs.klaytn.foundation/',
               },
               {
-                label: 'Developer Hub',
+                label: 'Developer Portal',
                 href: 'http://developer.klaytn.foundation/',
+              },
+              {
+                label: 'Blog',
+                href: 'https://www.klaytn.foundation/blog/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Join our Dev Community',
             items: [
               {
                 label: 'Forum',
@@ -135,15 +139,27 @@ const config = {
             ],
           },
           {
-            title: 'Social',
+            title: 'Follow us on Social Media',
             items: [
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/klaytn_official',
               },
               {
-                label: 'Blog',
-                href: 'https://www.klaytn.foundation/blog/',
+                label: 'Dev Twitter',
+                href: 'https://twitter.com/BuildonKlaytn',
+              },
+              {
+                label: 'Facebook',
+                href: 'https://www.facebook.com/groups/klaytndevelopers',
+              },
+              {
+                label: 'Reddit',
+                href: 'https://www.reddit.com/r/klaytn/',
+              },
+              {
+                label: 'YouTube',
+                href: 'https://www.youtube.com/c/Klaytn_official',
               },
             ],
           },

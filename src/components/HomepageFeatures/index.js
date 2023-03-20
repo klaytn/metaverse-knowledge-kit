@@ -4,31 +4,30 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Built for Developers',
-    Svg: require('@site/static/img/dev.svg').default,
+    title: 'By Developers, for Developers',
+    Svg: require('@site/static/img/hands.svg').default,
     description: (
       <>
-        Best in-class documentation and resources to help you get started quickly.
-        so you can spend less time on infrastructure and more time building.
+        Get started on your Metaverse-building journey with our all-in-one <b>Metaverse Knowledge Kit</b> carefully crafted by our Klaytn Developers.
       </>
     ),
   },
   {
-    title: 'Informational Content',
-    Svg: require('@site/static/img/information.svg').default,
+    title: 'All Resources In One Place',
+    Svg: require('@site/static/img/scale.svg').default,
     description: (
       <>
-        Provides context of standards, usecases, best practices, links to existing libraries tooling,
+        Get all the information you need - Context of standards, best practice use cases, links to existing libraries tooling, 
         as well as documentation and tutorials on how to use those resources.
       </>
     ),
   },
   {
     title: 'Package & SDK Support',
-    Svg: require('@site/static/img/sdk.svg').default,
+    Svg: require('@site/static/img/support.svg').default,
     description: (
       <>
-        Built-in npm packages which wrap 
+        Explore built-in npm packages which wrap 
         functionality of various tools into an easy to use SDK (per tool), 
         Some starter kits with default combinations of tools and configurations.
       </>

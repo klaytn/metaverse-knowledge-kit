@@ -6,28 +6,30 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #da5f3dee;
-  --ifm-color-primary-dark: #ea5e17;
-  --ifm-color-primary-darker: #f35506;
-  --ifm-color-primary-darkest: #de433e;
-  --ifm-color-primary-light: #e97257;
-  --ifm-color-primary-lighter: #d7865e;
-  --ifm-color-primary-lightest: #b57865;
+  --ifm-color-primary: #ff2f00;
+  --ifm-color-primary-dark: #c02603;
+  --ifm-color-primary-darker: #a01f02;
+  --ifm-color-primary-darkest: #7f1a03;
+  --ifm-color-primary-light: #ff6700;
+  --ifm-color-primary-lighter: #f98030;
+  --ifm-color-primary-lightest: #ffad77;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --doc-sidebar-width: 270px !important;
+  --aa-wb-color: #FFF;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #ea704eee;
-  --ifm-color-primary-dark: #ea5e17;
-  --ifm-color-primary-darker: #f35506;
-  --ifm-color-primary-darkest: #cb2c27;
-  --ifm-color-primary-light: #e97257;
-  --ifm-color-primary-lighter: #d7865e;
-  --ifm-color-primary-lightest: #b57865;
+  --ifm-color-primary: #ff6700;
+  --ifm-color-primary-dark: #df5a02;
+  --ifm-color-primary-darker: #c04e02;
+  --ifm-color-primary-darkest: #aa4502;
+  --ifm-color-primary-light: #f6863c;
+  --ifm-color-primary-lighter: #f79a5c;
+  --ifm-color-primary-lightest: #f8b386;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --aa-wb-color: #FFF;
 }
 
 :root {
@@ -80,12 +82,13 @@ strong, th {
 }
 
 @font-face {
-  font-family: Inter;
-  src: url('/font/Inter.ttf');
+  font-family: Outfit;
+  src: url('/font/Outfit.ttf');
 }
 
+
 h1, h2, h3, p, div, a {
-  font-family: Inter,ui-sans-serif,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+  font-family: Outfit,ui-sans-serif,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
 } 
 
 nav.menu > ul a {
@@ -128,4 +131,16 @@ nav.menu > ul a {
 
 nav.menu {
   overflow-x: auto;
+}
+
+.navbar__title {
+  font-size: 20px;
+}
+
+.hero__title, .hero__subtitle {
+  color: var(--aa-wb-color)
+}
+
+.hero--primary {
+  --ifm-hero-background-color: rgba(29, 25, 25, 0.1) !important;
 }

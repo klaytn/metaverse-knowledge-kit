@@ -7,7 +7,7 @@ sidebar_label: Oracle Starter Kit
 
 :::tip
 
-Check this out to learn some basics about [Decentralized Oracle](../../decentralized-storage/overview.md).
+Check this out to learn some basics about [Decentralized Oracle](../decentralized-storage/overview.md).
 
 :::
 

@@ -141,6 +141,27 @@ nav.menu {
   color: var(--aa-wb-color)
 }
 
+.hero__subtitle {
+  line-height: 1.2;
+}
+
 .hero--primary {
   --ifm-hero-background-color: rgba(29, 25, 25, 0.1) !important;
+}
+
+@media screen and (max-width: 600px) {
+  .elementSphere_src-pages-index-module {
+    width: 619px !important;
+    position: absolute !important;
+    left: -276px !important;
+    top: -11px !important;
+    max-width: none !important;
+  }
+
+  .navbar__title {
+    font-size: 14px !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    width: 140px !important;
+  }
 }

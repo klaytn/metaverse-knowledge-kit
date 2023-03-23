@@ -6,13 +6,13 @@ sidebar_label: Tutorial
 # 💻 KIP37 Tutorial <a id="KIP37 Tutorial"></a>
 In this guide, you will deploy a KIP37 contract on Remix IDE and then use caver-js to interact with it
 
-## 1. Prerequisite <a id="KIP37 Tutorial Prerequsite"></a>
+## 1. Prerequisites <a id="KIP37 Tutorial Prerequsite"></a>
 
 * [Remix IDE](https://docs.klaytn.foundation/content/dapp/tutorials/connecting-remix#connecting-klaytn-remix-using-kaikas) and [Kaikas](https://kaikas.zendesk.com/hc/en-us/articles/6657796272793-How-do-I-install-PC-Kaikas-)
 * Enough test KLAY from [faucet](https://baobab.wallet.klaytn.foundation/faucet)
 * [Node Js and NPM](https://kinsta.com/blog/how-to-install-node-js/)
 
-## 2. Deploying KIP 37 Smart contract <a id="Deploying KIP 37 Smart contract"></a>
+## 2. Deploying a KIP 37 smart contract <a id="Deploying KIP 37 Smart contract"></a>
 This code below defines a KIP37 token. The contract uses the `KIP37` contract from the [Klaytn contracts library](https://github.com/klaytn/klaytn-contracts), as well as the `Counters` contract for managing token ID counters.
 
 The contract has a constructor that initializes the KIP37 contract with the name "MultiTokenNFT". It also initializes a mapping to store the metadata URIs for each token, as well as a token ID counter to keep track of the tokens that have been minted.

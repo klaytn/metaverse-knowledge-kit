@@ -22,7 +22,7 @@ Here are some of the benefits of running an organization in a decentralized way:
 
 ## How does a DAO work? <a id="How do DAO’s work"></a>
 
-SSmart contracts enable the programming of the functions of a DAO, including governance abilities such as proposing, voting, and finalizing proposals. These functionalities are readily available on the blockchain and are executed by members of the community, not by a central authority. 
+Smart contracts enable the programming of the functions of a DAO, including governance abilities such as proposing, voting, and finalizing proposals. These functionalities are readily available on the blockchain and are executed by members of the community, not by a central authority. 
  
 DAO members usually invest their funds in the form of tokens to achieve a common goal. These tokens represent their proportional voting rights, and some DAOs give members with a higher token count more voting power. When majority of the stakeholders support a proposal, it is automatically executed through a code that is triggered. This approach is generally seen as positive since members with more significant financial stakes in the DAO are more motivated to act in its best interests.  
 
@@ -40,17 +40,11 @@ The metaverse is an interconnected virtual ecosystem that provides users with re
 
 The following are some of the applications of a DAO in the metaverse: 
 
-**1. Overall governance**
+**1. Overall governance**: DAOs enable a decentralized governance model in the metaverse, where community members lead the decision-making process by voting and reaching a consensus. For example, [Decentraland](https://docs.decentraland.org/player/general/dao/dao-userguide/) is a DAO that allows members to vote on decisions regarding wearables for user avatars, land auctions, and grants for property development. Each member's voting power is calculated based on their total balance of MANA, NAMES, and LAND in their connected wallet. 
 
-DAOs enable a decentralized governance model in the metaverse, where community members lead the decision-making process by voting and reaching a consensus. For example, [Decentraland](https://docs.decentraland.org/player/general/dao/dao-userguide/) is a DAO that allows members to vote on decisions regarding wearables for user avatars, land auctions, and grants for property development. Each member's voting power is calculated based on their total balance of MANA, NAMES, and LAND in their connected wallet. 
+**2. Shared ownership**: DAOs enable users to participate in shared ownership schemes for NFTs, where community members can pool funds to invest in them. 
 
-**2. Shared ownership**
-   
-DAOs enable users to participate in shared ownership schemes for NFTs, where community members can pool funds to invest in them. 
-
-**3. Fundraising**
-   
-Community members can use the tokens they purchased to fund and support the development of the metaverse project.
+**3. Fundraising**: Community members can use the tokens they purchased to fund and support the development of the metaverse project.
 
 
 

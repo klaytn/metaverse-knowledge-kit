@@ -1,15 +1,15 @@
 ---
-title: 💱 Dex Starter Kit
-sidebar_label: Dex Starter Kit
+title: 💱 DEX Starter Kit
+sidebar_label: DEX Starter Kit
 ---
 
 # Overview
 
-A decentralized exchange (or DEX) is a peer-to-peer marketplace where transactions occur directly between crypto traders. Klaytn has an opensource code for the Dex infrastructure containing features like fungible token swapping, staking and liquidity provision, token-based governance, and token minting.
+A decentralized exchange (DEX) is a peer-to-peer marketplace where transactions occur directly between crypto traders. Klaytn has an opensource code for the DEX infrastructure containing features like fungible token swapping, staking and liquidity provision, token-based governance, and token minting.
 
-This sdk includes the integration of [@klaytn/dex-contracts](https://github.com/klaytn/klaytn-dex-contracts/blob/dev/docs/dex-specification.md) in the starter kit to execute all the admin functionalities and basic user operations via the sdk.
+This SDK includes the integration of [@klaytn/dex-contracts](https://github.com/klaytn/klaytn-dex-contracts/blob/dev/docs/dex-specification.md) in the starter kit to execute all the admin functionalities and basic user operations via the SDK.
 
-Below are the features available for DEX admin and user as part of this sdk.
+Below are the features available for DEX admin and user as part of this SDK.
 
 **Admin Functionalities**
 

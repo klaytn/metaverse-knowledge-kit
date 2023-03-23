@@ -30,7 +30,7 @@ In conclusion, dynamic NFT smart contracts rely on both on-chain and off-chain d
 
 ## Application of oracles in dNFTs <a id ="Application of oracles in dNFTs"></a>
 
-Dynamic NFTs (dNFTs) can have their metadata changed based on external conditions that can exist on or off the blockchain. However, blockchains cannot naturally access off-chain data. Therefore, oracles are used to connect the smart contract to real-world data sources such as weather forecasts, sports results, and price feeds.  
+dNFTs can have their metadata changed based on external conditions that can exist on or off the blockchain. However, blockchains cannot naturally access off-chain data. Therefore, oracles are used to connect the smart contract to real-world data sources such as weather forecasts, sports results, and price feeds.  
 
 As the dNFT ecosystem evolves and NFTs become more closely integrated with the real world, decentralized oracles act as a bridge between the two worlds, enabling the development of automated, decentralized, and interacting dNFT processes.
 

@@ -11,7 +11,7 @@ One of these eight NFTs, the Gold Evolve NFT, made a unique promise: if LaMelo B
 
 In this tutorial, you will learn how to build a dynamic NFT using Witnet Oracle to update your NFT metadata based on [KLAY/USDT](https://feeds.witnet.io/klaytn/klaytn-testnet_klay-usdt_6) price action.
 
-## Prerequisite <a id="Prerequisite"></a>
+## Prerequisites <a id="Prerequisite"></a>
 
 1. [Remix IDE](https://docs.klaytn.foundation/content/dapp/tutorials/connecting-remix#connecting-klaytn-remix-using-kaikas) & [Metamask](https://docs.klaytn.foundation/content/dapp/tutorials/connecting-metamask) 
    

@@ -5,7 +5,7 @@ sidebar_label: Installation
 
 # ⏳ Installation <a id="Chainsafe Installation"></a>
 
-## Prerequisite <a id="Prerequisite"></a>
+## Prerequisites <a id="Prerequisite"></a>
 
 * [VS Code](https://code.visualstudio.com/Download)
 * [Metamask](https://metamask.io/download/)

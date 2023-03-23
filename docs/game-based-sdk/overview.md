@@ -1,31 +1,25 @@
 ---
-title: 🎮 Gaming SDK
+title: 🎮 Gaming SDKs
 sidebar_label: Overview
 ---
 
-## Overview <a id="Gaming SDK Overview"></a>
+## Overview <a id="Gaming SDKs Overview"></a>
 
-With recent waves and attention to NFTs, a wealth of gaming developers have been exposed to the value it brings to the gaming industry. Originally, developers build games using game engines. However when it comes to building a game that integrates with web3, there lacks a bridge between gaming engines like Unity/Unreal and the blockchain layer like Klaytn. 
+The recent surge of interest in NFTs has led to many game developers recognizing the value that NFTs can bring to the gaming industry. Traditionally, game developers have used game engines like Unity/Unreal to build their games. However, integrating these game engines with the blockchain layer, such as Klaytn, has been a challenge due to the lack of a bridge between the two. 
 
-The need to build infrastructure that enables gaming developers to seamlessly integrate into the crypto ecosystem, brought about the need for web3 gaming sdks. This enables game developers to build use cases around NFTs, play-to-earn, GameFi, and more. Additionally, builders of the Metaverse deserve the best tooling to create the next wave of metaverse gaming applications.
+This challenge created a need to build infrastructure that enables game developers to seamlessly integrate with the crypto ecosystem and hence, the development of Web3 gaming SDKs. These SDKs allow game developers to create use cases around NFTs, play-to-earn, GameFi, and more. Additionally, these tools are essential for builders of the Metaverse who need the best possible tools to create the next generation of metaverse gaming applications. 
 
-These SDKs make it easy for game developers to integrate the following capabilities into their metaverse gaming applications:
+With the use of SDKs, game developers can easily integrate the following capabilities into their metaverse gaming applications: 
 
-* Support Web3 wallets for in-game transactions
-* Integrate NFT capabilities like minting, renting, and trading
-* Launch and distribute in-game currency as tokens
-* Optimize games for Web3 on mobile
+* Web3 wallet support for in-game transactions 
+* NFT capabilities like minting, renting, and trading 
+* In-game currency token launch and distribution 
+* Mobile optimization for Web3 game elements  
 
-## Usecase <a id="Gaming SDK Usecase"></a>
-The non-existence of a bridge connecting gaming engines to the blockchain is the core purpose of web3 gaming SDKs. With these SDKs, developers have access to the right tools for the job and can seamlessly integrate into any crypto ecosystem for their gaming application.
+## Use cases <a id="Gaming SDKs Usecase"></a>
+Web3 gaming SDKs serve the purpose of creating a bridge between gaming engines and the blockchain. By providing the necessary tools for developers, they can seamlessly integrate their gaming applications into any crypto ecosystem. [ChainSafe](https://docs.gaming.chainsafe.io/) is an example of a Klaytn-integrated gaming SDK that enables developers to build blockchain-enabled metaverse gaming applications.
 
-An example is [Arsenal](https://arsenal.fabwelt.com/), a 3D first-person battleground shooter with NFT. It integrated with a gaming SDK to achieve the following:
-
-* To enable players to connect to a blockchain wallet
- 
-* Allow players to access in-game NFTs so as to enable pay-to-play and play-to-earn.
-
-To create a blockchain-enabled metaverse gaming application, gaming SDKs are an important tool for tapping into the value that blockchain offers. [ChainSafe](https://docs.gaming.chainsafe.io/) is an example of gaming SDKs integrated with Klaytn.
+An example of Web3 gaming SDKs being used is [Arsenal](https://arsenal.fabwelt.com/), a 3D first-person battleground shooter game, which utilizes a gaming SDK to allow players to connect to a blockchain wallet and access in-game NFTs for pay-to-play and play-to-earn features.
 
 
 :::info

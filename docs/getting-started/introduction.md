@@ -1,6 +1,6 @@
 ---
-title: 💡 Why Klaytn ?
-sidebar_label: Why Klaytn
+title: 💡 Why Klaytn?
+sidebar_label: Why Klaytn?
 ---
 
 As the metaverse is still a growing space, individuals and enterprises are taking steps forward to ensure they are not left behind in a few years. With the blockchain being an important element in building a virtual economy in the metaverse, Klaytn is gearing up its infrastructure to become the blockchain of choice for the metaverse, gamefi, and the creator economy.
@@ -11,9 +11,9 @@ Klaytn will allow users to own assets in the metaverse, including their own data
 
 Klaytn's positioning as the trust layer for the metaverse seeks to offer the required services for the development and implementation of decentralized applications for usage in online gaming and virtual worlds. In order to help companies and developers create their metaverses and gaming use cases, Klaytn offers the following unique inherent features:
 
-- 🏎️ **High Performance:** Our main chain handles at least 4,000 TPS (transaction per second), ensuring fast processing speeds for high-performance applications.
-- 🚀 **Instant Transaction Finality:** Klaytn guarantees immediate finality within one second with low transaction latency, making it suitable for interactive metaverse applications that require fast and secure transactions.
-- 💰 **Low Transaction fee:** In addition to its speed, Klaytn also keeps transaction fees low, reducing the cost of using the platform compared to other chains.
+- 🏎️ **High performance:** Our main chain handles at least 4,000 TPS (transaction per second), ensuring fast processing speeds for high-performance applications.
+- 🚀 **1-second finality:** Klaytn guarantees immediate finality within one second with low transaction latency, making it suitable for interactive metaverse applications that require fast and secure transactions.
+- 💰 **Low transaction fees:** In addition to its speed, Klaytn also keeps transaction fees low, reducing the cost of using the platform compared to other chains.
 - 🔮 **Metaverse Knowledge Kit:** To make it easier for builders of metaverses to incorporate blockchain elements into their projects, Klaytn provides a Metaverse Knowledge Kit, which includes comprehensive tool sets and ecosystem resources that simplify the development process.
 
 ## Who can make use of Metaverse Knowledge Kit? <a id="Who can make use of Metaverse Knowledge Kit"></a>
@@ -22,16 +22,16 @@ Klaytn lowers the barrier to entering the metaverse by providing enterprises and
 
 As an enterprise, if you want to host an e-commerce platform in the metaverse, you can make use of the tools below without having to build from scratch.
 
-| What you'll need                                                 | SDKs and Tools Klaytn Provides                          |
+| What you'll need                                                 | SDKs and Tools that Klaytn provides                     |
 | ---------------------------------------------------------------- | ------------------------------------------------------- |
 | Smart contracts to write the business logic                      | Klaytn-contracts library which has all sample contracts |
 | Get offchain data into the Metaverse to get real time price data | Oracle services to get off chain data                   |
 | Store the assets in decentralized storage                        | Decentralized storage solutions                         |
 | Wallets for payment                                              | Custodial and non-custodial wallets                     |
 
-As an individual if you want to build a game in the metaverse, you can make use of the tools below without having to build from scratch.
+For individuals that want to build a game in the metaverse, you can make use of the tools below without having to build from scratch.
 
-| What you'll need                                                                               | SDKs and Tools Klaytn Provides                          |
+| What you'll need                                                                               | SDKs and Tools that Klaytn provides                     |
 | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | Smart contract to represent characters as assets, build tokenomics.                            | Klaytn-contracts library which has all sample contracts |
 | Dynamically upgrade the assets based on real world data (i.e weather condition, stress levels) | Dynamic NFT's examples and Oracles services.            |

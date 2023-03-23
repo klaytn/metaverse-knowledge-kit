@@ -1,9 +1,9 @@
 ---
 title: Gaming SDK
-sidebar_label: Create KIP17 token
+sidebar_label: Create KIP17 tokens
 ---
 
-# 👑 How to create KIP17 token <a id="How to use the KIP17 token"></a>
+# 👑 How to create KIP17 tokens <a id="How to use the KIP17 token"></a>
 
 In this section you will see how to build a Unity project using the KIP17 (ERC-721) token standard on Klaytn.
 

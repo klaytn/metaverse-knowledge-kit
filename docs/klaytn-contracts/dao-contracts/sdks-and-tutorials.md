@@ -10,7 +10,7 @@ In this tutorial you will use [Klaytn Contract](https://github.com/klaytn/klaytn
 * Create a standard governor contract.
 * Create a mintable KIP7 contract that will mint new tokens on the successful execution of the on-chain governance proposal.
 
-## 1. Prerequisite <a id="KIP7 Tutorial Prerequsite"></a>
+## 1. Prerequisites <a id="KIP7 Tutorial Prerequsite"></a>
 
 * [Metamask](https://metamask.io/download/): Used to deploy the contracts interact with the contracts.
 * [Remix IDE](https://remix.ethereum.org/): Used to compile the contracts and deploy through MetaMask.

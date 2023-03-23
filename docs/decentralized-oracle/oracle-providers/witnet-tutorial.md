@@ -5,7 +5,7 @@ sidebar_label: Witnet Price Feed Tutorial
 
 # 💻 Tutorial <a id="Witnet Price Feed Tutorial"></a>
 
-[Witnet](https://docs.witnet.io/) multichain decentralized oracle enables smart contracts to retrieve secure and reliable data from the outside world in order to realize their true potential. These valuable data sets range from price feeds, to randomness and also information from web API et al. 
+The **[Witnet multichain decentralized oracle](https://docs.witnet.io/)** enables smart contracts to retrieve secure and reliable data from the outside world in order to realize their true potential. These valuable data sets range from price feeds, to randomness and also information from web API et al. 
 
 In this tutorial, you will see how to get the latest price of any of the [supported currency pairs](https://docs.witnet.io/) on Klaytn through Price Feeds.
 

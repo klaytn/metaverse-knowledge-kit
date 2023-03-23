@@ -5,42 +5,46 @@ sidebar_label: Overview
 
 ## Overview <a id="overview"></a>
 
-The Klaytn Service SDK (KSS) is a collection of npm packages that wrap the functionality of various services into an easy-to-use package (per service) to build on Klaytn. It aims to integrate all the ecosystem services in Klaytn.
+The Klaytn Service SDK (KSS) is a set of npm packages that simplifies the usage of various services on the Klaytn blockchain by wrapping their functionality into easy-to-use packages. It aims to integrate all the ecosystem services in Klaytn and comes with starter kits containing default configurations and tools.  
+ 
+The KSS also includes a Command Line Interface (CLI) that enables developers to manage services from their local terminal. Developers can use the SDK by simply importing the npm package to access third-party services such as Oracles and Bridges. 
 
-It includes some starter kits with default combinations of tools and configurations. It also has a Command Line Interface(CLI) that allows developers to manage services from their local terminal. Developers can use the SDK by easily importing the npm package to access third-party services like Oracles, Bridges, etc.
+The SDK provides several features and benefits, including: 
 
-The SDK provides a number of features and benefits, including:
+* **Faster development**: Pre-built code and libraries are available in the SDK to speed up the development process and let developers focus on business logic rather than reinventing the wheel 
 
-- **Faster development** The SDK provides pre-built code and libraries that can speed up the development process. It allows developers to focus on business implementation rather reinventing the wheel
-- **Easier integration** The SDK is designed to work with all EVM compatible chains, which makes integrating with Layer1's more effecient. As a result, integration takes less time and effort for developers.
-- **Consistency** The SDK provide a standardized set of tools and interfaces, which can help ensure that applications are consistent and compatible with the platform or service being used.
-- **Sample code** The SDK includes the ready-made snippets that developers can use or customize for their own dApps. This can help to speed up the development process and reduce the learning curve for new developers.
-- **Better documentation and Community support**: : The SDK provides a elaborate documentation and support resources that can help developers run quickly, troubleshoot issues, and stay up to date with changes and updates to the platform or service.
+* **Simplified integration**: The SDK can work with all EVM-compatible chains, making it easier to integrate with Layer1s and saving developers time and effort. 
 
-## Use Cases <a id="usecases"></a>
+* **Consistency**: Standardized tools and interfaces in the SDK can help ensure applications are consistent and compatible with the platform or service used. 
 
-The following are some of the use-cases of Klaytn Service SDK(KSS) in Metaverse:
+* **Sample code**: The SDK provides ready-made code snippets for developers to use or modify for their dApps, helping to reduce the learning curve and speed up development. 
 
-- **Interoperability** If you are building a decentralized app (dapp) in Metaverse and you dont want to restrict the users only to Klaytn network. Then you can use Bridge-starter kit in the KSS to bridge assets to other networks. This provide more flexibilits to users and brings user retention.
+* **Improved documentation and community support**: The SDK includes elaborate documentation and support resources to help developers troubleshoot issues and stay up-to-date with changes and updates to the platform or service. 
 
-- **Increased functionality** Similarly, if you are developing a gaming app in Metaverse that requires real-world data, you can use the Oracle-starter-kit in the KSS to integrate off-chain data into your dapp. This provides increased functionality to your dapp.
+## Use cases <a id="usecases"></a>
 
-- **Access to diversity** If you are building a marketplace or a wallet in the Metaverse, the Dex-starter-kit in the Klaytn-service-sdk can be used to exchange assets. This provides users with greater flexibility to access a diverse range of assets. KSS can be integrated to communicate with existing decentralized exchanges.
+The Klaytn Service SDK (KSS) brings various benefits to the metaverse, including: 
 
-- **Unified** With the Klaytn-service-sdk npm package, there is no need to download multiple packages or perform multiple configurations for different use-cases. All of these use-cases can be implemented in one place using the Klaytn Service SDK.
+* **Interoperability**: If you’re building a decentralized app (dApp) in the metaverse and want to allow users to access networks other than Klaytn, the KSS's Bridge-starter kit enables the bridging of assets to other networks. This enhances user flexibility and retention.  
+
+* **Increased functionality**: If you're developing a gaming app in the metaverse that needs real-world data, the KSS's Oracle-starter-kit can integrate off-chain data into your dApp, giving it more functionality. 
+
+* **Access to diversity**: If you're building a marketplace or a wallet in the metaverse, the KSS's Dex-starter-kit can communicate with existing decentralized exchanges and be used to exchange assets, providing users with more flexibility and access to a diverse range of assets.  
+
+* **Unified**: The Klaytn-service-sdk npm package eliminates the need to download multiple packages or perform multiple configurations for different use cases. You can implement all of these use cases in one place using the Klaytn Service SDK. 
 
 ## Packages <a id="Packages"></a>
 
-Klaytn is committed to making all the ecosystem services available as part of this SDK. However, the modules listed below are currently available with the current [release](https://github.com/klaytn/klaytn-service-sdk/releases)
+Klaytn is committed to making all ecosystem services available as part of this SDK. While we work on adding more resources, you may first access various kits that are currently available with this [release](https://github.com/klaytn/klaytn-service-sdk/releases).
 
 **Oracle Starter Kit:**
-[Oracle Starter Kit](./oracle-starter-kit.md) provides libraries for random number generation, external API (GET/POST) calls and price feed.
+The [Oracle Starter Kit](./oracle-starter-kit.md) provides libraries for random number generation, external API (GET/POST) calls and price feed.
 
 **Bridge Starter Kit:**
-Bridge Starter Kit provides options to interoperate with other chains. [Wormhole](./bridge-starter-kit/wormhole.md) and [Celer](./bridge-starter-kit/celer.md) bridge integration is available as part of this sdk.
+The Bridge Starter Kit provides options to interoperate with other chains. [Wormhole](./bridge-starter-kit/wormhole.md) and [Celer](./bridge-starter-kit/celer.md) bridge integration is available as part of this SDK.
 
-**Dex Starter Kit:**
-Dex Starter Kit provides libraries to integrate with dex-contracts and implement features like swapping, staking, farming, minting and excuting multisig transactions.
+**DEX Starter Kit:**
+The DEX Starter Kit provides libraries to integrate with dex-contracts and implement features like swapping, staking, farming, minting, and excuting multisig transactions.
 
 :::info
 If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation

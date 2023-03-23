@@ -9,10 +9,10 @@ KIP7 contracts can either be deployed and interacted with using Remix IDE or in 
 
 Caver-js requires contract ABI and contract address to interact with smart contract and for the purpose of this tutorial we would make use of Remix IDE to quickly and easily generate ABI and contract address. At the end of this tutorial, you'll be able to interact with an already deployed KIP7 contract using caver-js.
 
-## 1. Prerequisite <a id="KIP7 Tutorial Prerequsite"></a>
+## 1. Prerequisites <a id="KIP7 Tutorial Prerequsite"></a>
 
 * [Remix IDE](https://docs.klaytn.foundation/content/dapp/tutorials/connecting-remix#connecting-klaytn-remix-using-kaikas) and [Kaikas](https://kaikas.zendesk.com/hc/en-us/articles/6657796272793-How-do-I-install-PC-Kaikas-)
-* Enough test KLAY from [faucet](https://baobab.wallet.klaytn.foundation/faucet)
+* Enough test KLAY from the [faucet](https://baobab.wallet.klaytn.foundation/faucet)
 * [Node Js and NPM](https://kinsta.com/blog/how-to-install-node-js/)
 
 In this tutorial, you will learn how to deploy a KIP7 smart contract and interact with the deployed contract. Smart contracts must already be deployed on the blockchain i.e you must have the smart contract address and ABI. In a little while, we would go through deploying the contract using Remix IDE.

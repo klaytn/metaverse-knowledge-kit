@@ -4,28 +4,28 @@ sidebar_label: Overview
 ---
 
 ## Overview <a id="contract overview"></a>
-As it stands, the blockchain plays a vital role in bringing real-world value to the rapidly growing metaverse ecosystem. The features of the blockchain can easily be optimized by metaverse applications by leveraging smart contracts. These smart contracts trigger all the actions on the blockchain. For example if a user needs to pay in exchange for a commodity in the metaverse with certain conditions, it can be written as smart contracts.
+The blockchain plays a vital role in bringing real-world value to the rapidly growing metaverse ecosystem. Metaverse applications can be optimized using smart contracts, a key capability of blockchain technology.  
 
-Smart contracts are simple pieces of code to be executed on the blockchain. It ensures certain predetermined conditions are met before executing an agreement. 
+Smart contracts are simple pieces of code responsible for initiating all blockchain actions. They verify and execute an agreement only if specific preconditions are met. For example, purchasing a commodity in the metaverse can be facilitated using a smart contract that executes the transaction when the required conditions are fulfilled. 
 
-## Use Cases of Smart contract in Metaverse <a id="Usecases of smart contract in Metaverse"></a>
+## Use Cases of Smart contracts in the metaverse <a id="Usecases of smart contract in Metaverse"></a>
 
-**Trade and Exchange:** In the Metaverse, smart contracts are utilized to automate processes and guarantee that transactions and trade are carried out in conformity with predefined rules. Like real life transactions, all trades and exchanges are governed by smart contracts. This facilitates the creation of a virtual economy with different kinds of utility tokens, NFTs, etc.). For instance, users with their avatars, can enter the metaverse to trade digital assets (wearables, estates, and avatars). 
+**Trade and exchange:** In the metaverse, smart contracts automate processes and ensure that transactions and trades conform to predetermined rules. All trades and exchanges are governed by smart contracts, creating a virtual economy with various utility tokens, NFTs, and other digital assets (i.e. wearables, estates and avatars, etc.) that users can trade with each other. 
 
-**Governance and decision-making:** With smart contracts functionality enabled in metaverse applications, users form groups, participate in decision-making activities, cast votes, form groups, pool capital together essentially through a [DAO](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization).
+**Governance and decision-making:** Smart contracts also enable users to form groups, participate in decision-making activities, cast votes, and pool capital together through a [DAO](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization).
 
 **Upgrade application functionality:** 
-Smart contracts make it possible to add new features to Metaverse applications without altering its code.
- 
-Smart contracts are absolutely needed in the metaverse to increase the security and transparency of transactions within several areas such as eCommerce, real estate, media & entertainment, gaming, and more. Companies such as Meta (Facebook) and Microsoft focused on building a metaverse controlled by a single authority face the limitations of data privacy and the maintenance of infrastructure. Maintaining the infrastructure of this type of metaverse is costly as compared to a metaverse powered by smart contracts and blockchain, which require negligible or no maintenance costs.
+Smart contracts also enable developers to upgrade their metaverse applications without changing their underlying code.
 
-## Smart Contracts on Klaytn <a id="Smart contracts on Klaytn"></a>
+In conclusion, utilizing smart contracts and blockchain technology is crucial for creating a thriving and sustainable metaverse. Smart contracts are essential in the metaverse to increase the security and transparency of transactions in various areas such as eCommerce, real estate, media & entertainment, and gaming. A metaverse powered by smart contracts and blockchain technology requires negligible or no maintenance cost unlike single authority companies such as Meta (Facebook) and Microsoft who face the limitations of data privacy and high infrastructure maintenance costs as they build their metaverses.
 
-To write smart contracts, Klaytn currently supports [Solidity](https://github.com/ethereum/solidity) as the primary programming language. Solidity is adopted in Klaytn because it is a de facto standard contract programming language for Ethereum and has a large user base and an active community.
+## Smart contracts on Klaytn <a id="Smart contracts on Klaytn"></a>
 
-[klaytn-contracts](https://github.com/klaytn/klaytn-contracts) is an open source smart contract library which provides reusable building blocks for developers to easily use in their Klaytn based projects. It contains a full suite of standardized smart contract interfaces, libraries, and implementations for quick and safe inheritance and development.
+Klaytn currently utilizes [Solidity](https://github.com/ethereum/solidity) as the primary programming language as it is a widely used contract language for Ethereum and has a large user base and an active community.
 
-Klaytn Improvement Proposal (KIPs) describe standards for the Klaytn platform, including core protocol specifications, client APIs, and contract standards. In respect to contract standards, token standards have been defined in Klaytn such as [KIP7](https://kips.klaytn.foundation/KIPs/kip-7), [KIP17](https://kips.klaytn.foundation/KIPs/kip-17), [KIP37](https://kips.klaytn.foundation/KIPs/kip-37).
+[klaytn-contracts](https://github.com/klaytn/klaytn-contracts) is an open-source smart contract library that offers reusable building blocks for developers to quickly and easily use in their Klaytn-based projects. It contains a full suite of standardized smart contract interfaces, libraries, and implementations, enabling developers to inherit and develop applications quickly and safely. 
+
+[Klaytn Improvement Proposals](https://kips.klaytn.foundation/) (KIPs) outline the standards for the Klaytn platform, including core protocol specifications, client APIs, and contract standards. Token standards such as [KIP7](https://kips.klaytn.foundation/KIPs/kip-7) (Fungible Tokens), [KIP17](https://kips.klaytn.foundation/KIPs/kip-17) (Non-Fungible Tokens), and [KIP37](https://kips.klaytn.foundation/KIPs/kip-37) (Multi-tokens) are some of the key contract standards for Klaytn-based projects.
 
 
 :::info

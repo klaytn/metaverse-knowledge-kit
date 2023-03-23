@@ -75,7 +75,7 @@ Having understood this, requesting VRF using Supra Oracles requires splitting th
 	
    }
 ```
-### Step 4 — Add the validation in the callback function of requester contract <a id="Add the validation in the callback function of requester contract"></a>
+### Step 4: Add the validation in the callback function of requester contract <a id="Add the validation in the callback function of requester contract"></a>
 
 Inside the callback function where the requester contract wants the random number (in this example the callback function is exampleCallback), the requester contract will have to add the validation such that only the Supra router contract can call the function. The validation is necessary to protect against malicious contracts/users executing the callback with fake data.
 ```js
@@ -84,7 +84,7 @@ function myCallbackUsername(uint256 nonce, uint256[] calldata rngList) external 
 	// Following the required logic of the function
    }
 ```
-## Practical Implementation <a id="Practical Implementation"></a>
+## Practical implementation <a id="Practical Implementation"></a>
 
 In the example below,
 * The function getRNGForUser is using the VRF service by calling the generateRequest function of the Supra Router Contract.

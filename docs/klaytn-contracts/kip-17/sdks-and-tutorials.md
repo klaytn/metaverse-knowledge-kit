@@ -6,7 +6,7 @@ sidebar_label: Tutorial
 # 💻 KIP17 Tutorial <a id="KIP17 Tutorial"></a>
 In this guide, you will deploy a KIP17 contracts on Remix IDE and, after deployment, interact with the contract using caver-js.
 
-## 1. Prerequisite <a id="KIP17 Tutorial Prerequsite"></a>
+## 1. Prerequisites <a id="KIP17 Tutorial Prerequsite"></a>
 
 * [Remix IDE](https://docs.klaytn.foundation/content/dapp/tutorials/connecting-remix#connecting-klaytn-remix-using-kaikas) and [Kaikas](https://kaikas.zendesk.com/hc/en-us/articles/6657796272793-How-do-I-install-PC-Kaikas-)
 * Enough test KLAY from [faucet](https://baobab.wallet.klaytn.foundation/faucet)

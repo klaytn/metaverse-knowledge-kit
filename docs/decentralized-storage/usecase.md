@@ -5,7 +5,7 @@ sidebar_label:  Use cases
 
 # 🎯 Use cases in the Metaverse <a id="dStorage Use cases in the Metaverse"></a>
 
-Decentralized has numerous applications in the metaverse that can help distribute and decentralize the storage of virtual world data. This includes 3D models, textures, user-generated content like avatars and custom objects, and more. Decentralized storage allows for a more open and decentralized virtual world, which is resistant to censorship and control by centralized entities. Additionally, decentralized storage can also reduce costs and enable faster access to content by eliminating the need for a centralized server infrastructure. 
+Decentralized storage has numerous applications in the metaverse that can help distribute and decentralize the storage of virtual world data. This includes 3D models, textures, user-generated content like avatars and custom objects, and more. Decentralized storage allows for a more open and decentralized virtual world, which is resistant to censorship and control by centralized entities. Additionally, decentralized storage can also reduce costs and enable faster access to content by eliminating the need for a centralized server infrastructure. 
 
 Here are some of the ways decentralized storage can be used in the metaverse: 
 

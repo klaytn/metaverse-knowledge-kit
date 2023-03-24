@@ -1,6 +1,6 @@
 ---
 title: klaytn contracts
-sidebar_label: Tooks and SDK
+sidebar_label: Tools and SDKs
 ---
 
 # 💼 Tools and SDKs <a id="tools-and-sdks"></a>

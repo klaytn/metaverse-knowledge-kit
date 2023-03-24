@@ -28,7 +28,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ko'],
+    locales: ['en'],
     path: 'i18n',
     localeConfigs: {
       en: {
@@ -94,6 +94,10 @@ const config = {
           {
             href: 'https://github.com/klaytn/klaytn-metaverse-package-docs',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            type: 'localeDropdown',
             position: 'right',
           },
         ],

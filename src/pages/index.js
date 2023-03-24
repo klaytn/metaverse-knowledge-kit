@@ -8,11 +8,10 @@ import Translate, { translate } from '@docusaurus/Translate';
 
 import styles from './index.module.css';
 
-const title = <Translate>Metaverse Knowledge Kit</Translate>;
-const tagline = <Translate>Seamlessly build your Metaverse on Klaytn</Translate>;
-
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
+  const { title, tagline } = siteConfig;
+
   return (
     <header
       className={clsx('hero hero--primary', styles.heroBanner, styles.heroBg)}
@@ -22,8 +21,8 @@ function HomepageHeader() {
         <img className={clsx(styles.elementRedstairs)} src="/img/red-stairs.png"/>
       </div>
       <div className={clsx('container', styles.heroContainer)}>
-        <h1 className="hero__title">{title}</h1>
-        <p className="hero__subtitle">{tagline}</p>
+        <h1 className="hero__title">{translate({ message: title })}</h1>
+        <p className="hero__subtitle">{translate({ message: tagline })}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -39,10 +38,12 @@ function HomepageHeader() {
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
+  const { tagline } = siteConfig;
+
   return (
     <Layout
-      title={`Metaverse Knowledge Kit ${title}`}
-      description="Description will go into a meta tag in <head />"
+      title={tagline}
+      description={tagline}
     >
       <HomepageHeader />
       <main>

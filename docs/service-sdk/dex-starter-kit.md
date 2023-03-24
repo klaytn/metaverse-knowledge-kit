@@ -46,13 +46,12 @@ Also, make sure to fulfill the following prerequisites
    - StakingFactory
    - WKLAY
    - Some [KIP7](https://kips.klaytn.foundation/KIPs/kip-7) and [ERC20](https://eips.ethereum.org/EIPS/eip-20) utility tokens.
-3. if you just want to get already deployed DEX & util contracts, please check it out [here](https://github.com/klaytn/klaytn-dex-frontend/blob/dev/dex-config.example.json).
 
-Here is a [list](./dex_contracts.json) of addresses which is already deployed in Baobab with MultiSig contract as owner. Its recommended to deploy your own contracts in Baobab for testing to execute all the functions as the privateKey used to deploy the contracts is different.
+Here is a [list](./dex_contracts.json) of addresses which is already deployed in Baobab with MultiSig contract as owner. Its recommended to deploy your own contracts in Baobab for testing to execute all the functions as the privateKey used to deploy these contracts will be the admin.
 
 ## Usage
 
-You can simply import the desired modules into your script & run it, for more details on how to import each module please refer to the relevant section below.
+You can simply import the required modules into your script & run it, for more details on how to import each module please refer to the relevant section below.
 
 ### 1. Config Module
 
@@ -187,7 +186,7 @@ async function main() {
     '0x2345678901234567890123456789012345678901',
   ];
   const amountIn = '100';
-  const amountDesiredOut = '200';
+  const amountOut = '200';
   const deadline = '1500000000000';
 
   // Create a new instance of Swapping

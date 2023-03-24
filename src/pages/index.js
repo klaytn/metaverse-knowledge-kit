@@ -42,7 +42,6 @@ export default function Home() {
 
   return (
     <Layout
-      title={tagline}
       description={tagline}
     >
       <HomepageHeader />

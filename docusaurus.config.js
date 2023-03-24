@@ -28,17 +28,22 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ko'],
+    locales: ['en'],
     path: 'i18n',
     localeConfigs: {
       en: {
         htmlLang: 'en-GB',
       },
-    }
+    },
   },
-  plugins: [[ require.resolve('docusaurus-lunr-search'), {
-    languages: ['en', 'ko'] // language codes
-  }]],
+  plugins: [
+    [
+      require.resolve('docusaurus-lunr-search'),
+      {
+        languages: ['en', 'ko'], // language codes
+      },
+    ],
+  ],
   presets: [
     [
       'classic',

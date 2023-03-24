@@ -34,11 +34,16 @@ const config = {
       en: {
         htmlLang: 'en-GB',
       },
-    }
+    },
   },
-  plugins: [[ require.resolve('docusaurus-lunr-search'), {
-    languages: ['en', 'ko'] // language codes
-  }]],
+  plugins: [
+    [
+      require.resolve('docusaurus-lunr-search'),
+      {
+        languages: ['en', 'ko'], // language codes
+      },
+    ],
+  ],
   presets: [
     [
       'classic',
@@ -89,10 +94,6 @@ const config = {
           {
             href: 'https://github.com/klaytn/klaytn-metaverse-package-docs',
             label: 'GitHub',
-            position: 'right',
-          },
-          {
-            type: 'localeDropdown',
             position: 'right',
           },
         ],

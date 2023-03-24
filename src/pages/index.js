@@ -17,8 +17,14 @@ function HomepageHeader() {
       className={clsx('hero hero--primary', styles.heroBanner, styles.heroBg)}
     >
       <div className={clsx(styles.heroElements)}>
-        <img className={clsx(styles.elementSphere)} src="/img/klaytn-sphere.png"/>
-        <img className={clsx(styles.elementRedstairs)} src="/img/red-stairs.png"/>
+        <img
+          className={clsx(styles.elementSphere)}
+          src="/img/klaytn-sphere.png"
+        />
+        <img
+          className={clsx(styles.elementRedstairs)}
+          src="/img/red-stairs.png"
+        />
       </div>
       <div className={clsx('container', styles.heroContainer)}>
         <h1 className="hero__title">{translate({ message: title })}</h1>
@@ -41,10 +47,7 @@ export default function Home() {
   const { tagline } = siteConfig;
 
   return (
-    <Layout
-      title={tagline}
-      description={tagline}
-    >
+    <Layout description={tagline}>
       <HomepageHeader />
       <main>
         <HomepageFeatures />

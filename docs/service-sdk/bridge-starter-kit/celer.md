@@ -321,7 +321,7 @@ BridgeSDK.burnCanonicalToken(
 });
 ```
 
-### 3.1. Refund mintCanonicalToken
+### 3.1. Refund burnCanonicalToken
 Due to any reason if your funds / assets were not released on destination_chain, don't worry you can get them back on source_chain by submitting refund request.
 
 ```typescript

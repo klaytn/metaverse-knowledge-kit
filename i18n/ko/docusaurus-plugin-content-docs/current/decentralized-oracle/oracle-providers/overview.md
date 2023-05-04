@@ -9,8 +9,9 @@ Below is a list of decentralized oracles that Klaytn has integrated and that you
 
 * [Orakl Network](https://docs.orakl.network)
 * [Witnet](https://docs.witnet.io/)
-* [Chainlink](https://docs.chain.link/getting-started/conceptual-overview)
 * [SupraOracles](https://docs.chain.link/getting-started/conceptual-overview)
+* [KlayOracle](https://www.klayoracle.com/)
+
 
 
 :::info

@@ -73,7 +73,7 @@ MAKE SURE YOU DON'T EXPOSE THE KEYS YOU PUT IN THIS `.env` FILE
 
 Don't commit and push any changes to .env files that may contain sensitive information, such as a private key! If this information reaches a public GitHub repository, someone can use it to check if you have any Mainnet funds in that wallet address, and steal them!
 
-Get some Baobab Testnet KLAY and LINK
+Get some Baobab Testnet KLAY
 
 > Go to the [Klaytn faucets](https://baobab.wallet.klaytn.foundation/faucet) to get some KLAY to configured account.
 
@@ -85,12 +85,6 @@ To compile contracts
 
 ```
 npx hardhat compile
-```
-
-To deploy a specific contracts
-
-```
-npx hardhat deploy 01_Deploy_PriceConsumerV3.js --network baobab
 ```
 
 To deploy all contracts
@@ -315,7 +309,31 @@ npx witnet-toolkit try-query --from-solidity ./contracts/witnet-requests/<contra
 > **_NOTE:_** If above tryWitnetQueries is stuck, please try to run command shown in below snapshot `npx witnet-toolkit`, install the binary once in the machine and retry above method
 > ![WitnetToolkitBinary](/images/witnet/witnet.png)
 
+### Supra Price Feeds
+The Supra Price Feeds consumer contract has one task, to read the latest price of a specified price feed contract
+
+```bash
+  npx hardhat read-supra-price-feed --contract <deployedContractAddress> --marketpair <marketpair> --network baobab
+```
+
+#### Parameters
+`deployedContractAddress` - `string` Deployed SupraValueFeedExample contract address
+`marketpair` - `string` marketpair is the Supra marketpair id. Ex: `btc_usdt`. See [Klaytn Supra PriceFeeds](https://supraoracles.com/docs/get-started/market-pairs#klaytn-chain) for reference.
+
+#### Returns
+  * `price` - price of requested market pair. 
+
+#### Example
+```typescript
+  // 1 BTC = 28837.54156500 USD
+  npx hardhat read-supra-price-feed --contract 0x80d2d67802942e9060122fafdf62bdc747d09021 --marketpair btc_usdt --network baobab
+  /*
+    Last price is:  BigNumber { value: "2883754156500" }
+  */
+```
+
 ## Reference Docs
 
 - [Witnet Documentation](https://docs.witnet.io/)
+- [SupraOracles Documentation](https://supraoracles.com/docs/overview)
 - [Hardhat Documentation](https://hardhat.org/getting-started/)

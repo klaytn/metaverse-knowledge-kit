@@ -1,5 +1,5 @@
 ---
-title: NFT with Operator Filter
+title: 🎨 NFT with Operator Filter
 sidebar_label: Introduction
 ---
 

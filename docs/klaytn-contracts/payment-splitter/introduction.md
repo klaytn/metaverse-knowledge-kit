@@ -1,5 +1,5 @@
 ---
-title: Payment Splitter Contract
+title: 💸 Payment Splitter Contract
 sidebar_label: Introduction
 ---
 

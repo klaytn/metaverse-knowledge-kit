@@ -1,5 +1,5 @@
 ---
-title: NFT Royalty
+title: 🎗 NFT Royalty
 sidebar_label: Introduction
 ---
 

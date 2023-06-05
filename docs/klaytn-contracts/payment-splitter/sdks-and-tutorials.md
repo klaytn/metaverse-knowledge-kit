@@ -1,5 +1,5 @@
 ---
-title: Tutorial
+title: 💻 Tutorial
 sidebar_label: Tutorial
 ---
 

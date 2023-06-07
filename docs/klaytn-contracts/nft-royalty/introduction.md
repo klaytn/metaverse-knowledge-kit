@@ -41,7 +41,7 @@ import "@klaytn/contracts/KIP/token/KIP17/KIP17.sol";
 import "@klaytn/contracts/KIP/token/KIP17/extensions/KIP17URIStorage.sol";
 import "@klaytn/contracts/access/Ownable.sol";
 import "@klaytn/contracts/utils/Counters.sol";
-import "@klaytn/contracts//token/common/ERC2981.sol";
+import "@klaytn/contracts/token/common/ERC2981.sol";
 
 contract MyToken is KIP17, KIP17URIStorage, Ownable, ERC2981 {
     using Counters for Counters.Counter;

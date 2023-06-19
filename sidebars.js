@@ -76,6 +76,31 @@ const sidebars = {
             'klaytn-contracts/dao-contracts/governance-tools'
           ]
         },
+        {
+          type: 'category',
+          label: 'Payment Splitter Contract',
+          collapsed: true,
+          items: [
+            'klaytn-contracts/payment-splitter/introduction', 
+            'klaytn-contracts/payment-splitter/sdks-and-tutorials',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'NFT Royalty',
+          collapsed: true,
+          items: [
+            'klaytn-contracts/nft-royalty/introduction',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'NFT with Operator FIlter',
+          collapsed: true,
+          items: [
+            'klaytn-contracts/nft-with-operator-filter/introduction',
+          ]
+        },
         'klaytn-contracts/tools-and-sdks',
       ],
     },

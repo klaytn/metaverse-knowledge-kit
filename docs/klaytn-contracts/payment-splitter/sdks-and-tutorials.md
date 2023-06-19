@@ -112,14 +112,18 @@ const caver = new Caver('https://api.baobab.klaytn.net:8651/')
 const contractAddr = "paste contract address"
 const contract = caver.contract.create(contractABI, contractAddr);
 
+const privateKey = "<Paste private key from Kaikas Wallet>"
+const payee = "<Paste Payee address>"
+const amount = 10;
+
 // Create and add keyring
-const keyring = caver.wallet.keyring.createFromPrivateKey('<Paste private key from Kaikas Wallet>')
+const keyring = caver.wallet.keyring.createFromPrivateKey(privateKey)
 caver.wallet.add(keyring)
 
 // function to mintTokens 
 // This ensures that  KLAY is in the contract
 const mintTokens = async () => {
-    const amountPayable =  caver.utils.convertToPeb('10', 'KLAY');
+    const amountPayable =  caver.utils.convertToPeb(amount, 'KLAY');
     contract.send({from: keyring.address, gas: 1500000, value: amountPayable}, 'safeMint', keyring.address)
     .then(receipt => {
         console.log(receipt);
@@ -131,8 +135,7 @@ const mintTokens = async () => {
 
 // function to pull payee's share from the contract
 // Note anyone can call this function provided it is the payee's address
-const releaseToPayee = async () => {
-    const payeeAddress =  “<PASTE PAYEE ADDRESS>”;
+const releaseToPayee = async (payeeAddress) => {
     contract.send({from: keyring.address, gas: 1500000, value: 0}, 'release', payeeAddress)
     .then(receipt => {
         console.log(receipt);
@@ -153,8 +156,8 @@ const  getAmountReleased = async (addr) => {
 
 
 mintTokens();
-// releaseToPayee();
-// getAmountReleased("<PASTE PAYEE ADDRESS>");
+// releaseToPayee(payee);
+// getAmountReleased(payee);
 
 ```
 

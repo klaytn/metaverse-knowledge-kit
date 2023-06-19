@@ -18,7 +18,7 @@ With the use of payment splitter contracts,
 
 ## How it works <a id="How it works"></a> 
 
-Each payee will be able to claim the amount due them from all payments received by the contract. The payment splitter contract follows the [pull method](https://river.com/learn/pull-system-vs-push-system/), which means that payee can safely pull funds out of the contract by calling the release function. 
+From all payments made to the contract, each payee will be able to take away the sum that is payable to them. The payment splitter contract follows the [pull method](https://river.com/learn/pull-system-vs-push-system/), which means that payee can safely pull funds out of the contract by calling the release function. 
 
 This is how a payment splitter contract works on a high level:
 

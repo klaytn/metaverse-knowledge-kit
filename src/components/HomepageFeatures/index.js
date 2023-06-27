@@ -28,8 +28,8 @@ const FeatureList = [
     description: (
       <>
         Explore built-in npm packages which wrap 
-        functionality of various tools into an easy to use SDK (per tool), 
-        Some starter kits with default combinations of tools and configurations.
+        functionality of various tools into an easy to use SDK (per tool) 
+        and starter kits with default combinations of tools and configurations.
       </>
     ),
   },

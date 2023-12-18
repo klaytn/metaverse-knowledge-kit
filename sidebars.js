@@ -154,6 +154,7 @@ const sidebars = {
       items: [
         'decentralized-storage/overview',
         'decentralized-storage/usecase',
+        'decentralized-storage/indexing',
         {
           type: 'category',
           label: 'IPFS',

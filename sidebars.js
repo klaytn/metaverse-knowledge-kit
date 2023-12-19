@@ -156,11 +156,19 @@ const sidebars = {
         'decentralized-storage/usecase',
         {
           type: 'category',
+          label: 'Indexing',
+          collapsed: true,
+          items: [
+            'decentralized-storage/indexing/introduction',
+          ],
+        },
+        {
+          type: 'category',
           label: 'IPFS',
           collapsed: true,
           items: [
-            'decentralized-storage/ipfs',
-            'decentralized-storage/tutorial',
+            'decentralized-storage/ipfs/introduction',
+            'decentralized-storage/ipfs/tutorial',
           ],
         },
       ],

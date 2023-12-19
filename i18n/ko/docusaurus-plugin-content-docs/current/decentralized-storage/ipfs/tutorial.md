@@ -1,5 +1,5 @@
 ---
-title: Decentralized Storage
+title: InterPlanetary File System (IPFS)
 sidebar_label: IPFS Tutorial
 ---
 
@@ -7,7 +7,7 @@ sidebar_label: IPFS Tutorial
 
 In this tutorial, you will learn with a step-by-step guide how to install, spawn a node, add, retrieve, read files from IPFS using caver js. Furthermore, other possible means of integrating IPFS in your project will be highlighted.
 
-## Prerequisites <a id="Prerequisites"></a> 
+## Prerequisites <a id="Prerequisites"></a>
 
 * [Node Js and NPM](https://kinsta.com/blog/how-to-install-node-js/)
 * Install [caver-js](https://www.npmjs.com/package/caver-js)
@@ -92,18 +92,15 @@ getFileFromIpfs()
 * To execute the code above, run this command
     > node scripts/caverIpfs.js
 
-
 ![](/images/Ipfs/caverCID.png)
 
 * Visualize on web: Once uploaded on IPFS, you can visualize it on your browser by adding the CID generated to this url
 
-    > https://ipfs.io/ipfs/cid
+    > <https://ipfs.io/ipfs/cid>
 
-    > Example: https://ipfs.io/ipfs/Qmf1rtki74jvYmGeqaaV51hzeiaa6DyWc98fzDiuPatzyy
-
+    > Example: <https://ipfs.io/ipfs/Qmf1rtki74jvYmGeqaaV51hzeiaa6DyWc98fzDiuPatzyy>
 
 ![](/images/Ipfs/visualizeIpfs.png)
-
 
 ## Other Methods <a id ="Other Methods"></a>
 
@@ -111,7 +108,6 @@ getFileFromIpfs()
 * [Desktop App](https://docs.ipfs.tech/basics/desktop-app/#install-ipfs-desktop): With IPFS Desktop, users can add, remove, and download a file using IPFS.
 * [Infura](https://docs.infura.io/infura/networks/ipfs/how-to/authenticate-requests): You can integrate your IPFS project with Infura by following through the guide in the link.
 
-
 :::info
-If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at developers@klaytn.foundation
+If you have any questions, please join our [Discord server](https://discord.io/KlaytnOfficial), or send us an email at <developers@klaytn.foundation>
 :::

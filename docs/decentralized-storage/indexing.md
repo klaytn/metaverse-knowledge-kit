@@ -21,7 +21,7 @@ export const Item = ({ alt, children, flexGrow, src, style }) => (
     alt="Website Index"
     flexGrow={1}
     src="/images/decentralized-storage/website-index.png"
-    style={{ borderBottomWidth: "1px", borderLeftWidth: "2px", borderRightWidth: "2px", borderTopWidth: "1px", borderTopLeftRadius: "0.3rem" }}>
+    style={{ borderBottomWidth: "1px", borderLeftWidth: "2px", borderRightWidth: "2px", borderTopWidth: "2px", borderTopLeftRadius: "0.3rem" }}>
     Website Index
   </Item>
   <Item
@@ -45,11 +45,11 @@ With Indexes, searches that take *minutes* can be reduced to *milliseconds* 👇
 
 Blockchain data is stored in a distributed & sequential manner, which makes data retrieval *complex & slow*.
 
-A common use case for [Real-World Assets](https://klaytn.foundation/from-traditional-to-digitalexploring-the-potential-and-power-of-rwa-tokenization) is tracing an NFT's origin. Without an index, you would need to scan through blocks one by one to find the transaction that created the NFT. If 1 million new transactions have been created since the NFT was minted, 1 million transactions need to be scanned. A slow & expensive operation is performed to retrieve a single line of data.
+A common use case for [Real-World Assets](https://klaytn.foundation/from-traditional-to-digitalexploring-the-potential-and-power-of-rwa-tokenization) is tracing an NFT's origin. Without an index, you would need to scan through blocks one by one to find the transaction that created the NFT. If 1 million new transactions have been created since the NFT was minted, 1 million transactions need to be scanned; A slow & expensive operation is performed to retrieve a single line of data.
 
-At the basic level, Blockchain Indexing services (or **Indexers**) read data points from the blockchain as they arrive & organizes them in a database. When a system or user requests data, the Indexer can quickly access the database & return the data to the requester, in logarithmic&nbsp;time&nbsp;⏱️.
+At the basic level, Blockchain Indexing services (or **Indexers**) read data points from the blockchain as they arrive & organize them in a database. When a system or user requests data, the Indexer accesses the database & returns the data to the requester, in logarithmic&nbsp;time&nbsp;⏱️.
 
-Hold up. Bringing distributed data into a single database... Isn't that Centralization? Yes, but that's where Decentralized, [Oracle](/docs/category/-decentralized-oracle)-like Indexers come in: indexes are replicated across nodes & proof mechanisms are implemented while maintaining high-speed, low-cost read operations.
+Isn't bringing distributed data into a single database... Centralization? Yes, but that's where Decentralized, [Oracle](/docs/category/-decentralized-oracle)-like Indexers come in: indexes are replicated across nodes & proof mechanisms are implemented while maintaining high-speed, low-cost read operations.
 
 Decentralized Indexers enable blockchain's security to scale for 👆 **lots of data & realtime latency**.
 

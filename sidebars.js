@@ -160,8 +160,8 @@ const sidebars = {
           label: 'IPFS',
           collapsed: true,
           items: [
-            'decentralized-storage/ipfs',
-            'decentralized-storage/tutorial',
+            'decentralized-storage/ipfs/introduction',
+            'decentralized-storage/ipfs/tutorial',
           ],
         },
       ],

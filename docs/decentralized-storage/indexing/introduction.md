@@ -1,11 +1,11 @@
 ---
 title: Decentralized Storage
-sidebar_label: Indexing
+sidebar_label: Indexing Introduction
 ---
 
 # 👉 Indexing Decentralized Storages <a id="Indexing Decentralized Storages"></a>
 
-import styles from "./indexing.module.css"
+import styles from "./introduction.module.css"
 
 export const Item = ({ alt, children, flexGrow, src, style }) => (
   <div className={styles.images__container} style={{ flexGrow }}>
